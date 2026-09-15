@@ -26,10 +26,36 @@
   }
 
   .screen{
-    position:relative;
     width:100vw; height:100vh;
-    display:flex;
+    display:flex; flex-direction:column;
   }
+
+  .content-row{
+    position:relative;
+    flex:1;
+    display:flex;
+    overflow:hidden;
+  }
+
+  .footer-bar{
+    flex-shrink:0;
+    height:74px;
+    display:flex;
+    align-items:center;
+    gap:18px;
+    padding:0 40px;
+    background:#ffffff;
+    border-top:1px solid var(--line);
+  }
+  .footer-bar img{
+    height:52px; width:52px;
+    flex-shrink:0;
+  }
+  .footer-bar span{
+    font-family:'Inter'; font-weight:600; font-size:17px;
+    color:var(--ink);
+  }
+  .footer-bar span b{ color:var(--teal); }
 
   /* ---------- left: photo side ---------- */
   .visual{
@@ -139,6 +165,14 @@
   .char-row .val{ color:var(--ink); font-weight:600; }
 
   .info-view{ display:none; }
+
+  .info-fullscreen{
+    display:none;
+    position:absolute; inset:0; z-index:20;
+    width:100%; height:100%;
+    object-fit:contain;
+    background:#000000;
+  }
   .info-message{
     font-family:'Inter'; font-weight:400; font-size:20px; line-height:1.6;
     color:var(--ink); max-width:480px;
@@ -157,6 +191,8 @@
 <body>
 
 <div class="screen">
+  <div class="content-row">
+  <img class="info-fullscreen" id="info-fullscreen" alt="">
   <div class="visual">
     <img class="photo" id="photo" alt="" style="display:none;">
     <div class="placeholder-tag" id="no-photo-tag" style="display:none;">Photo à venir</div>
@@ -200,6 +236,12 @@
       <div class="info-message" id="info-message">Message.</div>
     </div>
   </div>
+  </div>
+
+  <div class="footer-bar">
+    <img src="https://api.qrserver.com/v1/create-qr-code/?size=140x140&data=https%3A%2F%2Fwww.nauleau-agricole.com" alt="QR code">
+    <span>Retrouvez toutes nos annonces sur <b>www.nauleau-agricole.com</b></span>
+  </div>
 </div>
 
 <script>
@@ -229,6 +271,7 @@ const refRow = document.getElementById('ref-row');
 const charGrid = document.getElementById('char-grid');
 const infoTitleEl = document.getElementById('info-title');
 const infoMessageEl = document.getElementById('info-message');
+const infoFullscreen = document.getElementById('info-fullscreen');
 const panel = document.getElementById('panel');
 const dotsEl = document.getElementById('photo-dots');
 
@@ -272,7 +315,17 @@ function buildSlides(tractorsArr, infosArr){
 function render(){
   const slide = slides[index];
 
-  if (slide.type === 'info') {
+  if (slide.type === 'info' && slide.data.image) {
+    // Affiche plein écran : on masque tout le reste (photo, panneau texte)
+    infoFullscreen.src = slide.data.image;
+    infoFullscreen.style.display = 'block';
+    tractorView.style.display = 'none';
+    infoView.style.display = 'none';
+    photoEl.style.display = 'none';
+    iconEl.style.display = 'none';
+    noPhotoTag.style.display = 'none';
+  } else if (slide.type === 'info') {
+    infoFullscreen.style.display = 'none';
     tractorView.style.display = 'none';
     infoView.style.display = 'block';
     infoTitleEl.textContent = slide.data.title || '';
@@ -282,6 +335,7 @@ function render(){
     iconEl.style.display = 'none';
     noPhotoTag.style.display = 'none';
   } else {
+    infoFullscreen.style.display = 'none';
     const t = slide.data;
     tractorView.style.display = 'block';
     infoView.style.display = 'none';
