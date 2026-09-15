@@ -89,6 +89,16 @@ def extract_characteristics(soup):
     return characteristics
 
 
+def format_price(value):
+    """Insère un espace tous les 3 chiffres pour la partie entière
+    (ex: "90000,00" -> "90 000,00"), comme sur le site d'origine."""
+    integer_part, decimals = value.split(",")
+    reversed_digits = integer_part[::-1]
+    grouped = " ".join(reversed_digits[i:i+3] for i in range(0, len(reversed_digits), 3))
+    formatted_integer = grouped[::-1]
+    return f"{formatted_integer},{decimals}"
+
+
 def extract_detail(url, html):
     soup = BeautifulSoup(html, "html.parser")
 
@@ -104,12 +114,24 @@ def extract_detail(url, html):
         # on l'écarte plutôt que d'afficher une annonce vide à l'écran.
         return None
 
+    # Le petit tableau "Puissance / Heures / Référence" juste avant le prix
+    # posait un problème : quand le prix atteint 6 chiffres (100 000 € et
+    # plus), ses chiffres pouvaient se recoller à la fin du numéro de
+    # référence et former un nombre à 9 chiffres totalement faux (rejeté
+    # ensuite par le garde-fou, d'où le "Nous consulter" à tort). On retire
+    # ce tableau du texte avant de chercher le prix, pour éliminer tout
+    # risque de mélange.
+    for table in soup.find_all("table"):
+        if "référence" in table.get_text(strip=True).lower():
+            table.decompose()
+            break
+
     full_text = " ".join(soup.get_text(" ", strip=True).split())
 
-    # Le prix se trouve juste après le tableau rapide (Puissance/Heures/
-    # Référence), avant la section "Caractéristiques". On limite la
-    # recherche à cette zone pour éviter qu'un nombre sans rapport
-    # (ailleurs sur la page) ne soit confondu avec le prix.
+    # Le prix se trouve juste après ce tableau, avant la section
+    # "Caractéristiques". On limite la recherche à cette zone pour éviter
+    # qu'un nombre sans rapport (ailleurs sur la page) ne soit confondu
+    # avec le prix.
     end = full_text.lower().find("caractéristique")
     search_zone = full_text[:end] if end != -1 else full_text[:1500]
 
@@ -123,7 +145,7 @@ def extract_detail(url, html):
         # afficher plutôt qu'un prix faux.
         integer_part = candidate.split(",")[0]
         if integer_part.isdigit() and int(integer_part) <= 500000:
-            price = candidate + " € HT"
+            price = format_price(candidate) + " € HT"
 
     characteristics = extract_characteristics(soup)
 
