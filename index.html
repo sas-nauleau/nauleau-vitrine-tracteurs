@@ -56,8 +56,8 @@
     border:1px solid var(--line); border-radius:4px;
   }
   .panel-logo{
-    height:48px; width:auto;
-    margin-bottom:20px;
+    height:78px; width:auto;
+    margin-bottom:36px;
     display:block;
   }
 
@@ -76,8 +76,8 @@
     flex:1;
     background:#ffffff;
     display:flex; flex-direction:column;
-    justify-content:center;
-    padding:64px 72px;
+    justify-content:flex-start;
+    padding:56px 72px;
   }
 
   .badge{
@@ -98,6 +98,8 @@
     line-height:1.15;
     color:var(--ink);
     margin-bottom:28px;
+    overflow-wrap:break-word;
+    word-break:break-word;
     transition:opacity .4s ease, transform .4s ease;
   }
 
@@ -360,7 +362,7 @@ async function loadData(){
 
 buildDots();
 render();
-setInterval(next, 7000);
+setInterval(next, 14000);
 
 loadData();
 setInterval(loadData, 30 * 60 * 1000);
