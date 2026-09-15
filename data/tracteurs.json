@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-15T14:19:36Z",
+  "updated_at": "2026-09-15T14:42:17Z",
   "count": 179,
   "tractors": [
     {
@@ -8,7 +8,7 @@
       "brand": "CASE IH",
       "power": "110 ch",
       "hours": "4750 h",
-      "price": "50000,00 € HT",
+      "price": "50 000,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-case-ih-maxxum-110-6520-1.jpg",
       "characteristics": {
         "Marque": "CASE IH",
@@ -31,7 +31,7 @@
       "brand": "FENDT",
       "power": "180 ch",
       "hours": "5450 h",
-      "price": "76500,00 € HT",
+      "price": "76 500,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-fendt-718-profi-6525-1.jpg",
       "characteristics": {
         "Marque": "FENDT",
@@ -54,7 +54,7 @@
       "brand": "CASE IH",
       "power": "170 ch",
       "hours": "9850 h",
-      "price": "32500,00 € HT",
+      "price": "32 500,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-case-ih-mx170-6528-1.jpg",
       "characteristics": {
         "Marque": "CASE IH",
@@ -77,7 +77,7 @@
       "brand": "VALTRA",
       "power": "200 ch",
       "hours": "1680 h",
-      "price": "95000,00 € HT",
+      "price": "95 000,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-valtra-t195-active-6360-1.jpg",
       "characteristics": {
         "Marque": "VALTRA",
@@ -101,7 +101,7 @@
       "brand": "KUBOTA",
       "power": "110 ch",
       "hours": "2280 h",
-      "price": "37500,00 € HT",
+      "price": "37 500,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-kubota-m5111-6530-1.jpg",
       "characteristics": {
         "Marque": "KUBOTA",
@@ -124,7 +124,7 @@
       "brand": "JOHN DEERE",
       "power": "165 ch",
       "hours": "8160 h",
-      "price": "49500,00 € HT",
+      "price": "49 500,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-john-deere-6930-6364-1.jpg",
       "characteristics": {
         "Marque": "JOHN DEERE",
@@ -147,7 +147,7 @@
       "brand": "NEW HOLLAND",
       "power": "75 ch",
       "hours": "6950 h",
-      "price": "24500,00 € HT",
+      "price": "24 500,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-new-holland-tn75-6522-1.jpg",
       "characteristics": {
         "Marque": "NEW HOLLAND",
@@ -170,7 +170,7 @@
       "brand": "JOHN DEERE",
       "power": "150 ch",
       "hours": "8500 h",
-      "price": "55000,00 € HT",
+      "price": "55 000,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-john-deere-6145r-6355-1.jpg",
       "characteristics": {
         "Marque": "JOHN DEERE",
@@ -193,7 +193,7 @@
       "brand": "JOHN DEERE",
       "power": "200 ch",
       "hours": "1850 h",
-      "price": null,
+      "price": "125 000,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-john-deere-6195r-6526-1-1.jpg",
       "characteristics": {
         "Marque": "JOHN DEERE",
@@ -217,7 +217,7 @@
       "brand": "DEUTZ-FAHR",
       "power": "110 ch",
       "hours": "10800 h",
-      "price": "23500,00 € HT",
+      "price": "23 500,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-deutz-agrotron-k420-6211-1.jpeg",
       "characteristics": {
         "Marque": "DEUTZ-FAHR",
@@ -240,7 +240,7 @@
       "brand": "DEUTZ-FAHR",
       "power": "110 ch",
       "hours": "8220 h",
-      "price": "27500,00 € HT",
+      "price": "27 500,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-deutz-agrotron-k420-6478-1.jpg",
       "characteristics": {
         "Marque": "DEUTZ-FAHR",
@@ -263,7 +263,7 @@
       "brand": "NEW HOLLAND",
       "power": "110 ch",
       "hours": "2150 h",
-      "price": "52500,00 € HT",
+      "price": "52 500,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-new-holland-t5110-ec-6519-1.jpg",
       "characteristics": {
         "Marque": "NEW HOLLAND",
@@ -286,7 +286,7 @@
       "brand": "MASSEY FERGUSON",
       "power": "160 ch",
       "hours": "8660 h",
-      "price": "30000,00 € HT",
+      "price": "30 000,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-massey-ferguson-6480-dyna-6-6481-1.jpg",
       "characteristics": {
         "Marque": "MASSEY FERGUSON",
@@ -309,7 +309,7 @@
       "brand": "JOHN DEERE",
       "power": "110 ch",
       "hours": "11800 h",
-      "price": "35000,00 € HT",
+      "price": "35 000,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-john-deere-6110r-6502-1.jpg",
       "characteristics": {
         "Marque": "JOHN DEERE",
@@ -332,7 +332,7 @@
       "brand": "FENDT",
       "power": "120 ch",
       "hours": "1150 h",
-      "price": null,
+      "price": "120 000,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-fendt-312-profi-6511-1.jpg",
       "characteristics": {
         "Marque": "FENDT",
@@ -355,7 +355,7 @@
       "brand": "KUBOTA",
       "power": "135 ch",
       "hours": "2400 h",
-      "price": "57500,00 € HT",
+      "price": "57 500,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-kubota-m7133-6500-1.jpg",
       "characteristics": {
         "Marque": "KUBOTA",
@@ -403,7 +403,7 @@
       "brand": "JOHN DEERE",
       "power": "100 ch",
       "hours": "2200 h",
-      "price": "55000,00 € HT",
+      "price": "55 000,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-john-deere-5100r-6367-1.jpg",
       "characteristics": {
         "Marque": "JOHN DEERE",
@@ -426,7 +426,7 @@
       "brand": "NEW HOLLAND",
       "power": "105 ch",
       "hours": "5680 h",
-      "price": "35000,00 € HT",
+      "price": "35 000,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-new-holland-t5060-5748-1.jpg",
       "characteristics": {
         "Marque": "NEW HOLLAND",
@@ -449,7 +449,7 @@
       "brand": "JOHN DEERE",
       "power": "125 ch",
       "hours": "10250 h",
-      "price": "36500,00 € HT",
+      "price": "36 500,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-john-deere-6530-premium-6392-1.jpg",
       "characteristics": {
         "Marque": "JOHN DEERE",
@@ -472,7 +472,7 @@
       "brand": "CLAAS",
       "power": "90 ch",
       "hours": "5350 h",
-      "price": "38500,00 € HT",
+      "price": "38 500,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-claas-arion-410-6404-1.jpg",
       "characteristics": {
         "Marque": "CLAAS",
@@ -495,7 +495,7 @@
       "brand": "CLAAS",
       "power": "125 ch",
       "hours": "3498 h",
-      "price": "58500,00 € HT",
+      "price": "58 500,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-claas-arion-510-cmatic-6490-1.jpg",
       "characteristics": {
         "Marque": "CLAAS",
@@ -519,7 +519,7 @@
       "brand": "VALTRA",
       "power": "175 ch",
       "hours": "775 h",
-      "price": "85000,00 € HT",
+      "price": "85 000,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-valtra-t175-6416-1.jpg",
       "characteristics": {
         "Marque": "VALTRA",
@@ -543,7 +543,7 @@
       "brand": "NEW HOLLAND",
       "power": "105 ch",
       "hours": "2400 h",
-      "price": "45000,00 € HT",
+      "price": "45 000,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-new-holland-t5105-6471-1.jpg",
       "characteristics": {
         "Marque": "NEW HOLLAND",
@@ -566,7 +566,7 @@
       "brand": "DEUTZ-FAHR",
       "power": "135 ch",
       "hours": "5050 h",
-      "price": "38500,00 € HT",
+      "price": "38 500,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-deutz-agrotron-m410-6486-1.jpg",
       "characteristics": {
         "Marque": "DEUTZ-FAHR",
@@ -589,7 +589,7 @@
       "brand": "CASE IH",
       "power": "165 ch",
       "hours": "1520 h",
-      "price": "90000,00 € HT",
+      "price": "90 000,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-case-ih-puma-165-6480-1.jpg",
       "characteristics": {
         "Marque": "CASE IH",
@@ -613,7 +613,7 @@
       "brand": "CASE IH",
       "power": "90 ch",
       "hours": "2900 h",
-      "price": "32500,00 € HT",
+      "price": "32 500,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-case-ih-quantum-90-6429-1.jpg",
       "characteristics": {
         "Marque": "CASE IH",
@@ -660,7 +660,7 @@
       "brand": "NEW HOLLAND",
       "power": "120 ch",
       "hours": "2999 h",
-      "price": "72500,00 € HT",
+      "price": "72 500,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-new-holland-t6145-auto-command-guidage-5567-1.jpg",
       "characteristics": {
         "Marque": "NEW HOLLAND",
@@ -683,7 +683,7 @@
       "brand": "JOHN DEERE",
       "power": "150 ch",
       "hours": "4320 h",
-      "price": "72000,00 € HT",
+      "price": "72 000,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-john-deere-6145r-6482-1.jpg",
       "characteristics": {
         "Marque": "JOHN DEERE",
@@ -707,7 +707,7 @@
       "brand": "NEW HOLLAND",
       "power": "145 ch",
       "hours": "4999 h",
-      "price": "55000,00 € HT",
+      "price": "55 000,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-new-holland-t7175-6444-1-1.jpg",
       "characteristics": {
         "Marque": "NEW HOLLAND",
@@ -730,7 +730,7 @@
       "brand": "DEUTZ-FAHR",
       "power": "160 ch",
       "hours": "5030 h",
-      "price": "45000,00 € HT",
+      "price": "45 000,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-deutz-agrotron-6160p-6435-1.jpg",
       "characteristics": {
         "Marque": "DEUTZ-FAHR",
@@ -754,7 +754,7 @@
       "brand": "NEW HOLLAND",
       "power": "120 ch",
       "hours": "3800 h",
-      "price": "54500,00 € HT",
+      "price": "54 500,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-new-holland-t6145-ec-6316-1.jpg",
       "characteristics": {
         "Marque": "NEW HOLLAND",
@@ -777,7 +777,7 @@
       "brand": "JOHN DEERE",
       "power": "150 ch",
       "hours": "4850 h",
-      "price": "65000,00 € HT",
+      "price": "65 000,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-john-deere-6145r-6443-1.jpg",
       "characteristics": {
         "Marque": "JOHN DEERE",
@@ -800,7 +800,7 @@
       "brand": "MASSEY FERGUSON",
       "power": "115 ch",
       "hours": "265 h",
-      "price": "82500,00 € HT",
+      "price": "82 500,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-massey-ferguson-5s115-6451-2-1.jpg",
       "characteristics": {
         "Marque": "MASSEY FERGUSON",
@@ -823,7 +823,7 @@
       "brand": "JOHN DEERE",
       "power": "85 ch",
       "hours": "4190 h",
-      "price": "39500,00 € HT",
+      "price": "39 500,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-john-deere-5085m-6428-1.jpg",
       "characteristics": {
         "Marque": "JOHN DEERE",
@@ -846,7 +846,7 @@
       "brand": "MASSEY FERGUSON",
       "power": "130 ch",
       "hours": "3300 h",
-      "price": "75000,00 € HT",
+      "price": "75 000,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-massey-ferguson-6713s-dyna-vt-5633-1.jpg",
       "characteristics": {
         "Marque": "MASSEY FERGUSON",
@@ -869,7 +869,7 @@
       "brand": "NEW HOLLAND",
       "power": "140 ch",
       "hours": "6350 h",
-      "price": "47500,00 € HT",
+      "price": "47 500,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-new-holland-t6070-range-command-6424-1.jpg",
       "characteristics": {
         "Marque": "NEW HOLLAND",
@@ -892,7 +892,7 @@
       "brand": "CLAAS",
       "power": "100 ch",
       "hours": "3200 h",
-      "price": "43500,00 € HT",
+      "price": "43 500,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-claas-arion-420-cis-5296-1.jpg",
       "characteristics": {
         "Marque": "CLAAS",
@@ -915,7 +915,7 @@
       "brand": "NEW HOLLAND",
       "power": "100 ch",
       "hours": "939 h",
-      "price": "49500,00 € HT",
+      "price": "49 500,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-new-holland-t5100-ec-6437-1.jpg",
       "characteristics": {
         "Marque": "NEW HOLLAND",
@@ -938,7 +938,7 @@
       "brand": "NEW HOLLAND",
       "power": "125 ch",
       "hours": "6090 h",
-      "price": "42500,00 € HT",
+      "price": "42 500,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-new-holland-t6155-ec-6383-1.jpg",
       "characteristics": {
         "Marque": "NEW HOLLAND",
@@ -961,7 +961,7 @@
       "brand": "VALTRA",
       "power": "215 ch",
       "hours": "1490 h",
-      "price": "95000,00 € HT",
+      "price": "95 000,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-valtra-t125-active-6411-1.jpg",
       "characteristics": {
         "Marque": "VALTRA",
@@ -985,7 +985,7 @@
       "brand": "DEUTZ-FAHR",
       "power": "140 ch",
       "hours": "1500 h",
-      "price": "85000,00 € HT",
+      "price": "85 000,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-deutz-agrotron-61404-ttv-6398-1.jpg",
       "characteristics": {
         "Marque": "DEUTZ-FAHR",
@@ -1008,7 +1008,7 @@
       "brand": "KUBOTA",
       "power": "150 ch",
       "hours": "4050 h",
-      "price": "49500,00 € HT",
+      "price": "49 500,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-kubota-m7151-premium-6382-1.jpg",
       "characteristics": {
         "Marque": "KUBOTA",
@@ -1031,7 +1031,7 @@
       "brand": "JOHN DEERE",
       "power": "120 ch",
       "hours": "650 h",
-      "price": "99500,00 € HT",
+      "price": "99 500,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-john-deere-6r120-6415-1.jpg",
       "characteristics": {
         "Marque": "JOHN DEERE",
@@ -1055,7 +1055,7 @@
       "brand": "VALTRA",
       "power": "150 ch",
       "hours": "3700 h",
-      "price": "77500,00 € HT",
+      "price": "77 500,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-valtra-t154-6401-1.jpg",
       "characteristics": {
         "Marque": "VALTRA",
@@ -1078,7 +1078,7 @@
       "brand": "CASE IH",
       "power": "185 ch",
       "hours": "2950 h",
-      "price": "95000,00 € HT",
+      "price": "95 000,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-case-ih-puma-185-6397-1.jpg",
       "characteristics": {
         "Marque": "CASE IH",
@@ -1102,7 +1102,7 @@
       "brand": "VALTRA",
       "power": "110 ch",
       "hours": "5700 h",
-      "price": "39500,00 € HT",
+      "price": "39 500,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-valtra-n111-hitech-6385-1.jpg",
       "characteristics": {
         "Marque": "VALTRA",
@@ -1125,7 +1125,7 @@
       "brand": "CLAAS",
       "power": "100 ch",
       "hours": "2700 h",
-      "price": "52500,00 € HT",
+      "price": "52 500,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-claas-arion-420-6394-1.jpg",
       "characteristics": {
         "Marque": "CLAAS",
@@ -1148,7 +1148,7 @@
       "brand": "NEW HOLLAND",
       "power": "200 ch",
       "hours": "7999 h",
-      "price": "45000,00 € HT",
+      "price": "45 000,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-new-holland-t7040-autocommand-6384-1.jpg",
       "characteristics": {
         "Marque": "NEW HOLLAND",
@@ -1171,7 +1171,7 @@
       "brand": "JOHN DEERE",
       "power": "250 ch",
       "hours": "3250 h",
-      "price": null,
+      "price": "130 000,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-john-deere-6250r-6369-1-1.jpg",
       "characteristics": {
         "Marque": "JOHN DEERE",
@@ -1195,7 +1195,7 @@
       "brand": "CASE IH",
       "power": "165 ch",
       "hours": "6065 h",
-      "price": "47500,00 € HT",
+      "price": "47 500,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-case-ih-puma-165-6351-1.jpg",
       "characteristics": {
         "Marque": "CASE IH",
@@ -1218,7 +1218,7 @@
       "brand": "CASE IH",
       "power": "90 ch",
       "hours": "7995 h",
-      "price": "20000,00 € HT",
+      "price": "20 000,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-case-ih-cs-94-6377-1.jpg",
       "characteristics": {
         "Marque": "CASE IH",
@@ -1241,7 +1241,7 @@
       "brand": "VALTRA",
       "power": "250 ch",
       "hours": "3100 h",
-      "price": null,
+      "price": "105 000,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-valtra-t255-6356-1.jpg",
       "characteristics": {
         "Marque": "VALTRA",
@@ -1265,7 +1265,7 @@
       "brand": "MASSEY FERGUSON",
       "power": "130 ch",
       "hours": "8200 h",
-      "price": "29500,00 € HT",
+      "price": "29 500,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-massey-fergusson-6465-dyna6-6304-1.jpg",
       "characteristics": {
         "Marque": "MASSEY FERGUSON",
@@ -1288,7 +1288,7 @@
       "brand": "KUBOTA",
       "power": "85 ch",
       "hours": "2120 h",
-      "price": "35000,00 € HT",
+      "price": "35 000,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-kubota-m8560-dthq-6357-1.jpg",
       "characteristics": {
         "Marque": "KUBOTA",
@@ -1335,7 +1335,7 @@
       "brand": "VALTRA",
       "power": "150 ch",
       "hours": "6500 h",
-      "price": "40000,00 € HT",
+      "price": "40 000,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-valtra-t152-versu-6065-1.jpg",
       "characteristics": {
         "Marque": "VALTRA",
@@ -1358,7 +1358,7 @@
       "brand": "CLAAS",
       "power": "140 ch",
       "hours": "1450 h",
-      "price": "70000,00 € HT",
+      "price": "70 000,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-claas-arion-530-cis-6176-1.jpg",
       "characteristics": {
         "Marque": "CLAAS",
@@ -1382,7 +1382,7 @@
       "brand": "CLAAS",
       "power": "185 ch",
       "hours": "2698 h",
-      "price": "97500,00 € HT",
+      "price": "97 500,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-claas-arion-650-cmatic-cebis-6335-1.jpg",
       "characteristics": {
         "Marque": "CLAAS",
@@ -1406,7 +1406,7 @@
       "brand": "VALTRA",
       "power": "135 ch",
       "hours": "2650 h",
-      "price": "72500,00 € HT",
+      "price": "72 500,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-valtra-n135-6330-1.jpg",
       "characteristics": {
         "Marque": "VALTRA",
@@ -1430,7 +1430,7 @@
       "brand": "MASSEY FERGUSON",
       "power": "135 ch",
       "hours": "1350 h",
-      "price": "93500,00 € HT",
+      "price": "93 500,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-massey-fergusson-5s-135-6329-1.jpg",
       "characteristics": {
         "Marque": "MASSEY FERGUSON",
@@ -1453,7 +1453,7 @@
       "brand": "MASSEY FERGUSON",
       "power": "100 ch",
       "hours": "6900 h",
-      "price": "25000,00 € HT",
+      "price": "25 000,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-massey-fergusson-5455-6331-1.jpg",
       "characteristics": {
         "Marque": "MASSEY FERGUSON",
@@ -1476,7 +1476,7 @@
       "brand": "NEW HOLLAND",
       "power": "110 ch",
       "hours": "1750 h",
-      "price": "56500,00 € HT",
+      "price": "56 500,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-new-holland-t5110-electro-command-6287-1.jpg",
       "characteristics": {
         "Marque": "NEW HOLLAND",
@@ -1499,7 +1499,7 @@
       "brand": "NEW HOLLAND",
       "power": "165 ch",
       "hours": "2750 h",
-      "price": "83500,00 € HT",
+      "price": "83 500,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-new-holland-t7210-auto-command-6302-1.jpg",
       "characteristics": {
         "Marque": "NEW HOLLAND",
@@ -1522,7 +1522,7 @@
       "brand": "FENDT",
       "power": "220 ch",
       "hours": "760 h",
-      "price": null,
+      "price": "167 500,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-fendt-722-profi-profi-plus-5954-1.jpg",
       "characteristics": {
         "Marque": "FENDT",
@@ -1545,7 +1545,7 @@
       "brand": "JOHN DEERE",
       "power": "185 ch",
       "hours": "10300 h",
-      "price": "40000,00 € HT",
+      "price": "40 000,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-john-deere-7530-premium-6005-1.jpg",
       "characteristics": {
         "Marque": "JOHN DEERE",
@@ -1568,7 +1568,7 @@
       "brand": "NEW HOLLAND",
       "power": "200 ch",
       "hours": "7500 h",
-      "price": "45000,00 € HT",
+      "price": "45 000,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-new-holland-t7550-6261-1.jpg",
       "characteristics": {
         "Marque": "NEW HOLLAND",
@@ -1591,7 +1591,7 @@
       "brand": "JOHN DEERE",
       "power": "130 ch",
       "hours": "4615 h",
-      "price": "73500,00 € HT",
+      "price": "73 500,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-john-derre-6130m-6114-1.jpg",
       "characteristics": {
         "Marque": "JOHN DEERE",
@@ -1615,7 +1615,7 @@
       "brand": "CASE IH",
       "power": "135 ch",
       "hours": "510 h",
-      "price": "93500,00 € HT",
+      "price": "93 500,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-case-ih-maxxum-135-cvx-6263-1.jpg",
       "characteristics": {
         "Marque": "CASE IH",
@@ -1639,7 +1639,7 @@
       "brand": "CASE IH",
       "power": "185 ch",
       "hours": "2100 h",
-      "price": null,
+      "price": "105 000,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-case-ih-puma-185-cvx-6262-1.jpg",
       "characteristics": {
         "Marque": "CASE IH",
@@ -1662,7 +1662,7 @@
       "brand": "JOHN DEERE",
       "power": "90 ch",
       "hours": "900 h",
-      "price": "58500,00 € HT",
+      "price": "58 500,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-john-deere-5090m-autotrac-6251-1.jpg",
       "characteristics": {
         "Marque": "JOHN DEERE",
@@ -1685,7 +1685,7 @@
       "brand": "NEW HOLLAND",
       "power": "145 ch",
       "hours": "6300 h",
-      "price": "47500,00 € HT",
+      "price": "47 500,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-new-holland-t7185-range-command-6237-1.jpg",
       "characteristics": {
         "Marque": "NEW HOLLAND",
@@ -1708,7 +1708,7 @@
       "brand": "KUBOTA",
       "power": "125 ch",
       "hours": "3430 h",
-      "price": "42500,00 € HT",
+      "price": "42 500,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-kubota-m125gx-6240-1.jpg",
       "characteristics": {
         "Marque": "KUBOTA",
@@ -1731,7 +1731,7 @@
       "brand": "MASSEY FERGUSON",
       "power": "305 ch",
       "hours": "1760 h",
-      "price": null,
+      "price": "155 000,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-massey-ferguson-8s305-dyna-vt-6250-1.jpg",
       "characteristics": {
         "Marque": "MASSEY FERGUSON",
@@ -1755,7 +1755,7 @@
       "brand": "MC CORMICK",
       "power": "100 ch",
       "hours": "11 398 h",
-      "price": "15000,00 € HT",
+      "price": "15 000,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-mc-cormick-mc-100-6030-1.jpg",
       "characteristics": {
         "Marque": "MC CORMICK",
@@ -1779,7 +1779,7 @@
       "brand": "CASE IH",
       "power": "115 ch",
       "hours": "4039 h",
-      "price": "56500,00 € HT",
+      "price": "56 500,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-case-ih-maxxum-115-cvx-6083-1.jpg",
       "characteristics": {
         "Marque": "CASE IH",
@@ -1802,7 +1802,7 @@
       "brand": "CASE IH",
       "power": "115 ch",
       "hours": "9850 h",
-      "price": "23500,00 € HT",
+      "price": "23 500,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-case-ih-mx-110-6219-1.jpeg",
       "characteristics": {
         "Marque": "CASE IH",
@@ -1825,7 +1825,7 @@
       "brand": "JOHN DEERE",
       "power": "145 ch",
       "hours": "5107 h",
-      "price": "77500,00 € HT",
+      "price": "77 500,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-john-deere-6145r-autopower-6205-1.jpeg",
       "characteristics": {
         "Marque": "JOHN DEERE",
@@ -1849,7 +1849,7 @@
       "brand": "DEUTZ-FAHR",
       "power": "210 ch",
       "hours": "7450 h",
-      "price": "29500,00 € HT",
+      "price": "29 500,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-deutz-agrotron-210-6208-1.jpeg",
       "characteristics": {
         "Marque": "DEUTZ-FAHR",
@@ -1872,7 +1872,7 @@
       "brand": "FORD",
       "power": "45 ch",
       "hours": "10750 h",
-      "price": "6500,00 € HT",
+      "price": "6 500,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-ford-4600-6195-1.jpeg",
       "characteristics": {
         "Marque": "FORD",
@@ -1895,7 +1895,7 @@
       "brand": "CASE IH",
       "power": "115 ch",
       "hours": "5700 h",
-      "price": "19500,00 € HT",
+      "price": "19 500,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-case-ih-5150-5763-1.jpeg",
       "characteristics": {
         "Marque": "CASE IH",
@@ -1919,7 +1919,7 @@
       "brand": "RENAULT",
       "power": "200 ch",
       "hours": "8000 h",
-      "price": "19500,00 € HT",
+      "price": "19 500,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-renault-ares-826-rz-5471-1.jpeg",
       "characteristics": {
         "Marque": "RENAULT",
@@ -1942,7 +1942,7 @@
       "brand": "RENAULT",
       "power": "110 ch",
       "hours": "9000 h",
-      "price": "15000,00 € HT",
+      "price": "15 000,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-renault-temis-610z-6209-1.jpeg",
       "characteristics": {
         "Marque": "RENAULT",
@@ -1965,7 +1965,7 @@
       "brand": "DEUTZ-FAHR",
       "power": "215 ch",
       "hours": "3620 h",
-      "price": "69500,00 € HT",
+      "price": "69 500,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-deutz-agrotron-6215-6187-1.jpeg",
       "characteristics": {
         "Marque": "DEUTZ-FAHR",
@@ -1989,7 +1989,7 @@
       "brand": "JOHN DEERE",
       "power": "120 ch",
       "hours": "927 h",
-      "price": "87500,00 € HT",
+      "price": "87 500,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-john-deere-6120m-6213-1.jpeg",
       "characteristics": {
         "Marque": "JOHN DEERE",
@@ -2013,7 +2013,7 @@
       "brand": "DEUTZ-FAHR",
       "power": "190 ch",
       "hours": "2250 h",
-      "price": "85000,00 € HT",
+      "price": "85 000,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-deutz-agrotron-6185-ttv-5939-1-2.jpeg",
       "characteristics": {
         "Marque": "DEUTZ-FAHR",
@@ -2036,7 +2036,7 @@
       "brand": "NEW HOLLAND",
       "power": "200 ch",
       "hours": "7450 h",
-      "price": "32500,00 € HT",
+      "price": "32 500,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-new-holland-t7050-power-command-5945-1.jpeg",
       "characteristics": {
         "Marque": "NEW HOLLAND",
@@ -2059,7 +2059,7 @@
       "brand": "NEW HOLLAND",
       "power": "195 ch",
       "hours": "1150 h",
-      "price": "82500,00 € HT",
+      "price": "82 500,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-new-holland-t7195s-power-command-6190-1.jpeg",
       "characteristics": {
         "Marque": "NEW HOLLAND",
@@ -2082,7 +2082,7 @@
       "brand": "JOHN DEERE",
       "power": "120 ch",
       "hours": "2180 h",
-      "price": "85000,00 € HT",
+      "price": "85 000,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-john-deere-6120m-autoquad-6183-1.jpeg",
       "characteristics": {
         "Marque": "JOHN DEERE",
@@ -2130,7 +2130,7 @@
       "brand": "JOHN DEERE",
       "power": "220 ch",
       "hours": "7500 h",
-      "price": "57500,00 € HT",
+      "price": "57 500,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-john-deere-7830-powerquad-5447-1.jpg",
       "characteristics": {
         "Marque": "JOHN DEERE",
@@ -2177,7 +2177,7 @@
       "brand": "CLAAS",
       "power": "180 ch",
       "hours": "2580 h",
-      "price": null,
+      "price": "102 500,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-claas-arion-650-cmatic-cebis-6172-1.jpeg",
       "characteristics": {
         "Marque": "CLAAS",
@@ -2201,7 +2201,7 @@
       "brand": "KUBOTA",
       "power": "105 ch",
       "hours": "3750 h",
-      "price": "38500,00 € HT",
+      "price": "38 500,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-kubota-m105-gxs-4-5665-1.jpg",
       "characteristics": {
         "Marque": "KUBOTA",
@@ -2224,7 +2224,7 @@
       "brand": "CLAAS",
       "power": "190 ch",
       "hours": "1950 h",
-      "price": null,
+      "price": "110 000,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-claas-arion-650-cmatic-6171-1.jpeg",
       "characteristics": {
         "Marque": "CLAAS",
@@ -2248,7 +2248,7 @@
       "brand": "JOHN DEERE",
       "power": "150 ch",
       "hours": "6050 h",
-      "price": "53500,00 € HT",
+      "price": "53 500,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-tracteur-john-deere-6830-premium-6123-1.jpeg",
       "characteristics": {
         "Marque": "JOHN DEERE",
@@ -2271,7 +2271,7 @@
       "brand": "NEW HOLLAND",
       "power": "125 ch",
       "hours": "3200 h",
-      "price": "70000,00 € HT",
+      "price": "70 000,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-new-holland-t6155-dynamic-command-4989-1.jpg",
       "characteristics": {
         "Marque": "NEW HOLLAND",
@@ -2294,7 +2294,7 @@
       "brand": "NEW HOLLAND",
       "power": "115 ch",
       "hours": "1500 h",
-      "price": "75000,00 € HT",
+      "price": "75 000,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-new-holland-t6145-auto-command-4584-1-1.jpg",
       "characteristics": {
         "Marque": "NEW HOLLAND",
@@ -2317,7 +2317,7 @@
       "brand": "MASSEY FERGUSON",
       "power": "165 ch",
       "hours": "2280 h",
-      "price": null,
+      "price": "107 500,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-massey-ferguson-7s165-dyna-vt-6164-1.jpeg",
       "characteristics": {
         "Marque": "MASSEY FERGUSON",
@@ -2340,7 +2340,7 @@
       "brand": "CLAAS",
       "power": "135 ch",
       "hours": "2650 h",
-      "price": "79000,00 € HT",
+      "price": "79 000,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-claas-arion-610-cis-6152-1.jpeg",
       "characteristics": {
         "Marque": "CLAAS",
@@ -2387,7 +2387,7 @@
       "brand": "CLAAS",
       "power": "180 ch",
       "hours": "10200 h",
-      "price": "32500,00 € HT",
+      "price": "32 500,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-claas-axion-810-cis-6140-1.jpeg",
       "characteristics": {
         "Marque": "CLAAS",
@@ -2410,7 +2410,7 @@
       "brand": "DEUTZ-FAHR",
       "power": "185 ch",
       "hours": "3100 h",
-      "price": "73500,00 € HT",
+      "price": "73 500,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-deutz-agrotron-6185-ttv-6116-1.jpeg",
       "characteristics": {
         "Marque": "DEUTZ-FAHR",
@@ -2433,7 +2433,7 @@
       "brand": "VALTRA",
       "power": "145 ch",
       "hours": "3480 h",
-      "price": "62500,00 € HT",
+      "price": "62 500,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-valtra-t144-hi-tech-6127-1.jpeg",
       "characteristics": {
         "Marque": "VALTRA",
@@ -2456,7 +2456,7 @@
       "brand": "JOHN DEERE",
       "power": "105 ch",
       "hours": "5280 h",
-      "price": "45000,00 € HT",
+      "price": "45 000,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-john-deere-6105-rc-command-quad-5815-1.jpeg",
       "characteristics": {
         "Marque": "JOHN DEERE",
@@ -2480,7 +2480,7 @@
       "brand": "CASE IH",
       "power": "100 ch",
       "hours": "1680 h",
-      "price": "38500,00 € HT",
+      "price": "38 500,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-case-ih-quantum-100f-6103-1.jpeg",
       "characteristics": {
         "Marque": "CASE IH",
@@ -2503,7 +2503,7 @@
       "brand": "CLAAS",
       "power": "200 ch",
       "hours": "525 h",
-      "price": null,
+      "price": "110 000,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-claas-axion-800-cis-6119-1.jpeg",
       "characteristics": {
         "Marque": "CLAAS",
@@ -2527,7 +2527,7 @@
       "brand": "KUBOTA",
       "power": "90 ch",
       "hours": "4950 h",
-      "price": "35000,00 € HT",
+      "price": "35 000,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-kubota-m5091-dthq-6095-1.jpeg",
       "characteristics": {
         "Marque": "KUBOTA",
@@ -2550,7 +2550,7 @@
       "brand": "NEW HOLLAND",
       "power": "130 ch",
       "hours": "950 h",
-      "price": "87000,00 € HT",
+      "price": "87 000,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-new-holland-t5130-autocommand-4086-1-1.jpeg",
       "characteristics": {
         "Marque": "NEW HOLLAND",
@@ -2573,7 +2573,7 @@
       "brand": "KUBOTA",
       "power": "135 ch",
       "hours": "2750 h",
-      "price": "49500,00 € HT",
+      "price": "49 500,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-kubota-m7131-access-6085-1.jpeg",
       "characteristics": {
         "Marque": "KUBOTA",
@@ -2596,7 +2596,7 @@
       "brand": "CLAAS",
       "power": "115 ch",
       "hours": "998 h",
-      "price": "82500,00 € HT",
+      "price": "82 500,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-claas-arion-430-cis-6104-1.jpeg",
       "characteristics": {
         "Marque": "CLAAS",
@@ -2619,7 +2619,7 @@
       "brand": "CLAAS",
       "power": "90 ch",
       "hours": "6480 h",
-      "price": "29500,00 € HT",
+      "price": "29 500,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-claas-celtis-446-plus-4793-1.jpeg",
       "characteristics": {
         "Marque": "CLAAS",
@@ -2642,7 +2642,7 @@
       "brand": "NEW HOLLAND",
       "power": "120 ch",
       "hours": "6250 h",
-      "price": "47500,00 € HT",
+      "price": "47 500,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-new-holland-t6150-auto-command-6076-1.jpeg",
       "characteristics": {
         "Marque": "NEW HOLLAND",
@@ -2665,7 +2665,7 @@
       "brand": "CASE IH",
       "power": "160 ch",
       "hours": "4750 h",
-      "price": "55000,00 € HT",
+      "price": "55 000,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-case-ih-puma-160-cvx-6061-1.jpg",
       "characteristics": {
         "Marque": "CASE IH",
@@ -2688,7 +2688,7 @@
       "brand": "FENDT",
       "power": "110 ch",
       "hours": "15 h",
-      "price": null,
+      "price": "110 000,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-fendt-311-profi-6073-1.jpg",
       "characteristics": {
         "Marque": "FENDT",
@@ -2709,7 +2709,7 @@
       "brand": "JOHN DEERE",
       "power": "125 ch",
       "hours": "8290 h",
-      "price": "39500,00 € HT",
+      "price": "39 500,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-john-deere-6430-premium-5174-1-2.jpg",
       "characteristics": {
         "Marque": "JOHN DEERE",
@@ -2732,7 +2732,7 @@
       "brand": "JOHN DEERE",
       "power": "190 ch",
       "hours": "6185 h",
-      "price": "66500,00 € HT",
+      "price": "66 500,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-john-deere-6190r-autopower-6010-1.jpg",
       "characteristics": {
         "Marque": "JOHN DEERE",
@@ -2755,7 +2755,7 @@
       "brand": "NEW HOLLAND",
       "power": "195 ch",
       "hours": "350 h",
-      "price": "99500,00 € HT",
+      "price": "99 500,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-new-holland-t7195s-6047-1.jpg",
       "characteristics": {
         "Marque": "NEW HOLLAND",
@@ -2779,7 +2779,7 @@
       "brand": "NEW HOLLAND",
       "power": "200 ch",
       "hours": "6250 h",
-      "price": "57500,00 € HT",
+      "price": "57 500,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-new-holland-t7235-auto-command-5966-1.jpg",
       "characteristics": {
         "Marque": "NEW HOLLAND",
@@ -2802,7 +2802,7 @@
       "brand": "MASSEY FERGUSON",
       "power": "200 ch",
       "hours": "6500 h",
-      "price": "55000,00 € HT",
+      "price": "55 000,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-massey-ferguson-7620-dyna-6-5958-1.jpg",
       "characteristics": {
         "Marque": "MASSEY FERGUSON",
@@ -2825,7 +2825,7 @@
       "brand": "JOHN DEERE",
       "power": "160 ch",
       "hours": "7750 h",
-      "price": "52500,00 € HT",
+      "price": "52 500,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-john-deere-6930-premium-power-quad-5930-1.jpg",
       "characteristics": {
         "Marque": "JOHN DEERE",
@@ -2848,7 +2848,7 @@
       "brand": "JOHN DEERE",
       "power": "145 ch",
       "hours": "6430 h",
-      "price": "54500,00 € HT",
+      "price": "54 500,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-john-deere-6830-power-quad-6020-1.jpg",
       "characteristics": {
         "Marque": "JOHN DEERE",
@@ -2871,7 +2871,7 @@
       "brand": "MASSEY FERGUSON",
       "power": "240 ch",
       "hours": "9570 h",
-      "price": "47500,00 € HT",
+      "price": "47 500,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-massey-ferguson-7624-dyna-vt-5798-1.jpg",
       "characteristics": {
         "Marque": "MASSEY FERGUSON",
@@ -2894,7 +2894,7 @@
       "brand": "JOHN DEERE",
       "power": "150 ch",
       "hours": "12500 h",
-      "price": "19500,00 € HT",
+      "price": "19 500,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-john-deere-4255-5981-1.jpg",
       "characteristics": {
         "Marque": "JOHN DEERE",
@@ -2917,7 +2917,7 @@
       "brand": "JOHN DEERE",
       "power": "120 ch",
       "hours": "2189 h",
-      "price": "74500,00 € HT",
+      "price": "74 500,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-john-deere-6120m-command-quad-5998-1.jpg",
       "characteristics": {
         "Marque": "JOHN DEERE",
@@ -2941,7 +2941,7 @@
       "brand": "DEUTZ-FAHR",
       "power": "165 ch",
       "hours": "4650 h",
-      "price": "60000,00 € HT",
+      "price": "60 000,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-deutz-fahr-agrotron-6165-rc-shift-5904-1.jpg",
       "characteristics": {
         "Marque": "DEUTZ-FAHR",
@@ -2965,7 +2965,7 @@
       "brand": "JOHN DEERE",
       "power": "215 ch",
       "hours": "2145 h",
-      "price": null,
+      "price": "135 000,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-john-deere-6215r-autopower-autotrac-ready-5992-1.jpg",
       "characteristics": {
         "Marque": "JOHN DEERE",
@@ -2989,7 +2989,7 @@
       "brand": "CLAAS",
       "power": "135 ch",
       "hours": "995 h",
-      "price": "92500,00 € HT",
+      "price": "92 500,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-claas-arion-450-5977-1.jpg",
       "characteristics": {
         "Marque": "CLAAS",
@@ -3037,7 +3037,7 @@
       "brand": "JOHN DEERE",
       "power": "310 ch",
       "hours": "1300 h",
-      "price": null,
+      "price": "210 000,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-john-deere-7r310-7310r-autotrac-5971-1.jpg",
       "characteristics": {
         "Marque": "JOHN DEERE",
@@ -3061,7 +3061,7 @@
       "brand": "FENDT",
       "power": "160 ch",
       "hours": "3195 h",
-      "price": "98500,00 € HT",
+      "price": "98 500,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-fendt-716-s4-power-5959-1.jpg",
       "characteristics": {
         "Marque": "FENDT",
@@ -3085,7 +3085,7 @@
       "brand": "NEW HOLLAND",
       "power": "115 ch",
       "hours": "5400 h",
-      "price": "17500,00 € HT",
+      "price": "17 500,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-new-holland-tsa-115-ts115a-5968-1.jpg",
       "characteristics": {
         "Marque": "NEW HOLLAND",
@@ -3108,7 +3108,7 @@
       "brand": "MASSEY FERGUSON",
       "power": "260 ch",
       "hours": "5150 h",
-      "price": "75000,00 € HT",
+      "price": "75 000,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-massey-ferguson-7626-dyna-6-exclusive-5932-1.jpg",
       "characteristics": {
         "Marque": "MASSEY FERGUSON",
@@ -3131,7 +3131,7 @@
       "brand": "DEUTZ-FAHR",
       "power": "150 ch",
       "hours": "5998 h",
-      "price": "39500,00 € HT",
+      "price": "39 500,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-deutz-agrotron-6150-c-shift-5871-1.jpg",
       "characteristics": {
         "Marque": "DEUTZ-FAHR",
@@ -3154,7 +3154,7 @@
       "brand": "CLAAS",
       "power": "120 ch",
       "hours": "3310 h",
-      "price": "57500,00 € HT",
+      "price": "57 500,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-claas-arion-440-cis-5914-1.jpg",
       "characteristics": {
         "Marque": "CLAAS",
@@ -3177,7 +3177,7 @@
       "brand": "DEUTZ-FAHR",
       "power": "70 ch",
       "hours": "13500 h",
-      "price": "6500,00 € HT",
+      "price": "6 500,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-deutz-dx-330-5908-1.jpg",
       "characteristics": {
         "Marque": "DEUTZ-FAHR",
@@ -3200,7 +3200,7 @@
       "brand": "CLAAS",
       "power": "235 ch",
       "hours": "7500 h",
-      "price": "55000,00 € HT",
+      "price": "55 000,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-claas-axion-830-cmatic-5618-1.jpg",
       "characteristics": {
         "Marque": "CLAAS",
@@ -3223,7 +3223,7 @@
       "brand": "KUBOTA",
       "power": "140 ch",
       "hours": "2650 h",
-      "price": "70000,00 € HT",
+      "price": "70 000,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-kubota-m7132-kvt-5148-1.jpg",
       "characteristics": {
         "Marque": "KUBOTA",
@@ -3247,7 +3247,7 @@
       "brand": "FENDT",
       "power": "120 ch",
       "hours": "3650 h",
-      "price": "95000,00 € HT",
+      "price": "95 000,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-fendt-512-power-4414-1-2.jpg",
       "characteristics": {
         "Marque": "FENDT",
@@ -3270,7 +3270,7 @@
       "brand": "NEW HOLLAND",
       "power": "150 ch",
       "hours": "4500 h",
-      "price": "69000,00 € HT",
+      "price": "69 000,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-new-holland-t6180-dynamic-command-5880-1-1.jpg",
       "characteristics": {
         "Marque": "NEW HOLLAND",
@@ -3293,7 +3293,7 @@
       "brand": "JOHN DEERE",
       "power": "110 ch",
       "hours": "2750 h",
-      "price": "59500,00 € HT",
+      "price": "59 500,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-john-deere-6110m-command-quad-5869-1.jpg",
       "characteristics": {
         "Marque": "JOHN DEERE",
@@ -3316,7 +3316,7 @@
       "brand": "DEUTZ-FAHR",
       "power": "150 ch",
       "hours": "5033 h",
-      "price": "47500,00 € HT",
+      "price": "47 500,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-deutz-agrotron-6150-rc-shift-5856-1.jpg",
       "characteristics": {
         "Marque": "DEUTZ-FAHR",
@@ -3339,7 +3339,7 @@
       "brand": "MASSEY FERGUSON",
       "power": "120 ch",
       "hours": "5580 h",
-      "price": "45000,00 € HT",
+      "price": "45 000,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-massey-ferguson-6612-dyna-4-5497-1.jpg",
       "characteristics": {
         "Marque": "MASSEY FERGUSON",
@@ -3362,7 +3362,7 @@
       "brand": "DEUTZ-FAHR",
       "power": "155 ch",
       "hours": "1690 h",
-      "price": "88000,00 € HT",
+      "price": "88 000,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-deutz-agrotron-6155-ttv-5813-1.jpg",
       "characteristics": {
         "Marque": "DEUTZ-FAHR",
@@ -3385,7 +3385,7 @@
       "brand": "DEUTZ-FAHR",
       "power": "110 ch",
       "hours": "8600 h",
-      "price": "26000,00 € HT",
+      "price": "26 000,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-deutz-agrotron-k420-5492-0.jpg",
       "characteristics": {
         "Marque": "DEUTZ-FAHR",
@@ -3408,7 +3408,7 @@
       "brand": "KUBOTA",
       "power": "110 ch",
       "hours": "4950 h",
-      "price": "27500,00 € HT",
+      "price": "27 500,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-kubota-m110-gx-5742-1.jpg",
       "characteristics": {
         "Marque": "KUBOTA",
@@ -3431,7 +3431,7 @@
       "brand": "MC CORMICK",
       "power": "75 ch",
       "hours": "7600 h",
-      "price": "20000,00 € HT",
+      "price": "20 000,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-mc-cormick-cx-75-5529-1.jpg",
       "characteristics": {
         "Marque": "MC CORMICK",
@@ -3455,7 +3455,7 @@
       "brand": "JOHN DEERE",
       "power": "130 ch",
       "hours": "1750 h",
-      "price": "98000,00 € HT",
+      "price": "98 000,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-john-deere-6130r-autopower-5759-1.jpg",
       "characteristics": {
         "Marque": "JOHN DEERE",
@@ -3478,7 +3478,7 @@
       "brand": "NEW HOLLAND",
       "power": "125 ch",
       "hours": "5950 h",
-      "price": "47500,00 € HT",
+      "price": "47 500,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-new-holland-t6155-5435-1.jpg",
       "characteristics": {
         "Marque": "NEW HOLLAND",
@@ -3501,7 +3501,7 @@
       "brand": "CASE IH",
       "power": "120 ch",
       "hours": "680 h",
-      "price": "82500,00 € HT",
+      "price": "82 500,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-case-ih-vestrum-120-cvx-5354-1.jpg",
       "characteristics": {
         "Marque": "CASE IH",
@@ -3524,7 +3524,7 @@
       "brand": "NEW HOLLAND",
       "power": "175 ch",
       "hours": "4100 h",
-      "price": "76500,00 € HT",
+      "price": "76 500,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-new-holland-t7225-auto-command-5611-1.jpg",
       "characteristics": {
         "Marque": "NEW HOLLAND",
@@ -3547,7 +3547,7 @@
       "brand": "NEW HOLLAND",
       "power": "150 ch",
       "hours": "4150 h",
-      "price": "65000,00 € HT",
+      "price": "65 000,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-new-holland-t7190-power-command-5514-1.jpg",
       "characteristics": {
         "Marque": "NEW HOLLAND",
@@ -3570,7 +3570,7 @@
       "brand": "DEUTZ-FAHR",
       "power": "175 ch",
       "hours": "2800 h",
-      "price": "79500,00 € HT",
+      "price": "79 500,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-deutz-agrotron-6175-ttv-5678-1.jpg",
       "characteristics": {
         "Marque": "DEUTZ-FAHR",
@@ -3594,7 +3594,7 @@
       "brand": "NEW HOLLAND",
       "power": "200 ch",
       "hours": "1150 h",
-      "price": null,
+      "price": "129 000,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-new-holland-t7245-auto-command-5699-1.jpg",
       "characteristics": {
         "Marque": "NEW HOLLAND",
@@ -3617,7 +3617,7 @@
       "brand": "JOHN DEERE",
       "power": "190 ch",
       "hours": "5340 h",
-      "price": "80000,00 € HT",
+      "price": "80 000,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-john-deere-6190r-autopower-5603-1.jpg",
       "characteristics": {
         "Marque": "JOHN DEERE",
@@ -3640,7 +3640,7 @@
       "brand": "CLAAS",
       "power": "110 ch",
       "hours": "3025 h",
-      "price": "72500,00 € HT",
+      "price": "72 500,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-claas-arion-430-cis-5303-1.jpg",
       "characteristics": {
         "Marque": "CLAAS",
@@ -3663,7 +3663,7 @@
       "brand": "VALTRA",
       "power": "190 ch",
       "hours": "3730 h",
-      "price": "88000,00 € HT",
+      "price": "88 000,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-valtra-t194-active-5528-1.jpg",
       "characteristics": {
         "Marque": "VALTRA",
@@ -3687,7 +3687,7 @@
       "brand": "JOHN DEERE",
       "power": "100 ch",
       "hours": "6470 h",
-      "price": "52500,00 € HT",
+      "price": "52 500,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-john-deere-6230-premium-5373-1.jpg",
       "characteristics": {
         "Marque": "JOHN DEERE",
@@ -3710,7 +3710,7 @@
       "brand": "VALTRA",
       "power": "190 ch",
       "hours": "3040 h",
-      "price": "88500,00 € HT",
+      "price": "88 500,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-valtra-t194-active-5527-1.jpg",
       "characteristics": {
         "Marque": "VALTRA",
@@ -3733,7 +3733,7 @@
       "brand": "CLAAS",
       "power": "165 ch",
       "hours": "3450 h",
-      "price": "79500,00 € HT",
+      "price": "79 500,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-claas-arion-630-cis-5402-1.jpg",
       "characteristics": {
         "Marque": "CLAAS",
@@ -3756,7 +3756,7 @@
       "brand": "NEW HOLLAND",
       "power": "125 ch",
       "hours": "3900 h",
-      "price": "65000,00 € HT",
+      "price": "65 000,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-new-holland-t6155-electro-command-5209-1.jpg",
       "characteristics": {
         "Marque": "NEW HOLLAND",
@@ -3779,7 +3779,7 @@
       "brand": null,
       "power": null,
       "hours": null,
-      "price": "4850,00 € HT",
+      "price": "4 850,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/grappin-occasion-hultdins-super-grip-520s-rotator-5409-1.jpg",
       "characteristics": {}
     },
@@ -3789,7 +3789,7 @@
       "brand": "MASSEY FERGUSON",
       "power": "180 ch",
       "hours": "3150 h",
-      "price": "85000,00 € HT",
+      "price": "85 000,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-massey-ferguson-7718s-dyna-6-4810-1-1.jpg",
       "characteristics": {
         "Marque": "MASSEY FERGUSON",
@@ -3813,7 +3813,7 @@
       "brand": "DEUTZ-FAHR",
       "power": "85 ch",
       "hours": "8800 h",
-      "price": "20000,00 € HT",
+      "price": "20 000,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-deutz-dx-431-5299-1.jpg",
       "characteristics": {
         "Marque": "DEUTZ-FAHR",
@@ -3836,7 +3836,7 @@
       "brand": "DEUTZ-FAHR",
       "power": "85 ch",
       "hours": "10500 h",
-      "price": "20000,00 € HT",
+      "price": "20 000,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-deutz-dx-431-5375-1.jpg",
       "characteristics": {
         "Marque": "DEUTZ-FAHR",
@@ -3859,7 +3859,7 @@
       "brand": "JOHN DEERE",
       "power": "310 ch",
       "hours": "8250 h",
-      "price": "75000,00 € HT",
+      "price": "75 000,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-john-deere-8310r-autopower-5198-1.jpg",
       "characteristics": {
         "Marque": "JOHN DEERE",
@@ -3882,7 +3882,7 @@
       "brand": "CASE IH",
       "power": "100 ch",
       "hours": "684 h",
-      "price": "53000,00 € HT",
+      "price": "53 000,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-case-ih-quantum-100f-4760-1-1.jpg",
       "characteristics": {
         "Marque": "CASE IH",
@@ -3906,7 +3906,7 @@
       "brand": "VALTRA",
       "power": "135 ch",
       "hours": "318 h",
-      "price": null,
+      "price": "105 000,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-valtra-n135-direct-5308-1.jpg",
       "characteristics": {
         "Marque": "VALTRA",
@@ -3929,7 +3929,7 @@
       "brand": "CASE IH",
       "power": "130 ch",
       "hours": "5450 h",
-      "price": "49500,00 € HT",
+      "price": "49 500,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-case-ih-puma-130-cvx-4781-1-2.jpg",
       "characteristics": {
         "Marque": "CASE IH",
@@ -3952,7 +3952,7 @@
       "brand": "NEW HOLLAND",
       "power": "110 ch",
       "hours": "750 h",
-      "price": "65000,00 € HT",
+      "price": "65 000,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-new-holland-t5110-electro-command-5242-1.jpg",
       "characteristics": {
         "Marque": "NEW HOLLAND",
@@ -3975,7 +3975,7 @@
       "brand": "CASE IH",
       "power": "100 ch",
       "hours": "4650 h",
-      "price": "37500,00 € HT",
+      "price": "37 500,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-case-ih-jx1100u-5106-1.jpg",
       "characteristics": {
         "Marque": "CASE IH",
@@ -3998,7 +3998,7 @@
       "brand": "MASSEY FERGUSON",
       "power": "130 ch",
       "hours": "5600 h",
-      "price": "62500,00 € HT",
+      "price": "62 500,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-massey-ferguson-6613-dyna-6-3664-1.jpg",
       "characteristics": {
         "Marque": "MASSEY FERGUSON",
@@ -4021,7 +4021,7 @@
       "brand": "NEW HOLLAND",
       "power": "110 ch",
       "hours": "1850 h",
-      "price": "77500,00 € HT",
+      "price": "77 500,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-new-holland-t5110-auto-command-4927-1.jpg",
       "characteristics": {
         "Marque": "NEW HOLLAND",
@@ -4044,7 +4044,7 @@
       "brand": "NEW HOLLAND",
       "power": "160 ch",
       "hours": "4450 h",
-      "price": "65000,00 € HT",
+      "price": "65 000,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-new-holland-t7200-power-command-4954-1.jpg",
       "characteristics": {
         "Marque": "NEW HOLLAND",
@@ -4067,7 +4067,7 @@
       "brand": "NEW HOLLAND",
       "power": "150 ch",
       "hours": "1420 h",
-      "price": "92000,00 € HT",
+      "price": "92 000,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-new-holland-t7190-auto-command-4876-1.jpg",
       "characteristics": {
         "Marque": "NEW HOLLAND",
@@ -4090,7 +4090,7 @@
       "brand": "JOHN DEERE",
       "power": "115 ch",
       "hours": "6190 h",
-      "price": "54500,00 € HT",
+      "price": "54 500,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-john-deere-6115r-power-quad-4888-1.jpg",
       "characteristics": {
         "Marque": "JOHN DEERE",
@@ -4137,7 +4137,7 @@
       "brand": "NEW HOLLAND",
       "power": "110 ch",
       "hours": "1450 h",
-      "price": "70000,00 € HT",
+      "price": "70 000,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/tracteur_occasion_new_holland_t5110_auto_command_3989_1.jpeg",
       "characteristics": {
         "Marque": "NEW HOLLAND",
