@@ -30,7 +30,7 @@ HEADERS = {
 # Une annonce est reconnue par ce type d'URL : .../123456-nom-du-modele.html
 PRODUCT_URL_RE = re.compile(r"/tracteurs-materiels/tracteurs/\d+-[^/]+\.html$")
 
-PRICE_RE = re.compile(r"([\d\s]{2,10},\d{2})\s*€")
+PRICE_RE = re.compile(r"(\d{1,3}(?:[\s\u00a0]\d{3})*,\d{2})\s*€")
 
 
 def fetch(url):
@@ -93,11 +93,37 @@ def extract_detail(url, html):
     soup = BeautifulSoup(html, "html.parser")
 
     h1 = soup.find("h1")
-    model = h1.get_text(strip=True) if h1 else None
+    # get_text(" ", ...) : sans le séparateur, deux blocs de texte collés
+    # dans le HTML (ex: la marque et le modèle dans des balises différentes)
+    # se retrouvaient fusionnés sans espace ("VALTRAT195" au lieu de
+    # "VALTRA T195").
+    model = " ".join(h1.get_text(" ", strip=True).split()) if h1 else None
 
-    page_text = " ".join(soup.get_text(" ", strip=True).split())
-    price_match = PRICE_RE.search(page_text)
-    price = (price_match.group(1).replace(" ", "") + " € HT") if price_match else None
+    if not model:
+        # Fiche mal reconnue (page qui ne correspond pas au format attendu) :
+        # on l'écarte plutôt que d'afficher une annonce vide à l'écran.
+        return None
+
+    full_text = " ".join(soup.get_text(" ", strip=True).split())
+
+    # Le prix se trouve juste après le tableau rapide (Puissance/Heures/
+    # Référence), avant la section "Caractéristiques". On limite la
+    # recherche à cette zone pour éviter qu'un nombre sans rapport
+    # (ailleurs sur la page) ne soit confondu avec le prix.
+    end = full_text.lower().find("caractéristique")
+    search_zone = full_text[:end] if end != -1 else full_text[:1500]
+
+    price = None
+    price_match = PRICE_RE.search(search_zone)
+    if price_match:
+        candidate = price_match.group(1).replace(" ", "").replace("\u00a0", "")
+        # Garde-fou : un tracteur d'occasion ne vaut jamais plusieurs
+        # millions d'euros. Si on tombe sur un nombre absurde, c'est que
+        # deux nombres se sont mélangés quelque part — on préfère ne rien
+        # afficher plutôt qu'un prix faux.
+        integer_part = candidate.split(",")[0]
+        if integer_part.isdigit() and int(integer_part) <= 500000:
+            price = candidate + " € HT"
 
     characteristics = extract_characteristics(soup)
 
@@ -161,7 +187,9 @@ def scrape_all():
     for i, url in enumerate(all_urls, start=1):
         try:
             html = fetch(url)
-            tractors.append(extract_detail(url, html))
+            detail = extract_detail(url, html)
+            if detail is not None:
+                tractors.append(detail)
         except requests.RequestException as exc:
             print(f"Erreur sur {url}: {exc}", file=sys.stderr)
             continue
