@@ -390,14 +390,20 @@ function next(){
   }, 400);
 }
 
+let lastTractorsUpdatedAt = null;
+
 async function loadData(){
   let tractorsData = null;
   let infosData = null;
+  let newUpdatedAt = null;
 
   try {
     const res = await fetch('data/tracteurs.json', { cache: 'no-store' });
     const data = await res.json();
-    if (data.tractors && data.tractors.length > 0) tractorsData = data.tractors;
+    if (data.tractors && data.tractors.length > 0) {
+      tractorsData = data.tractors;
+      newUpdatedAt = data.updated_at || null;
+    }
   } catch (err) {
     console.warn('Impossible de charger data/tracteurs.json, affichage des exemples.', err);
   }
@@ -410,8 +416,18 @@ async function loadData(){
   }
 
   if (tractorsData) {
+    // On ne repart du premier tracteur que si le robot a vraiment rapporté
+    // une nouvelle liste (toutes les ~6h). Sinon (simple vérification des
+    // messages/affiches toutes les 10 min), on garde la position actuelle
+    // pour ne pas interrompre le défilement en cours.
+    const isNewTractorData = newUpdatedAt !== lastTractorsUpdatedAt;
     slides = buildSlides(tractorsData, infosData);
-    index = 0;
+    if (isNewTractorData) {
+      index = 0;
+      lastTractorsUpdatedAt = newUpdatedAt;
+    } else {
+      index = Math.min(index, slides.length - 1);
+    }
     buildDots();
     render();
   }
