@@ -357,7 +357,7 @@ function render(){
     const MAX_CHAR_ROWS = 6; // garantit que tout tient sur l'écran, quel que soit le tracteur
     let shown = 0;
     Object.keys(chars).forEach(label => {
-      if (label === 'Référence') return; // déjà affichée en haut
+      if (label === 'Référence' || label === 'Puissance' || label === 'Heures') return; // déjà affichées en haut
       if (shown >= MAX_CHAR_ROWS) return;
       const row = document.createElement('div');
       row.className = 'char-row';
