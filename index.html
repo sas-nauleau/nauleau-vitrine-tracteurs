@@ -32,21 +32,23 @@
   }
 
   .qr-block{
-    margin-top:auto;
-    padding-top:20px;
+    margin-top:1.6vh;
+    flex-shrink:0;
     display:flex;
-    flex-direction:column;
+    flex-direction:row;
     align-items:center;
-    text-align:center;
-    gap:10px;
+    justify-content:center;
+    gap:1vw;
   }
   .qr-block img{
-    height:130px; width:130px;
+    height:6.5vh; width:6.5vh;
+    flex-shrink:0;
   }
   .qr-block span{
-    font-family:'Inter'; font-weight:600; font-size:16px;
+    font-family:'Inter'; font-weight:600; font-size:1.4vh;
     color:var(--ink);
-    max-width:320px;
+    max-width:260px;
+    text-align:left;
   }
   .qr-block span b{ color:var(--teal); }
 
@@ -75,8 +77,8 @@
     border:1px solid var(--line); border-radius:4px;
   }
   .panel-logo{
-    height:100px; width:auto;
-    margin-bottom:32px;
+    height:11vh; width:auto;
+    margin-bottom:2vh;
     display:block;
   }
 
@@ -95,65 +97,66 @@
     flex:1;
     background:#ffffff;
     display:flex; flex-direction:column;
-    justify-content:space-between;
-    padding:44px 56px;
+    justify-content:flex-start;
+    padding:3vh 3.5vw;
+    overflow:hidden;
   }
 
   .badge{
     display:inline-block;
     background:var(--teal);
     color:#ffffff;
-    font-family:'Inter'; font-weight:700; font-size:12px;
-    padding:5px 12px;
+    font-family:'Inter'; font-weight:700; font-size:1.1vh;
+    padding:0.5vh 1vw;
     border-radius:5px;
-    margin-bottom:18px;
+    margin-bottom:1.4vh;
     width:fit-content;
     transition:opacity .4s ease, transform .4s ease;
   }
 
   .model{
     font-family:'Inter'; font-weight:800;
-    font-size:clamp(24px, 2.7vw, 36px);
+    font-size:clamp(20px, 3.6vh, 36px);
     line-height:1.15;
     color:var(--ink);
-    margin-bottom:20px;
+    margin-bottom:1.4vh;
     overflow-wrap:break-word;
     word-break:break-word;
     transition:opacity .4s ease, transform .4s ease;
   }
 
   .specs{
-    display:flex; flex-direction:column; gap:6px;
-    margin-bottom:26px;
+    display:flex; flex-direction:column; gap:0.5vh;
+    margin-bottom:1.6vh;
     transition:opacity .4s ease, transform .4s ease;
   }
   .spec-row{
-    display:flex; gap:10px; font-size:18px;
+    display:flex; gap:10px; font-size:1.8vh;
   }
   .spec-row .lbl{ color:var(--grey); }
   .spec-row .val{ color:var(--ink); font-weight:500; }
 
   .price{
     font-family:'Inter'; font-weight:800;
-    font-size:clamp(30px, 3vw, 42px);
+    font-size:clamp(22px, 4.2vh, 42px);
     color:var(--teal);
     transition:opacity .4s ease, transform .4s ease;
   }
 
   .char-heading{
-    font-family:'Inter'; font-weight:700; font-size:17px;
+    font-family:'Inter'; font-weight:700; font-size:1.5vh;
     letter-spacing:.04em; text-transform:uppercase;
     color:var(--teal);
-    margin:20px 0 16px 0;
-    padding-top:18px;
+    margin:1.4vh 0 1.2vh 0;
+    padding-top:1.4vh;
     border-top:1px solid var(--line);
   }
   .char-grid{
     display:grid;
     grid-template-columns:1fr 1fr;
-    column-gap:30px; row-gap:13px;
+    column-gap:2vw; row-gap:0.9vh;
   }
-  .char-row{ font-size:16px; display:flex; gap:6px; }
+  .char-row{ font-size:1.55vh; display:flex; gap:6px; }
   .char-row .lbl{ color:var(--grey); }
   .char-row .val{ color:var(--ink); font-weight:600; }
 
@@ -351,12 +354,16 @@ function render(){
 
     charGrid.innerHTML = '';
     const chars = t.characteristics || {};
+    const MAX_CHAR_ROWS = 8; // garantit que tout tient sur l'écran, quel que soit le tracteur
+    let shown = 0;
     Object.keys(chars).forEach(label => {
       if (label === 'Référence') return; // déjà affichée en haut
+      if (shown >= MAX_CHAR_ROWS) return;
       const row = document.createElement('div');
       row.className = 'char-row';
       row.innerHTML = `<span class="lbl">${label} :</span><span class="val">${chars[label]}</span>`;
       charGrid.appendChild(row);
+      shown++;
     });
 
     if (t.image) {
