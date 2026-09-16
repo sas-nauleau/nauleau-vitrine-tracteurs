@@ -131,7 +131,7 @@
     transition:opacity .4s ease, transform .4s ease;
   }
   .spec-row{
-    display:flex; gap:10px; font-size:2.3vh;
+    display:flex; gap:10px; font-size:2.8vh;
   }
   .spec-row .lbl{ color:var(--grey); }
   .spec-row .val{ color:var(--ink); font-weight:500; }
@@ -156,7 +156,7 @@
     grid-template-columns:1fr 1fr;
     column-gap:2.4vw; row-gap:1.15vh;
   }
-  .char-row{ font-size:2vh; display:flex; gap:6px; }
+  .char-row{ font-size:2.4vh; display:flex; gap:6px; }
   .char-row .lbl{ color:var(--grey); }
   .char-row .val{ color:var(--ink); font-weight:600; }
 
@@ -354,7 +354,7 @@ function render(){
 
     charGrid.innerHTML = '';
     const chars = t.characteristics || {};
-    const MAX_CHAR_ROWS = 8; // garantit que tout tient sur l'écran, quel que soit le tracteur
+    const MAX_CHAR_ROWS = 6; // garantit que tout tient sur l'écran, quel que soit le tracteur
     let shown = 0;
     Object.keys(chars).forEach(label => {
       if (label === 'Référence') return; // déjà affichée en haut
