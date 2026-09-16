@@ -1,7 +1,29 @@
 {
-  "updated_at": "2026-09-16T12:19:16Z",
-  "count": 178,
+  "updated_at": "2026-09-16T18:17:25Z",
+  "count": 179,
   "tractors": [
+    {
+      "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/11118-valtra-t172.html",
+      "model": "VALTRA T172",
+      "brand": "VALTRA",
+      "power": null,
+      "hours": "8530 h",
+      "price": "30 000,00 € HT",
+      "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-valtra-t172-6554-1.jpg",
+      "characteristics": {
+        "Marque": "VALTRA",
+        "Modèle": "T172",
+        "État": "Occasion - Bon état",
+        "Année": "2010",
+        "Heures": "8530 h",
+        "Roues motrices": "4 rm",
+        "Boîte de vitesses": "VARIATION CONTINUE",
+        "Dimension pneus avant": "540 65 30",
+        "Usure pneus avant": "75%",
+        "Dimension pneus arrière": "620 70 42",
+        "Usure pneus arrière": "70%"
+      }
+    },
     {
       "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/11107-case-ih-maxxum-cvx-110.html",
       "model": "CASE IH MAXXUM CVX 110",
