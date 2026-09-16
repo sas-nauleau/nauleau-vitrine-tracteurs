@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-16T06:18:53Z",
-  "count": 179,
+  "updated_at": "2026-09-16T12:19:16Z",
+  "count": 178,
   "tractors": [
     {
       "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/11107-case-ih-maxxum-cvx-110.html",
@@ -185,30 +185,6 @@
         "Usure pneus avant": "25%",
         "Dimension pneus arrière": "580 65 38",
         "Usure pneus arrière": "25%"
-      }
-    },
-    {
-      "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/11092-john-deere-6195r.html",
-      "model": "JOHN DEERE 6195R",
-      "brand": "JOHN DEERE",
-      "power": "200 ch",
-      "hours": "1850 h",
-      "price": "125 000,00 € HT",
-      "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-john-deere-6195r-6526-1-1.jpg",
-      "characteristics": {
-        "Marque": "JOHN DEERE",
-        "Modèle": "6195R",
-        "État": "Occasion - Très bon état",
-        "Année": "2021",
-        "Heures": "1850 h",
-        "Puissance": "200 ch",
-        "Roues motrices": "4 rm",
-        "Boîte de vitesses": "VARIATION CONTINUE",
-        "Dimension pneus avant": "600 70 28",
-        "Usure pneus avant": "50%",
-        "Dimension pneus arrière": "650 85 38",
-        "Usure pneus arrière": "50%",
-        "Vitesse maxi": "40 Km/h"
       }
     },
     {
@@ -865,7 +841,7 @@
     },
     {
       "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/10992-new-holland-t6070-range-command.html",
-      "model": "NEW HOLLAND t6070 RANGE COMMAND",
+      "model": "NEW HOLLAND T6070 RANGE COMMAND",
       "brand": "NEW HOLLAND",
       "power": "140 ch",
       "hours": "6350 h",
@@ -873,7 +849,7 @@
       "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-new-holland-t6070-range-command-6424-1.jpg",
       "characteristics": {
         "Marque": "NEW HOLLAND",
-        "Modèle": "t6070 RANGE COMMAND",
+        "Modèle": "T6070 RANGE COMMAND",
         "État": "Occasion - Bon état",
         "Année": "2010",
         "Heures": "6350 h",
