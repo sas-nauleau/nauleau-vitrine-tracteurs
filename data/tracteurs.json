@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-17T12:18:44Z",
-  "count": 181,
+  "updated_at": "2026-09-17T18:18:07Z",
+  "count": 180,
   "tractors": [
     {
       "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/11121-fendt-210.html",
@@ -2141,30 +2141,6 @@
         "Usure pneus avant": "NEUFS",
         "Dimension pneus arrière": "420 85 38",
         "Usure pneus arrière": "NEUFS",
-        "Vitesse maxi": "42 Km/h"
-      }
-    },
-    {
-      "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/10734-john-deere-6r140.html",
-      "model": "JOHN DEERE 6R140",
-      "brand": "JOHN DEERE",
-      "power": "140 ch",
-      "hours": "1106 h",
-      "price": null,
-      "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-john-deere-6r140-autopower-command-pro-autotrac-6182-1.jpeg",
-      "characteristics": {
-        "Marque": "JOHN DEERE",
-        "Modèle": "6R140",
-        "État": "Occasion - Très bon état",
-        "Année": "2023",
-        "Heures": "1106 h",
-        "Puissance": "140 ch",
-        "Roues motrices": "4 rm",
-        "Boîte de vitesses": "VARIATION CONTINUE",
-        "Dimension pneus avant": "480 70 28",
-        "Usure pneus avant": "15%",
-        "Dimension pneus arrière": "580 70 38",
-        "Usure pneus arrière": "15%",
         "Vitesse maxi": "42 Km/h"
       }
     },
