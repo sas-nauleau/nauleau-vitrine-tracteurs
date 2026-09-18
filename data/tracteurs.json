@@ -1,7 +1,30 @@
 {
-  "updated_at": "2026-09-18T06:18:55Z",
-  "count": 180,
+  "updated_at": "2026-09-18T12:18:01Z",
+  "count": 181,
   "tractors": [
+    {
+      "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/11122-new-holland-t7230-ac.html",
+      "model": "NEW HOLLAND T7.230 AC",
+      "brand": "NEW HOLLAND",
+      "power": "185 ch",
+      "hours": "4070 h",
+      "price": "77 500,00 € HT",
+      "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-new-holland-t7230-6551-1.jpg",
+      "characteristics": {
+        "Marque": "NEW HOLLAND",
+        "Modèle": "T7.230 AC",
+        "État": "Occasion - Très bon état",
+        "Année": "2016",
+        "Heures": "4070 h",
+        "Puissance": "185 ch",
+        "Roues motrices": "4 rm",
+        "Boîte de vitesses": "VARIATION CONTINUE",
+        "Dimension pneus avant": "600 65 28",
+        "Usure pneus avant": "40%",
+        "Dimension pneus arrière": "650 65 42",
+        "Usure pneus arrière": "40%"
+      }
+    },
     {
       "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/11121-fendt-210.html",
       "model": "FENDT 210",
