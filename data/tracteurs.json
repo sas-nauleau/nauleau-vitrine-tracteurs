@@ -1,7 +1,53 @@
 {
-  "updated_at": "2026-09-21T06:20:52Z",
-  "count": 181,
+  "updated_at": "2026-09-21T12:17:59Z",
+  "count": 183,
   "tractors": [
+    {
+      "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/11124-case-ih-puma-145.html",
+      "model": "CASE IH PUMA 145",
+      "brand": "CASE IH",
+      "power": "145 ch",
+      "hours": "5560 h",
+      "price": "48 500,00 € HT",
+      "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-case-ih-puma-145-6521-1.jpg",
+      "characteristics": {
+        "Marque": "CASE IH",
+        "Modèle": "PUMA 145",
+        "État": "Occasion - Bon état",
+        "Année": "2014",
+        "Heures": "5560 h",
+        "Puissance": "145 ch",
+        "Roues motrices": "4 rm",
+        "Boîte de vitesses": "SEMI POWERSHIFT",
+        "Dimension pneus avant": "480 70 28",
+        "Usure pneus avant": "20%",
+        "Dimension pneus arrière": "580 70 38",
+        "Usure pneus arrière": "20%"
+      }
+    },
+    {
+      "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/11123-case-ih-puma-240-cvx.html",
+      "model": "CASE IH PUMA 240 CVX",
+      "brand": "CASE IH",
+      "power": "240 ch",
+      "hours": "1350 h",
+      "price": "150 000,00 € HT",
+      "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-case-ih-puma-240-cvx-6540-1.jpg",
+      "characteristics": {
+        "Marque": "CASE IH",
+        "Modèle": "PUMA 240 CVX",
+        "État": "Occasion - Bon état",
+        "Année": "2024",
+        "Heures": "1350 h",
+        "Puissance": "240 ch",
+        "Roues motrices": "4 rm",
+        "Boîte de vitesses": "VARIATION CONTINUE",
+        "Dimension pneus avant": "600 70 30",
+        "Usure pneus avant": "20%",
+        "Dimension pneus arrière": "650 85 38",
+        "Usure pneus arrière": "20%"
+      }
+    },
     {
       "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/11122-new-holland-t7230-ac.html",
       "model": "NEW HOLLAND T7.230 AC",
