@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-21T12:17:59Z",
-  "count": 183,
+  "updated_at": "2026-09-21T18:16:36Z",
+  "count": 181,
   "tractors": [
     {
       "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/11124-case-ih-puma-145.html",
@@ -838,30 +838,6 @@
       }
     },
     {
-      "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/11011-deutz-agrotron-6160p.html",
-      "model": "DEUTZ-FAHR AGROTRON 6160P",
-      "brand": "DEUTZ-FAHR",
-      "power": "160 ch",
-      "hours": "5030 h",
-      "price": "45 000,00 € HT",
-      "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-deutz-agrotron-6160p-6435-1.jpg",
-      "characteristics": {
-        "Marque": "DEUTZ-FAHR",
-        "Modèle": "AGROTRON 6160P",
-        "État": "Occasion - Bon état",
-        "Année": "2015",
-        "Heures": "5030 h",
-        "Puissance": "160 ch",
-        "Roues motrices": "4 rm",
-        "Boîte de vitesses": "SEMI POWERSHIFT",
-        "Dimension pneus avant": "420 70 28",
-        "Usure pneus avant": "50%",
-        "Dimension pneus arrière": "580 70 38",
-        "Usure pneus arrière": "40%",
-        "Vitesse maxi": "40 Km/h"
-      }
-    },
-    {
       "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/11008-new-holland-t6145-ec.html",
       "model": "NEW HOLLAND T6.145 EC",
       "brand": "NEW HOLLAND",
@@ -1558,29 +1534,6 @@
         "Usure pneus avant": "40%",
         "Dimension pneus arrière": "420 80 38",
         "Usure pneus arrière": "35%"
-      }
-    },
-    {
-      "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/10870-massey-ferguson-5455-dyna-4.html",
-      "model": "MASSEY FERGUSON 5455 DYNA 4",
-      "brand": "MASSEY FERGUSON",
-      "power": "100 ch",
-      "hours": "6900 h",
-      "price": "25 000,00 € HT",
-      "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-massey-fergusson-5455-6331-1.jpg",
-      "characteristics": {
-        "Marque": "MASSEY FERGUSON",
-        "Modèle": "5455 DYNA 4",
-        "État": "Occasion - Bon état",
-        "Année": "2009",
-        "Heures": "6900 h",
-        "Puissance": "100 ch",
-        "Roues motrices": "4 rm",
-        "Boîte de vitesses": "FULL POWERSHIFT",
-        "Dimension pneus avant": "13.6.28",
-        "Usure pneus avant": "60%",
-        "Dimension pneus arrière": "16.9.38",
-        "Usure pneus arrière": "60%"
       }
     },
     {
