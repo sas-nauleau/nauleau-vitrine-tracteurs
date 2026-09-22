@@ -1,7 +1,53 @@
 {
-  "updated_at": "2026-09-22T06:18:54Z",
-  "count": 181,
+  "updated_at": "2026-09-22T12:18:19Z",
+  "count": 180,
   "tractors": [
+    {
+      "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/11126-case-ih-cvx-1135.html",
+      "model": "CASE IH CVX 1135",
+      "brand": "CASE IH",
+      "power": "135 ch",
+      "hours": "8200 h",
+      "price": "25 000,00 € HT",
+      "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-case-ih-cvx-1135-6494-1.jpg",
+      "characteristics": {
+        "Marque": "CASE IH",
+        "Modèle": "CVX 1135",
+        "État": "Occasion - Bon état",
+        "Année": "2005",
+        "Heures": "8200 h",
+        "Puissance": "135 ch",
+        "Roues motrices": "4 rm",
+        "Boîte de vitesses": "VARIATION CONTINUE",
+        "Dimension pneus avant": "540 65 28",
+        "Usure pneus avant": "15%",
+        "Dimension pneus arrière": "650 65 38",
+        "Usure pneus arrière": "15%"
+      }
+    },
+    {
+      "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/11125-landini-legend-135.html",
+      "model": "LANDINI LEGEND 135",
+      "brand": "LANDINI",
+      "power": "135 ch",
+      "hours": "6500 h",
+      "price": "25 000,00 € HT",
+      "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-landini-legend-135-tdi-6547-1.jpg",
+      "characteristics": {
+        "Marque": "LANDINI",
+        "Modèle": "LEGEND 135",
+        "État": "Occasion - Bon état",
+        "Année": "2005",
+        "Heures": "6500 h",
+        "Puissance": "135 ch",
+        "Roues motrices": "4 rm",
+        "Boîte de vitesses": "SEMI POWERSHIFT",
+        "Dimension pneus avant": "420 70 28",
+        "Usure pneus avant": "25%",
+        "Dimension pneus arrière": "520 70 38",
+        "Usure pneus arrière": "90%"
+      }
+    },
     {
       "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/11124-case-ih-puma-145.html",
       "model": "CASE IH PUMA 145",
@@ -298,29 +344,6 @@
         "Dimension pneus avant": "480 70 28",
         "Usure pneus avant": "30%",
         "Dimension pneus arrière": "580 70 38",
-        "Usure pneus arrière": "50%"
-      }
-    },
-    {
-      "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/11095-new-holland-tn75.html",
-      "model": "NEW HOLLAND TN75",
-      "brand": "NEW HOLLAND",
-      "power": "75 ch",
-      "hours": "6950 h",
-      "price": "24 500,00 € HT",
-      "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-new-holland-tn75-6522-1.jpg",
-      "characteristics": {
-        "Marque": "NEW HOLLAND",
-        "Modèle": "TN75",
-        "État": "Occasion - Bon état",
-        "Année": "2000",
-        "Heures": "6950 h",
-        "Puissance": "75 ch",
-        "Roues motrices": "4 rm",
-        "Boîte de vitesses": "HI-LO",
-        "Dimension pneus avant": "360 70 20",
-        "Usure pneus avant": "15%",
-        "Dimension pneus arrière": "420 70 30",
         "Usure pneus arrière": "50%"
       }
     },
@@ -996,29 +1019,6 @@
         "Usure pneus avant": "35%",
         "Dimension pneus arrière": "420 85 38",
         "Usure pneus arrière": "35%"
-      }
-    },
-    {
-      "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/10984-new-holland-t5100-ec.html",
-      "model": "NEW HOLLAND T5.100 EC",
-      "brand": "NEW HOLLAND",
-      "power": "100 ch",
-      "hours": "939 h",
-      "price": "49 500,00 € HT",
-      "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-new-holland-t5100-ec-6437-1.jpg",
-      "characteristics": {
-        "Marque": "NEW HOLLAND",
-        "Modèle": "T5.100 EC",
-        "État": "Occasion - Très bon état",
-        "Année": "2023",
-        "Heures": "939 h",
-        "Puissance": "100 ch",
-        "Roues motrices": "4 rm",
-        "Boîte de vitesses": "SEMI POWERSHIFT",
-        "Dimension pneus avant": "340 85 28",
-        "Usure pneus avant": "20%",
-        "Dimension pneus arrière": "420 85 38",
-        "Usure pneus arrière": "20%"
       }
     },
     {
@@ -3963,29 +3963,6 @@
         "Usure pneus avant": "5%",
         "Dimension pneus arrière": "580 70 38",
         "Usure pneus arrière": "5%"
-      }
-    },
-    {
-      "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/9882-case-ih-puma-130-cvx.html",
-      "model": "CASE IH PUMA 130 CVX",
-      "brand": "CASE IH",
-      "power": "130 ch",
-      "hours": "5450 h",
-      "price": "49 500,00 € HT",
-      "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-case-ih-puma-130-cvx-4781-1-2.jpg",
-      "characteristics": {
-        "Marque": "CASE IH",
-        "Modèle": "PUMA 130 CVX",
-        "État": "Occasion - Bon état",
-        "Année": "2012",
-        "Heures": "5450 h",
-        "Puissance": "130 ch",
-        "Roues motrices": "4 rm",
-        "Boîte de vitesses": "VARIATION CONTINUE",
-        "Dimension pneus avant": "480 70 28",
-        "Usure pneus avant": "35%",
-        "Dimension pneus arrière": "580 70 38",
-        "Usure pneus arrière": "35%"
       }
     },
     {
