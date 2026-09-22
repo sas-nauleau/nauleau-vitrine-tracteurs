@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-22T12:18:19Z",
-  "count": 180,
+  "updated_at": "2026-09-22T18:18:07Z",
+  "count": 177,
   "tractors": [
     {
       "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/11126-case-ih-cvx-1135.html",
@@ -2656,29 +2656,6 @@
       }
     },
     {
-      "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/10658-claas-celtis-446-plus.html",
-      "model": "CLAAS CELTIS 446 PLUS",
-      "brand": "CLAAS",
-      "power": "90 ch",
-      "hours": "6480 h",
-      "price": "29 500,00 € HT",
-      "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-claas-celtis-446-plus-4793-1.jpeg",
-      "characteristics": {
-        "Marque": "CLAAS",
-        "Modèle": "CELTIS 446 PLUS",
-        "État": "Occasion - Bon état",
-        "Année": "2007",
-        "Heures": "6480 h",
-        "Puissance": "90 ch",
-        "Roues motrices": "4 rm",
-        "Boîte de vitesses": "HI-LO",
-        "Dimension pneus avant": "13.6.24",
-        "Usure pneus avant": "20%",
-        "Dimension pneus arrière": "16.9.34",
-        "Usure pneus arrière": "20%"
-      }
-    },
-    {
       "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/10653-new-holland-t6150-ac.html",
       "model": "NEW HOLLAND T6.150 AUTO COMMAND",
       "brand": "NEW HOLLAND",
@@ -3119,29 +3096,6 @@
         "Dimension pneus arrière": "650 65 38",
         "Usure pneus arrière": "50%",
         "Vitesse maxi": "55 Km/h"
-      }
-    },
-    {
-      "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/10498-new-holland-tsa-115.html",
-      "model": "NEW HOLLAND TS115A",
-      "brand": "NEW HOLLAND",
-      "power": "115 ch",
-      "hours": "5400 h",
-      "price": "17 500,00 € HT",
-      "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-new-holland-tsa-115-ts115a-5968-1.jpg",
-      "characteristics": {
-        "Marque": "NEW HOLLAND",
-        "Modèle": "TS115A",
-        "État": "Occasion - Prévoir des réparations",
-        "Année": "2006",
-        "Heures": "5400 h",
-        "Puissance": "115 ch",
-        "Roues motrices": "4 rm",
-        "Boîte de vitesses": "SEMI POWERSHIFT",
-        "Dimension pneus avant": "420 70 28",
-        "Usure pneus avant": "70%",
-        "Dimension pneus arrière": "520 70 38",
-        "Usure pneus arrière": "35%"
       }
     },
     {
@@ -3721,29 +3675,6 @@
         "Dimension pneus arrière": "650 75 38",
         "Usure pneus arrière": "30%",
         "Vitesse maxi": "50 Km/h"
-      }
-    },
-    {
-      "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/10053-john-deere-6230-premium.html",
-      "model": "JOHN DEERE 6230 PREMIUM",
-      "brand": "JOHN DEERE",
-      "power": "100 ch",
-      "hours": "6470 h",
-      "price": "52 500,00 € HT",
-      "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-john-deere-6230-premium-5373-1.jpg",
-      "characteristics": {
-        "Marque": "JOHN DEERE",
-        "Modèle": "6230 PREMIUM",
-        "État": "Occasion - Bon état",
-        "Année": "2009",
-        "Heures": "6470 h",
-        "Puissance": "100 ch",
-        "Roues motrices": "4 rm",
-        "Boîte de vitesses": "SEMI POWERSHIFT",
-        "Dimension pneus avant": "340 85 28",
-        "Usure pneus avant": "10%",
-        "Dimension pneus arrière": "420 85 38",
-        "Usure pneus arrière": "10%"
       }
     },
     {
