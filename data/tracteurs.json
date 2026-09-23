@@ -1,7 +1,30 @@
 {
-  "updated_at": "2026-09-23T12:18:36Z",
-  "count": 175,
+  "updated_at": "2026-09-23T18:18:06Z",
+  "count": 176,
   "tractors": [
+    {
+      "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/11127-new-holland-t5100-ec.html",
+      "model": "NEW HOLLAND T5.100 EC",
+      "brand": "NEW HOLLAND",
+      "power": "100 ch",
+      "hours": "939 h",
+      "price": "49 500,00 € HT",
+      "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-new-holland-t5100-ec-6437-1-1.jpg",
+      "characteristics": {
+        "Marque": "NEW HOLLAND",
+        "Modèle": "T5.100 EC",
+        "État": "Occasion - Très bon état",
+        "Année": "2023",
+        "Heures": "939 h",
+        "Puissance": "100 ch",
+        "Roues motrices": "4 rm",
+        "Boîte de vitesses": "SEMI POWERSHIFT",
+        "Dimension pneus avant": "340 85 28",
+        "Usure pneus avant": "20%",
+        "Dimension pneus arrière": "420 85 38",
+        "Usure pneus arrière": "20%"
+      }
+    },
     {
       "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/11126-case-ih-cvx-1135.html",
       "model": "CASE IH CVX 1135",
