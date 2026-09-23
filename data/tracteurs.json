@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-23T06:18:37Z",
-  "count": 176,
+  "updated_at": "2026-09-23T12:18:36Z",
+  "count": 175,
   "tractors": [
     {
       "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/11126-case-ih-cvx-1135.html",
@@ -694,29 +694,6 @@
         "Dimension pneus arrière": "580 70 38",
         "Usure pneus arrière": "20%",
         "Vitesse maxi": "40 Km/h"
-      }
-    },
-    {
-      "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/11060-new-holland-t5-105-dc.html",
-      "model": "NEW HOLLAND T5 105 DC",
-      "brand": "NEW HOLLAND",
-      "power": "105 ch",
-      "hours": "2400 h",
-      "price": "45 000,00 € HT",
-      "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-new-holland-t5105-6471-1.jpg",
-      "characteristics": {
-        "Marque": "NEW HOLLAND",
-        "Modèle": "T5 105 DC",
-        "État": "Occasion - Très bon état",
-        "Année": "2021",
-        "Heures": "2400 h",
-        "Puissance": "105 ch",
-        "Roues motrices": "4 rm",
-        "Boîte de vitesses": "HI-LO",
-        "Dimension pneus avant": "13.6.24",
-        "Usure pneus avant": "PNEUS NEUFS",
-        "Dimension pneus arrière": "16.9.34",
-        "Usure pneus arrière": "40%"
       }
     },
     {
