@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-23T00:18:42Z",
-  "count": 177,
+  "updated_at": "2026-09-23T06:18:37Z",
+  "count": 176,
   "tractors": [
     {
       "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/11126-case-ih-cvx-1135.html",
@@ -2928,30 +2928,6 @@
         "Usure pneus avant": "50%",
         "Dimension pneus arrière": "650 65 38",
         "Usure pneus arrière": "60%"
-      }
-    },
-    {
-      "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/10542-john-deere-6120m.html",
-      "model": "JOHN DEERE 6120M",
-      "brand": "JOHN DEERE",
-      "power": "120 ch",
-      "hours": "2189 h",
-      "price": "74 500,00 € HT",
-      "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-john-deere-6120m-command-quad-5998-1.jpg",
-      "characteristics": {
-        "Marque": "JOHN DEERE",
-        "Modèle": "6120M",
-        "État": "Occasion - Très bon état",
-        "Année": "2021",
-        "Heures": "2189 h",
-        "Puissance": "120 ch",
-        "Roues motrices": "4 rm",
-        "Boîte de vitesses": "SEMI POWERSHIFT",
-        "Dimension pneus avant": "420 70 24",
-        "Usure pneus avant": "30%",
-        "Dimension pneus arrière": "520 70 38",
-        "Usure pneus arrière": "20%",
-        "Vitesse maxi": "42 Km/h"
       }
     },
     {
