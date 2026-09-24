@@ -1,7 +1,53 @@
 {
-  "updated_at": "2026-09-24T06:19:00Z",
-  "count": 176,
+  "updated_at": "2026-09-24T12:18:08Z",
+  "count": 178,
   "tractors": [
+    {
+      "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/11129-john-deere-6r115.html",
+      "model": "JOHN DEERE 6R115",
+      "brand": "JOHN DEERE",
+      "power": "115 ch",
+      "hours": "15000 h",
+      "price": "22 500,00 € HT",
+      "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-john-deere-6115r-6523-1.jpg",
+      "characteristics": {
+        "Marque": "JOHN DEERE",
+        "Modèle": "6R115",
+        "État": "Occasion - NC",
+        "Année": "2013",
+        "Heures": "15000 h",
+        "Puissance": "115 ch",
+        "Roues motrices": "4 rm",
+        "Boîte de vitesses": "SEMI POWERSHIFT",
+        "Dimension pneus avant": "480 70 24",
+        "Usure pneus avant": "50%",
+        "Dimension pneus arrière": "520 70 38",
+        "Usure pneus arrière": "50%"
+      }
+    },
+    {
+      "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/11128-same-iron-130-s.html",
+      "model": "SAME IRON 130 S",
+      "brand": "SAME",
+      "power": "130 ch",
+      "hours": "8600 h",
+      "price": "25 000,00 € HT",
+      "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-same-iron-130s-6550-1.jpg",
+      "characteristics": {
+        "Marque": "SAME",
+        "Modèle": "IRON 130 S",
+        "État": "Occasion - Bon état",
+        "Année": "2004",
+        "Heures": "8600 h",
+        "Puissance": "130 ch",
+        "Roues motrices": "4 rm",
+        "Boîte de vitesses": "SEMI POWERSHIFT",
+        "Dimension pneus avant": "480 710 28",
+        "Usure pneus avant": "50%",
+        "Dimension pneus arrière": "580 70 38",
+        "Usure pneus arrière": "50%"
+      }
+    },
     {
       "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/11127-new-holland-t5100-ec.html",
       "model": "NEW HOLLAND T5.100 EC",
