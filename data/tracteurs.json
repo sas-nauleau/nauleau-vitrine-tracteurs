@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-25T12:18:55Z",
-  "count": 178,
+  "updated_at": "2026-09-25T18:16:21Z",
+  "count": 179,
   "tractors": [
     {
       "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/11129-john-deere-6r115.html",
@@ -995,6 +995,29 @@
         "Dimension pneus avant": "340 85 24",
         "Usure pneus avant": "PNEUS NEUFS",
         "Dimension pneus arrière": "420 85 34",
+        "Usure pneus arrière": "50%"
+      }
+    },
+    {
+      "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/10994-massey-ferguson-6290-dynashift.html",
+      "model": "MASSEY FERGUSON 6290 DYNASHIFT",
+      "brand": "MASSEY FERGUSON",
+      "power": "135 ch",
+      "hours": "7400 h",
+      "price": "29 500,00 € HT",
+      "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-massey-ferguson-6290-dynashift-6433-1.jpg",
+      "characteristics": {
+        "Marque": "MASSEY FERGUSON",
+        "Modèle": "6290 DYNASHIFT",
+        "État": "Occasion - Très bon état",
+        "Année": "2003",
+        "Heures": "7400 h",
+        "Puissance": "135 ch",
+        "Roues motrices": "4 rm",
+        "Boîte de vitesses": "SEMI POWERSHIFT",
+        "Dimension pneus avant": "480 65 28",
+        "Usure pneus avant": "50%",
+        "Dimension pneus arrière": "600 65 38",
         "Usure pneus arrière": "50%"
       }
     },
@@ -2977,6 +3000,30 @@
       }
     },
     {
+      "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/10542-john-deere-6120m.html",
+      "model": "JOHN DEERE 6120M",
+      "brand": "JOHN DEERE",
+      "power": "120 ch",
+      "hours": "2189 h",
+      "price": "74 500,00 € HT",
+      "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-john-deere-6120m-command-quad-5998-1.jpg",
+      "characteristics": {
+        "Marque": "JOHN DEERE",
+        "Modèle": "6120M",
+        "État": "Occasion - Très bon état",
+        "Année": "2021",
+        "Heures": "2189 h",
+        "Puissance": "120 ch",
+        "Roues motrices": "4 rm",
+        "Boîte de vitesses": "SEMI POWERSHIFT",
+        "Dimension pneus avant": "420 70 24",
+        "Usure pneus avant": "30%",
+        "Dimension pneus arrière": "520 70 38",
+        "Usure pneus arrière": "20%",
+        "Vitesse maxi": "42 Km/h"
+      }
+    },
+    {
       "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/10530-deutz-agrotron-6165-rc-shift.html",
       "model": "DEUTZ-FAHR AGROTRON 6165 RC-SHIFT",
       "brand": "DEUTZ-FAHR",
@@ -3627,29 +3674,6 @@
         "Usure pneus avant": "15%",
         "Dimension pneus arrière": "650 75 38",
         "Usure pneus arrière": "10%"
-      }
-    },
-    {
-      "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/10106-john-deere-6190r.html",
-      "model": "JOHN DEERE 6190R AUTOPOWER",
-      "brand": "JOHN DEERE",
-      "power": "190 ch",
-      "hours": "5340 h",
-      "price": "80 000,00 € HT",
-      "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-john-deere-6190r-autopower-5603-1.jpg",
-      "characteristics": {
-        "Marque": "JOHN DEERE",
-        "Modèle": "6190R AUTOPOWER",
-        "État": "Occasion - Très bon état",
-        "Année": "2013",
-        "Heures": "5340 h",
-        "Puissance": "190 ch",
-        "Roues motrices": "4 rm",
-        "Boîte de vitesses": "VARIATION CONTINUE",
-        "Dimension pneus avant": "600 70 28",
-        "Usure pneus avant": "20%",
-        "Dimension pneus arrière": "650 85 38",
-        "Usure pneus arrière": "15%"
       }
     },
     {
