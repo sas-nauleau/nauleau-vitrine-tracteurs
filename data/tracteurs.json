@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-26T00:21:07Z",
-  "count": 178,
+  "updated_at": "2026-09-26T06:18:08Z",
+  "count": 179,
   "tractors": [
     {
       "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/11129-john-deere-6r115.html",
@@ -3165,6 +3165,29 @@
         "Dimension pneus arrière": "650 65 38",
         "Usure pneus arrière": "50%",
         "Vitesse maxi": "55 Km/h"
+      }
+    },
+    {
+      "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/10480-massey-ferguson-7626-dyna-6-exclusive.html",
+      "model": "MASSEY FERGUSON 7626 DYNA VT EXCLUSIVE",
+      "brand": "MASSEY FERGUSON",
+      "power": "260 ch",
+      "hours": "5150 h",
+      "price": "75 000,00 € HT",
+      "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-massey-ferguson-7626-dyna-6-exclusive-5932-1.jpg",
+      "characteristics": {
+        "Marque": "MASSEY FERGUSON",
+        "Modèle": "7626 DYNA VT EXCLUSIVE",
+        "État": "Occasion - Très bon état",
+        "Année": "2015",
+        "Heures": "5150 h",
+        "Puissance": "260 ch",
+        "Roues motrices": "4 rm",
+        "Boîte de vitesses": "FULL POWERSHIFT",
+        "Dimension pneus avant": "480 70 30",
+        "Usure pneus avant": "40%",
+        "Dimension pneus arrière": "620 70 42",
+        "Usure pneus arrière": "35%"
       }
     },
     {
