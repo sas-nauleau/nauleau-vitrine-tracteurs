@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-28T12:19:22Z",
-  "count": 179,
+  "updated_at": "2026-09-28T18:17:54Z",
+  "count": 178,
   "tractors": [
     {
       "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/11131-fendt-favorit-714-vario.html",
@@ -1694,29 +1694,6 @@
         "Usure pneus avant": "15%",
         "Dimension pneus arrière": "650 75 38",
         "Usure pneus arrière": "15%"
-      }
-    },
-    {
-      "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/10838-john-deere-7530-premium.html",
-      "model": "JOHN DEERE 7530 PREMIUM",
-      "brand": "JOHN DEERE",
-      "power": "185 ch",
-      "hours": "10300 h",
-      "price": "40 000,00 € HT",
-      "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-john-deere-7530-premium-6005-1.jpg",
-      "characteristics": {
-        "Marque": "JOHN DEERE",
-        "Modèle": "7530 PREMIUM",
-        "État": "Occasion - Bon état",
-        "Année": "2008",
-        "Heures": "10300 h",
-        "Puissance": "185 ch",
-        "Roues motrices": "4 rm",
-        "Boîte de vitesses": "VARIATION CONTINUE",
-        "Dimension pneus avant": "600 65 28",
-        "Usure pneus avant": "50%",
-        "Dimension pneus arrière": "650 75 38",
-        "Usure pneus arrière": "35%"
       }
     },
     {
