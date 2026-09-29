@@ -1,7 +1,53 @@
 {
-  "updated_at": "2026-09-29T06:18:31Z",
-  "count": 178,
+  "updated_at": "2026-09-29T12:19:30Z",
+  "count": 180,
   "tractors": [
+    {
+      "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/11134-john-deere-6175m.html",
+      "model": "JOHN DEERE 6175M",
+      "brand": "JOHN DEERE",
+      "power": "175 ch",
+      "hours": "4200 h",
+      "price": "78 000,00 € HT",
+      "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-john-deere-6175m-4892-1-2.jpg",
+      "characteristics": {
+        "Marque": "JOHN DEERE",
+        "Modèle": "6175M",
+        "État": "Occasion - Très bon état",
+        "Année": "2017",
+        "Heures": "4200 h",
+        "Puissance": "175 ch",
+        "Roues motrices": "4 rm",
+        "Boîte de vitesses": "SEMI POWERSHIFT",
+        "Dimension pneus avant": "540 65 30",
+        "Usure pneus avant": "30%",
+        "Dimension pneus arrière": "650 65 42",
+        "Usure pneus arrière": "30%"
+      }
+    },
+    {
+      "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/11133-new-holland-t7210.html",
+      "model": "NEW HOLLAND T7.210",
+      "brand": "NEW HOLLAND",
+      "power": "160 ch",
+      "hours": "12000 h",
+      "price": "30 000,00 € HT",
+      "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-new-holland-t7210-6498-1-1.jpg",
+      "characteristics": {
+        "Marque": "NEW HOLLAND",
+        "Modèle": "T7.210",
+        "État": "Occasion - État moyen",
+        "Année": "2013",
+        "Heures": "12000 h",
+        "Puissance": "160 ch",
+        "Roues motrices": "4 rm",
+        "Boîte de vitesses": "FULL POWERSHIFT",
+        "Dimension pneus avant": "480 70 30",
+        "Usure pneus avant": "50%",
+        "Dimension pneus arrière": "620 70 42",
+        "Usure pneus arrière": "70%"
+      }
+    },
     {
       "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/11131-fendt-favorit-714-vario.html",
       "model": "FENDT FAVORIT 714 VARIO",
@@ -54,13 +100,13 @@
       "brand": "JOHN DEERE",
       "power": "115 ch",
       "hours": "15000 h",
-      "price": "22 500,00 € HT",
+      "price": "22 000,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-john-deere-6115r-6523-1.jpg",
       "characteristics": {
         "Marque": "JOHN DEERE",
         "Modèle": "6115R",
         "État": "Occasion - NC",
-        "Année": "2013",
+        "Année": "2014",
         "Heures": "15000 h",
         "Puissance": "115 ch",
         "Roues motrices": "4 rm",
