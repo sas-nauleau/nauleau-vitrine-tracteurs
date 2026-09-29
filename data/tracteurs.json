@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-29T12:19:30Z",
-  "count": 180,
+  "updated_at": "2026-09-29T18:18:37Z",
+  "count": 179,
   "tractors": [
     {
       "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/11134-john-deere-6175m.html",
@@ -878,30 +878,6 @@
         "Usure pneus avant": "50%",
         "Dimension pneus arrière": "380 70 24",
         "Usure pneus arrière": "20%"
-      }
-    },
-    {
-      "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/11048-john-deere-6r120.html",
-      "model": "JOHN DEERE 6R120",
-      "brand": "JOHN DEERE",
-      "power": "120 ch",
-      "hours": "590 h",
-      "price": null,
-      "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-john-deere-6120r-6460-1.jpg",
-      "characteristics": {
-        "Marque": "JOHN DEERE",
-        "Modèle": "6R120",
-        "État": "Occasion - Très bon état",
-        "Année": "2024",
-        "Heures": "590 h",
-        "Puissance": "120 ch",
-        "Roues motrices": "4 rm",
-        "Boîte de vitesses": "SEMI POWERSHIFT",
-        "Dimension pneus avant": "480 70 24",
-        "Usure pneus avant": "15%",
-        "Dimension pneus arrière": "520 70 38",
-        "Usure pneus arrière": "15%",
-        "Vitesse maxi": "50 Km/h"
       }
     },
     {
