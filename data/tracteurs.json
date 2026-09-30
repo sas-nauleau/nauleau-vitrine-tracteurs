@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-30T12:20:09Z",
-  "count": 179,
+  "updated_at": "2026-09-30T18:17:47Z",
+  "count": 176,
   "tractors": [
     {
       "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/11134-john-deere-6175m.html",
@@ -92,29 +92,6 @@
         "Usure pneus avant": "PNEUS NEUFS",
         "Dimension pneus arrière": "650 75 38",
         "Usure pneus arrière": "PNEUS NEUFS"
-      }
-    },
-    {
-      "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/11129-john-deere-6115r.html",
-      "model": "JOHN DEERE 6115R",
-      "brand": "JOHN DEERE",
-      "power": "115 ch",
-      "hours": "15000 h",
-      "price": "22 000,00 € HT",
-      "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-john-deere-6115r-6523-1.jpg",
-      "characteristics": {
-        "Marque": "JOHN DEERE",
-        "Modèle": "6115R",
-        "État": "Occasion - NC",
-        "Année": "2014",
-        "Heures": "15000 h",
-        "Puissance": "115 ch",
-        "Roues motrices": "4 rm",
-        "Boîte de vitesses": "SEMI POWERSHIFT",
-        "Dimension pneus avant": "480 70 24",
-        "Usure pneus avant": "50%",
-        "Dimension pneus arrière": "520 70 38",
-        "Usure pneus arrière": "50%"
       }
     },
     {
@@ -737,29 +714,6 @@
         "Usure pneus avant": "PNEUS NEUFS",
         "Dimension pneus arrière": "480 70 34",
         "Usure pneus arrière": "5%"
-      }
-    },
-    {
-      "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/11074-john-deere-6530-premium.html",
-      "model": "JOHN DEERE 6530 PREMIUM",
-      "brand": "JOHN DEERE",
-      "power": "125 ch",
-      "hours": "10250 h",
-      "price": "36 500,00 € HT",
-      "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-john-deere-6530-premium-6392-1.jpg",
-      "characteristics": {
-        "Marque": "JOHN DEERE",
-        "Modèle": "6530 PREMIUM",
-        "État": "Occasion - Bon état",
-        "Année": "2009",
-        "Heures": "10250 h",
-        "Puissance": "125 ch",
-        "Roues motrices": "4 rm",
-        "Boîte de vitesses": "SEMI POWERSHIFT",
-        "Dimension pneus avant": "420 85 28",
-        "Usure pneus avant": "70%",
-        "Dimension pneus arrière": "520 85 38",
-        "Usure pneus arrière": "40%"
       }
     },
     {
@@ -3579,29 +3533,6 @@
         "Usure pneus avant": "35%",
         "Dimension pneus arrière": "520 70 38",
         "Usure pneus arrière": "30%"
-      }
-    },
-    {
-      "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/10235-case-ih-vestrum-120-cvx.html",
-      "model": "CASE IH VESTRUM 120 CVX",
-      "brand": "CASE IH",
-      "power": "120 ch",
-      "hours": "680 h",
-      "price": "82 500,00 € HT",
-      "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-case-ih-vestrum-120-cvx-5354-1.jpg",
-      "characteristics": {
-        "Marque": "CASE IH",
-        "Modèle": "VESTRUM 120 CVX",
-        "État": "Occasion - Très bon état",
-        "Année": "2022",
-        "Heures": "680 h",
-        "Puissance": "120 ch",
-        "Roues motrices": "4 rm",
-        "Boîte de vitesses": "VARIATION CONTINUE",
-        "Dimension pneus avant": "440 65 28",
-        "Usure pneus avant": "10%",
-        "Dimension pneus arrière": "540 65 38",
-        "Usure pneus arrière": "5%"
       }
     },
     {
