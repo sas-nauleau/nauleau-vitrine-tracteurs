@@ -1,7 +1,53 @@
 {
-  "updated_at": "2026-10-01T06:20:52Z",
-  "count": 176,
+  "updated_at": "2026-10-01T12:20:42Z",
+  "count": 178,
   "tractors": [
+    {
+      "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/11139-case-ih-luxxum-110.html",
+      "model": "CASE IH LUXXUM 110",
+      "brand": "CASE IH",
+      "power": "110 ch",
+      "hours": "3600 h",
+      "price": "45 000,00 € HT",
+      "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-case-ih-luxxum-110-5783-1.jpg",
+      "characteristics": {
+        "Marque": "CASE IH",
+        "Modèle": "LUXXUM 110",
+        "État": "Occasion - Très bon état",
+        "Année": "2019",
+        "Heures": "3600 h",
+        "Puissance": "110 ch",
+        "Roues motrices": "4 rm",
+        "Boîte de vitesses": "SEMI POWERSHIFT",
+        "Dimension pneus avant": "340 85 28",
+        "Usure pneus avant": "50%",
+        "Dimension pneus arrière": "420 85 38",
+        "Usure pneus arrière": "50%"
+      }
+    },
+    {
+      "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/11138-claas-axos-330-cx.html",
+      "model": "CLAAS AXOS 330 CX",
+      "brand": "CLAAS",
+      "power": "85 ch",
+      "hours": "4600 h",
+      "price": "39 500,00 € HT",
+      "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-claas-axos-330-cx-6536-1.jpg",
+      "characteristics": {
+        "Marque": "CLAAS",
+        "Modèle": "AXOS 330 CX",
+        "État": "Occasion - Très bon état",
+        "Année": "2014",
+        "Heures": "4600 h",
+        "Puissance": "85 ch",
+        "Roues motrices": "4 rm",
+        "Boîte de vitesses": "HI-LO",
+        "Dimension pneus avant": "340 85 24",
+        "Usure pneus avant": "20%",
+        "Dimension pneus arrière": "420 85 34",
+        "Usure pneus arrière": "20%"
+      }
+    },
     {
       "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/11134-john-deere-6175m.html",
       "model": "JOHN DEERE 6175M",
