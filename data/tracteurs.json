@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-01T12:20:42Z",
-  "count": 178,
+  "updated_at": "2026-10-01T18:19:50Z",
+  "count": 177,
   "tractors": [
     {
       "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/11139-case-ih-luxxum-110.html",
@@ -644,29 +644,6 @@
         "Usure pneus avant": "40%",
         "Dimension pneus arrière": "520 85 38",
         "Usure pneus arrière": "40%"
-      }
-    },
-    {
-      "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/11084-john-deere-6110r.html",
-      "model": "JOHN DEERE 6110R",
-      "brand": "JOHN DEERE",
-      "power": "110 ch",
-      "hours": "11800 h",
-      "price": "35 000,00 € HT",
-      "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-john-deere-6110r-6502-1.jpg",
-      "characteristics": {
-        "Marque": "JOHN DEERE",
-        "Modèle": "6110R",
-        "État": "Occasion - Bon état",
-        "Année": "2017",
-        "Heures": "11800 h",
-        "Puissance": "110 ch",
-        "Roues motrices": "4 rm",
-        "Boîte de vitesses": "VARIATION CONTINUE",
-        "Dimension pneus avant": "14.9.28",
-        "Usure pneus avant": "80%",
-        "Dimension pneus arrière": "18.4.38",
-        "Usure pneus arrière": "60%"
       }
     },
     {
