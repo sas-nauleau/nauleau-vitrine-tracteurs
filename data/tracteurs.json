@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-02T12:19:14Z",
-  "count": 177,
+  "updated_at": "2026-10-02T18:19:31Z",
+  "count": 176,
   "tractors": [
     {
       "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/11139-case-ih-luxxum-110.html",
@@ -574,29 +574,6 @@
         "Dimension pneus avant": "420 85 24",
         "Usure pneus avant": "65%",
         "Dimension pneus arrière": "420 85 38",
-        "Usure pneus arrière": "60%"
-      }
-    },
-    {
-      "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/11089-deutz-agrotron-k420.html",
-      "model": "DEUTZ-FAHR K420",
-      "brand": "DEUTZ-FAHR",
-      "power": "110 ch",
-      "hours": "8220 h",
-      "price": "27 500,00 € HT",
-      "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-deutz-agrotron-k420-6478-1.jpg",
-      "characteristics": {
-        "Marque": "DEUTZ-FAHR",
-        "Modèle": "K420",
-        "État": "Occasion - Bon état",
-        "Année": "2013",
-        "Heures": "8220 h",
-        "Puissance": "110 ch",
-        "Roues motrices": "4 rm",
-        "Boîte de vitesses": "SEMI POWERSHIFT",
-        "Dimension pneus avant": "320 90 32",
-        "Usure pneus avant": "85%",
-        "Dimension pneus arrière": "340 85 46",
         "Usure pneus arrière": "60%"
       }
     },
