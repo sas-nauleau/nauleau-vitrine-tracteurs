@@ -1,7 +1,55 @@
 {
-  "updated_at": "2026-10-05T06:23:04Z",
+  "updated_at": "2026-10-05T12:20:54Z",
   "count": 176,
   "tractors": [
+    {
+      "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/11143-john-deere-6195r.html",
+      "model": "JOHN DEERE 6195R",
+      "brand": "JOHN DEERE",
+      "power": "195 ch",
+      "hours": "5100 h",
+      "price": "92 500,00 € HT",
+      "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-john-deere-6195r-6573-1.jpg",
+      "characteristics": {
+        "Marque": "JOHN DEERE",
+        "Modèle": "6195R",
+        "État": "Occasion - Très bon état",
+        "Année": "2017",
+        "Heures": "5100 h",
+        "Puissance": "195 ch",
+        "Roues motrices": "4 rm",
+        "Boîte de vitesses": "VARIATION CONTINUE",
+        "Dimension pneus avant": "540 65 30",
+        "Usure pneus avant": "40%",
+        "Dimension pneus arrière": "650 65 42",
+        "Usure pneus arrière": "30%",
+        "Vitesse maxi": "50 Km/h"
+      }
+    },
+    {
+      "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/11142-massey-ferguson-8s225-dyna-vt.html",
+      "model": "MASSEY FERGUSON 8S225 DYNA VT",
+      "brand": "MASSEY FERGUSON",
+      "power": "230 ch",
+      "hours": "1350 h",
+      "price": "125 000,00 € HT",
+      "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-massey-ferguson-8s225-dyna-vt-6569-1.jpg",
+      "characteristics": {
+        "Marque": "MASSEY FERGUSON",
+        "Modèle": "8S225 DYNA VT",
+        "État": "Occasion - Très bon état",
+        "Année": "2022",
+        "Heures": "1350 h",
+        "Puissance": "230 ch",
+        "Roues motrices": "4 rm",
+        "Boîte de vitesses": "VARIATION CONTINUE",
+        "Dimension pneus avant": "600 70 30",
+        "Usure pneus avant": "15%",
+        "Dimension pneus arrière": "710 70 42",
+        "Usure pneus arrière": "15%",
+        "Vitesse maxi": "53 Km/h"
+      }
+    },
     {
       "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/11139-case-ih-luxxum-110.html",
       "model": "CASE IH LUXXUM 110",
@@ -393,29 +441,6 @@
       }
     },
     {
-      "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/11107-case-ih-maxxum-cvx-110.html",
-      "model": "CASE IH MAXXUM CVX 110",
-      "brand": "CASE IH",
-      "power": "110 ch",
-      "hours": "4750 h",
-      "price": "50 000,00 € HT",
-      "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-case-ih-maxxum-110-6520-1.jpg",
-      "characteristics": {
-        "Marque": "CASE IH",
-        "Modèle": "MAXXUM CVX 110",
-        "État": "Occasion - Bon état",
-        "Année": "2014",
-        "Heures": "4750 h",
-        "Puissance": "110 ch",
-        "Roues motrices": "4 rm",
-        "Boîte de vitesses": "VARIATION CONTINUE",
-        "Dimension pneus avant": "420 70 28",
-        "Usure pneus avant": "PNEUS NEUFS",
-        "Dimension pneus arrière": "520 70 38",
-        "Usure pneus arrière": "PNEUS NEUFS"
-      }
-    },
-    {
       "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/11106-fendt-718-profi.html",
       "model": "FENDT 718 PROFI",
       "brand": "FENDT",
@@ -436,29 +461,6 @@
         "Usure pneus avant": "PNEUS NEUFS",
         "Dimension pneus arrière": "650 65 42",
         "Usure pneus arrière": "60%"
-      }
-    },
-    {
-      "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/11105-case-ih-mx-170.html",
-      "model": "CASE IH MX 170",
-      "brand": "CASE IH",
-      "power": "170 ch",
-      "hours": "9850 h",
-      "price": "32 500,00 € HT",
-      "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-case-ih-mx170-6528-1.jpg",
-      "characteristics": {
-        "Marque": "CASE IH",
-        "Modèle": "MX 170",
-        "État": "Occasion - Bon état",
-        "Année": "2002",
-        "Heures": "9850 h",
-        "Puissance": "170 ch",
-        "Roues motrices": "4 rm",
-        "Boîte de vitesses": "SEMI POWERSHIFT",
-        "Dimension pneus avant": "540 65 30",
-        "Usure pneus avant": "35%",
-        "Dimension pneus arrière": "650 65 42",
-        "Usure pneus arrière": "35%"
       }
     },
     {
