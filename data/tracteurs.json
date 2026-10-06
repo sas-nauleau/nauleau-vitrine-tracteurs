@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-06T12:18:22Z",
-  "count": 176,
+  "updated_at": "2026-10-06T18:17:03Z",
+  "count": 175,
   "tractors": [
     {
       "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/11145-case-ih-farmall-95.html",
@@ -1955,29 +1955,6 @@
       }
     },
     {
-      "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/10772-deutz-agrotron-210.html",
-      "model": "DEUTZ-FAHR AGROTRON 210",
-      "brand": "DEUTZ-FAHR",
-      "power": "210 ch",
-      "hours": "7450 h",
-      "price": "29 500,00 € HT",
-      "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-deutz-agrotron-210-6208-1.jpeg",
-      "characteristics": {
-        "Marque": "DEUTZ-FAHR",
-        "Modèle": "AGROTRON 210",
-        "État": "Occasion - Bon état",
-        "Année": "2004",
-        "Heures": "7450 h",
-        "Puissance": "210 ch",
-        "Roues motrices": "4 rm",
-        "Boîte de vitesses": "SEMI POWERSHIFT",
-        "Dimension pneus avant": "600 65 30",
-        "Usure pneus avant": "70%",
-        "Dimension pneus arrière": "650 65 42",
-        "Usure pneus arrière": "70%"
-      }
-    },
-    {
       "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/10769-ford-4600.html",
       "model": "FORD 4600",
       "brand": "FORD",
@@ -3126,7 +3103,7 @@
       "power": "160 ch",
       "hours": "3195 h",
       "price": "98 500,00 € HT",
-      "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-fendt-716-s4-power-5959-1.jpg",
+      "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-fendt-716-5959-1.jpg",
       "characteristics": {
         "Marque": "FENDT",
         "Modèle": "716 S4 POWER",
