@@ -1,7 +1,30 @@
 {
-  "updated_at": "2026-10-06T06:19:24Z",
+  "updated_at": "2026-10-06T12:18:22Z",
   "count": 176,
   "tractors": [
+    {
+      "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/11145-case-ih-farmall-95.html",
+      "model": "CASE IH FARMALL 95",
+      "brand": "CASE IH",
+      "power": "95 ch",
+      "hours": "9400 h",
+      "price": "24 500,00 € HT",
+      "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-case-ih-farmall-95-6576-1.jpg",
+      "characteristics": {
+        "Marque": "CASE IH",
+        "Modèle": "FARMALL 95",
+        "État": "Occasion - Bon état",
+        "Année": "2019",
+        "Heures": "9400 h",
+        "Puissance": "95 ch",
+        "Roues motrices": "4 rm",
+        "Boîte de vitesses": "HI-LO",
+        "Dimension pneus avant": "13.6.24",
+        "Usure pneus avant": "70%",
+        "Dimension pneus arrière": "16.9.34",
+        "Usure pneus arrière": "70%"
+      }
+    },
     {
       "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/11143-john-deere-6195r.html",
       "model": "JOHN DEERE 6195R",
@@ -512,7 +535,7 @@
     },
     {
       "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/11100-john-deere-6930-premium.html",
-      "model": "JOHN DEERE 690 PREMIUM",
+      "model": "JOHN DEERE 6930 PREMIUM",
       "brand": "JOHN DEERE",
       "power": "165 ch",
       "hours": "8160 h",
@@ -520,7 +543,7 @@
       "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-john-deere-6930-6364-1.jpg",
       "characteristics": {
         "Marque": "JOHN DEERE",
-        "Modèle": "690 PREMIUM",
+        "Modèle": "6930 PREMIUM",
         "État": "Occasion - Très bon état",
         "Année": "2008",
         "Heures": "8160 h",
@@ -857,30 +880,6 @@
         "Usure pneus avant": "NEUFS",
         "Dimension pneus arrière": "460 85 38",
         "Usure pneus arrière": "NEUFS"
-      }
-    },
-    {
-      "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/11028-john-deere-6145r.html",
-      "model": "JOHN DEERE 6145R",
-      "brand": "JOHN DEERE",
-      "power": "150 ch",
-      "hours": "4320 h",
-      "price": "72 000,00 € HT",
-      "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-john-deere-6145r-6482-1.jpg",
-      "characteristics": {
-        "Marque": "JOHN DEERE",
-        "Modèle": "6145R",
-        "État": "Occasion - Très bon état",
-        "Année": "2015",
-        "Heures": "4320 h",
-        "Puissance": "150 ch",
-        "Roues motrices": "4 rm",
-        "Boîte de vitesses": "SEMI POWERSHIFT",
-        "Dimension pneus avant": "480 70 28",
-        "Usure pneus avant": "40%",
-        "Dimension pneus arrière": "580 70 38",
-        "Usure pneus arrière": "40%",
-        "Vitesse maxi": "42 Km/h"
       }
     },
     {
@@ -2890,7 +2889,7 @@
       "brand": "JOHN DEERE",
       "power": "160 ch",
       "hours": "7750 h",
-      "price": "52 500,00 € HT",
+      "price": "49 500,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-john-deere-6930-premium-power-quad-5930-1.jpg",
       "characteristics": {
         "Marque": "JOHN DEERE",
