@@ -1,7 +1,30 @@
 {
-  "updated_at": "2026-10-08T00:21:01Z",
-  "count": 176,
+  "updated_at": "2026-10-08T06:20:53Z",
+  "count": 177,
   "tractors": [
+    {
+      "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/11149-fendt-312-vario-tms.html",
+      "model": "FENDT 312 VARIO TMS",
+      "brand": "FENDT",
+      "power": "120 ch",
+      "hours": "5090 h",
+      "price": "58 500,00 € HT",
+      "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-fendt-312-vario-6591-1.jpg",
+      "characteristics": {
+        "Marque": "FENDT",
+        "Modèle": "312 VARIO TMS",
+        "État": "Occasion - Très bon état",
+        "Année": "2011",
+        "Heures": "5090 h",
+        "Puissance": "120 ch",
+        "Roues motrices": "4 rm",
+        "Boîte de vitesses": "VARIATION CONTINUE",
+        "Dimension pneus avant": "14.9.24",
+        "Usure pneus avant": "60%",
+        "Dimension pneus arrière": "480 70 38",
+        "Usure pneus arrière": "50%"
+      }
+    },
     {
       "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/11148-renault-ares-620-rz.html",
       "model": "RENAULT ARES 620 RZ",
