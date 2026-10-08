@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-08T06:20:53Z",
-  "count": 177,
+  "updated_at": "2026-10-08T12:20:01Z",
+  "count": 175,
   "tractors": [
     {
       "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/11149-fendt-312-vario-tms.html",
@@ -1533,30 +1533,6 @@
       }
     },
     {
-      "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/10896-fastrac-4220.html",
-      "model": "JCB FASTRAC 4220",
-      "brand": "JCB",
-      "power": "220 ch",
-      "hours": "3250 h",
-      "price": null,
-      "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-jcb-fastrac-4220-6349-1.jpg",
-      "characteristics": {
-        "Marque": "JCB",
-        "Modèle": "FASTRAC 4220",
-        "État": "Occasion - Très bon état",
-        "Année": "2020",
-        "Heures": "3250 h",
-        "Puissance": "220 ch",
-        "Roues motrices": "4 rm",
-        "Boîte de vitesses": "VARIATION CONTINUE",
-        "Dimension pneus avant": "600 70 30",
-        "Usure pneus avant": "60%",
-        "Dimension pneus arrière": "60 70 30",
-        "Usure pneus arrière": "60%",
-        "Vitesse maxi": "62 Km/h"
-      }
-    },
-    {
       "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/10895-valtra-t152-versu.html",
       "model": "VALTRA T152 VERSU",
       "brand": "VALTRA",
@@ -1601,30 +1577,6 @@
         "Dimension pneus arrière": "460 85 38",
         "Usure pneus arrière": "30%",
         "Vitesse maxi": "40 Km/h"
-      }
-    },
-    {
-      "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/10885-claas-arion-650-cmatic-cebis.html",
-      "model": "CLAAS ARION 650 CMATIC CEBIS",
-      "brand": "CLAAS",
-      "power": "185 ch",
-      "hours": "2698 h",
-      "price": "97 500,00 € HT",
-      "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-claas-arion-650-cmatic-cebis-6335-1.jpg",
-      "characteristics": {
-        "Marque": "CLAAS",
-        "Modèle": "ARION 650 CMATIC CEBIS",
-        "État": "Occasion - Très bon état",
-        "Année": "2021",
-        "Heures": "2698 h",
-        "Puissance": "185 ch",
-        "Roues motrices": "4 rm",
-        "Boîte de vitesses": "VARIATION CONTINUE",
-        "Dimension pneus avant": "540 65 30",
-        "Usure pneus avant": "35%",
-        "Dimension pneus arrière": "650 65 42",
-        "Usure pneus arrière": "35%",
-        "Vitesse maxi": "50 Km/h"
       }
     },
     {
