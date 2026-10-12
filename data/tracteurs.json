@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-12T12:26:52Z",
-  "count": 173,
+  "updated_at": "2026-10-12T18:17:13Z",
+  "count": 172,
   "tractors": [
     {
       "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/11149-fendt-312-vario-tms.html",
@@ -669,29 +669,6 @@
         "Usure pneus avant": "30%",
         "Dimension pneus arrière": "420 85 38",
         "Usure pneus arrière": "35%"
-      }
-    },
-    {
-      "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/11086-massey-ferguson-6480-dyna-6.html",
-      "model": "MASSEY FERGUSON 6480 DYNA 6",
-      "brand": "MASSEY FERGUSON",
-      "power": "160 ch",
-      "hours": "8660 h",
-      "price": "30 000,00 € HT",
-      "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-massey-ferguson-6480-dyna-6-6481-1.jpg",
-      "characteristics": {
-        "Marque": "MASSEY FERGUSON",
-        "Modèle": "6480 DYNA 6",
-        "État": "Occasion - Bon état",
-        "Année": "2008",
-        "Heures": "8660 h",
-        "Puissance": "160 ch",
-        "Roues motrices": "4 rm",
-        "Boîte de vitesses": "SEMI POWERSHIFT",
-        "Dimension pneus avant": "420 85 28",
-        "Usure pneus avant": "40%",
-        "Dimension pneus arrière": "520 85 38",
-        "Usure pneus arrière": "40%"
       }
     },
     {
@@ -1840,7 +1817,7 @@
       "brand": "MASSEY FERGUSON",
       "power": "305 ch",
       "hours": "1760 h",
-      "price": "155 000,00 € HT",
+      "price": "149 500,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-massey-ferguson-8s305-dyna-vt-6250-1.jpg",
       "characteristics": {
         "Marque": "MASSEY FERGUSON",
