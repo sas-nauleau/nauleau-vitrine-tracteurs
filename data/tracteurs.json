@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-12T00:23:28Z",
-  "count": 174,
+  "updated_at": "2026-10-12T06:23:30Z",
+  "count": 173,
   "tractors": [
     {
       "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/11149-fendt-312-vario-tms.html",
@@ -2043,30 +2043,6 @@
         "Usure pneus avant": "70%",
         "Dimension pneus arrière": "520 70 38",
         "Usure pneus arrière": "70%"
-      }
-    },
-    {
-      "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/10750-deutz-agrotron-6215.html",
-      "model": "DEUTZ-FAHR AGROTRON 6215",
-      "brand": "DEUTZ-FAHR",
-      "power": "215 ch",
-      "hours": "3620 h",
-      "price": "69 500,00 € HT",
-      "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-deutz-agrotron-6215-6187-1.jpeg",
-      "characteristics": {
-        "Marque": "DEUTZ-FAHR",
-        "Modèle": "AGROTRON 6215",
-        "État": "Occasion - Très bon état",
-        "Année": "2021",
-        "Heures": "3620 h",
-        "Puissance": "215 ch",
-        "Roues motrices": "4 rm",
-        "Boîte de vitesses": "SEMI POWERSHIFT",
-        "Dimension pneus avant": "600 60 30",
-        "Usure pneus avant": "30%",
-        "Dimension pneus arrière": "710 60 42",
-        "Usure pneus arrière": "40%",
-        "Vitesse maxi": "40 Km/h"
       }
     },
     {
