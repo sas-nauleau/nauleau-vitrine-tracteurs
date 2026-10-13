@@ -1,7 +1,101 @@
 {
-  "updated_at": "2026-10-13T06:22:19Z",
-  "count": 172,
+  "updated_at": "2026-10-13T12:22:46Z",
+  "count": 176,
   "tractors": [
+    {
+      "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/11156-fendt-722-power.html",
+      "model": "FENDT 722 POWER",
+      "brand": "FENDT",
+      "power": "220 ch",
+      "hours": "2998 h",
+      "price": "112 500,00 € HT",
+      "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-fendt-722-power-6602-1.jpg",
+      "characteristics": {
+        "Marque": "FENDT",
+        "Modèle": "722 POWER",
+        "État": "Occasion - Très bon état",
+        "Année": "2022",
+        "Heures": "2998 h",
+        "Puissance": "220 ch",
+        "Roues motrices": "4 rm",
+        "Boîte de vitesses": "VARIATION CONTINUE",
+        "Dimension pneus avant": "540 65 30",
+        "Usure pneus avant": "70%",
+        "Dimension pneus arrière": "650 65 42",
+        "Usure pneus arrière": "70%",
+        "Vitesse maxi": "55 Km/h"
+      }
+    },
+    {
+      "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/11155-same-laser-100.html",
+      "model": "SAME LASER 100",
+      "brand": "SAME",
+      "power": "100 ch",
+      "hours": "8100 h",
+      "price": "7 900,00 € HT",
+      "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-same-laser-100v-6562-1.jpg",
+      "characteristics": {
+        "Marque": "SAME",
+        "Modèle": "LASER 100",
+        "État": "Occasion - État moyen",
+        "Année": "1991",
+        "Heures": "8100 h",
+        "Puissance": "100 ch",
+        "Roues motrices": "2 rm",
+        "Boîte de vitesses": "MECANIQUE",
+        "Dimension pneus avant": "10.00-16",
+        "Usure pneus avant": "75%",
+        "Dimension pneus arrière": "460 85 38",
+        "Usure pneus arrière": "50%",
+        "Vitesse maxi": "25 Km/h"
+      }
+    },
+    {
+      "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/11154-claas-arion-610-cis.html",
+      "model": "CLAAS ARION 610 CIS",
+      "brand": "CLAAS",
+      "power": "145 ch",
+      "hours": "6460 h",
+      "price": "49 500,00 € HT",
+      "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-claas-arion-610-6565-1.jpg",
+      "characteristics": {
+        "Marque": "CLAAS",
+        "Modèle": "ARION 610 CIS",
+        "État": "Occasion - Très bon état",
+        "Année": "2018",
+        "Heures": "6460 h",
+        "Puissance": "145 ch",
+        "Roues motrices": "4 rm",
+        "Boîte de vitesses": "FULL POWERSHIFT",
+        "Dimension pneus avant": "420 85 28",
+        "Usure pneus avant": "30%",
+        "Dimension pneus arrière": "520 85 38",
+        "Usure pneus arrière": "30%"
+      }
+    },
+    {
+      "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/11153-deutz-5105.html",
+      "model": "DEUTZ-FAHR 5105",
+      "brand": "DEUTZ-FAHR",
+      "power": "100 ch",
+      "hours": "4850 h",
+      "price": "22 500,00 € HT",
+      "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-deutz-5105-6469-1.jpg",
+      "characteristics": {
+        "Marque": "DEUTZ-FAHR",
+        "Modèle": "5105",
+        "État": "Occasion - Bon état",
+        "Année": "2018",
+        "Heures": "4850 h",
+        "Puissance": "100 ch",
+        "Roues motrices": "4 rm",
+        "Boîte de vitesses": "MECANIQUE",
+        "Dimension pneus avant": "360 70 20",
+        "Usure pneus avant": "70%",
+        "Dimension pneus arrière": "420 70 28",
+        "Usure pneus arrière": "50%"
+      }
+    },
     {
       "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/11149-fendt-312-vario-tms.html",
       "model": "FENDT 312 VARIO TMS",
