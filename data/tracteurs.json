@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-14T12:33:07Z",
-  "count": 181,
+  "updated_at": "2026-10-14T18:31:52Z",
+  "count": 180,
   "tractors": [
     {
       "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/11161-fendt-933-profi-plus.html",
@@ -513,29 +513,6 @@
         "Usure pneus avant": "20%",
         "Dimension pneus arrière": "420 85 38",
         "Usure pneus arrière": "20%"
-      }
-    },
-    {
-      "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/11126-case-ih-cvx-1135.html",
-      "model": "CASE IH CVX 1135",
-      "brand": "CASE IH",
-      "power": "135 ch",
-      "hours": "8200 h",
-      "price": "25 000,00 € HT",
-      "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-case-ih-cvx-1135-6494-1.jpg",
-      "characteristics": {
-        "Marque": "CASE IH",
-        "Modèle": "CVX 1135",
-        "État": "Occasion - Bon état",
-        "Année": "2005",
-        "Heures": "8200 h",
-        "Puissance": "135 ch",
-        "Roues motrices": "4 rm",
-        "Boîte de vitesses": "VARIATION CONTINUE",
-        "Dimension pneus avant": "540 65 28",
-        "Usure pneus avant": "15%",
-        "Dimension pneus arrière": "650 65 38",
-        "Usure pneus arrière": "15%"
       }
     },
     {
