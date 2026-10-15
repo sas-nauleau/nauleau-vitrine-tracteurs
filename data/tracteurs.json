@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-15T06:32:38Z",
-  "count": 180,
+  "updated_at": "2026-10-15T12:33:01Z",
+  "count": 181,
   "tractors": [
     {
       "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/11161-fendt-933-profi-plus.html",
@@ -211,6 +211,29 @@
         "Dimension pneus avant": "360 70 20",
         "Usure pneus avant": "70%",
         "Dimension pneus arrière": "420 70 28",
+        "Usure pneus arrière": "50%"
+      }
+    },
+    {
+      "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/11152-new-holland-t7235-ac.html",
+      "model": "NEW HOLLAND T7.235 AC",
+      "brand": "NEW HOLLAND",
+      "power": "200 ch",
+      "hours": "8160 h",
+      "price": "39 500,00 € HT",
+      "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-new-holland-t7235-ac-6572-1.jpg",
+      "characteristics": {
+        "Marque": "NEW HOLLAND",
+        "Modèle": "T7.235 AC",
+        "État": "Occasion - Bon état",
+        "Année": "2014",
+        "Heures": "8160 h",
+        "Puissance": "200 ch",
+        "Roues motrices": "4 rm",
+        "Boîte de vitesses": "VARIATION CONTINUE",
+        "Dimension pneus avant": "600 65 20",
+        "Usure pneus avant": "50%",
+        "Dimension pneus arrière": "650 65 42",
         "Usure pneus arrière": "50%"
       }
     },
