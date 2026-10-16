@@ -1,7 +1,31 @@
 {
-  "updated_at": "2026-10-16T03:30:27Z",
+  "updated_at": "2026-10-16T10:54:34Z",
   "count": 182,
   "tractors": [
+    {
+      "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/11164-john-deere-6250r-commandpro.html",
+      "model": "JOHN DEERE 6250R COMMANDPRO",
+      "brand": "JOHN DEERE",
+      "power": "250 ch",
+      "hours": "5000 h",
+      "price": "98 000,00 € HT",
+      "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-john-deere-6250r-6607-1.jpg",
+      "characteristics": {
+        "Marque": "JOHN DEERE",
+        "Modèle": "6250R COMMANDPRO",
+        "État": "Occasion - Très bon état",
+        "Année": "2020",
+        "Heures": "5000 h",
+        "Puissance": "250 ch",
+        "Roues motrices": "4 rm",
+        "Boîte de vitesses": "VARIATION CONTINUE",
+        "Dimension pneus avant": "600 70 30",
+        "Usure pneus avant": "40%",
+        "Dimension pneus arrière": "650 85 38",
+        "Usure pneus arrière": "40%",
+        "Vitesse maxi": "50 Km/h"
+      }
+    },
     {
       "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/11163-john-deere-3650.html",
       "model": "JOHN DEERE 3650",
@@ -1439,30 +1463,6 @@
         "Usure pneus avant": "35%",
         "Dimension pneus arrière": "580 70 38",
         "Usure pneus arrière": "20%"
-      }
-    },
-    {
-      "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/10966-john-deere-6r120.html",
-      "model": "JOHN DEERE 6R120",
-      "brand": "JOHN DEERE",
-      "power": "120 ch",
-      "hours": "650 h",
-      "price": "99 500,00 € HT",
-      "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-john-deere-6r120-6415-1.jpg",
-      "characteristics": {
-        "Marque": "JOHN DEERE",
-        "Modèle": "6R120",
-        "État": "Occasion - Très bon état",
-        "Année": "2022",
-        "Heures": "650 h",
-        "Puissance": "120 ch",
-        "Roues motrices": "4 rm",
-        "Boîte de vitesses": "VARIATION CONTINUE",
-        "Dimension pneus avant": "380 70 28",
-        "Usure pneus avant": "5%",
-        "Dimension pneus arrière": "480 70 38",
-        "Usure pneus arrière": "5%",
-        "Vitesse maxi": "42 Km/h"
       }
     },
     {
