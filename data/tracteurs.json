@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-16T10:54:34Z",
-  "count": 182,
+  "updated_at": "2026-10-16T16:15:23Z",
+  "count": 181,
   "tractors": [
     {
       "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/11164-john-deere-6250r-commandpro.html",
@@ -190,30 +190,6 @@
         "Dimension pneus arrière": "650 65 42",
         "Usure pneus arrière": "70%",
         "Vitesse maxi": "55 Km/h"
-      }
-    },
-    {
-      "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/11155-same-laser-100.html",
-      "model": "SAME LASER 100",
-      "brand": "SAME",
-      "power": "100 ch",
-      "hours": "8100 h",
-      "price": "7 900,00 € HT",
-      "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-same-laser-100v-6562-1.jpg",
-      "characteristics": {
-        "Marque": "SAME",
-        "Modèle": "LASER 100",
-        "État": "Occasion - État moyen",
-        "Année": "1991",
-        "Heures": "8100 h",
-        "Puissance": "100 ch",
-        "Roues motrices": "2 rm",
-        "Boîte de vitesses": "MECANIQUE",
-        "Dimension pneus avant": "10.00-16",
-        "Usure pneus avant": "75%",
-        "Dimension pneus arrière": "460 85 38",
-        "Usure pneus arrière": "50%",
-        "Vitesse maxi": "25 Km/h"
       }
     },
     {
@@ -1072,30 +1048,6 @@
       }
     },
     {
-      "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/11064-valtra-t175.html",
-      "model": "VALTRA T175",
-      "brand": "VALTRA",
-      "power": "175 ch",
-      "hours": "775 h",
-      "price": "85 000,00 € HT",
-      "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-valtra-t175-6416-1.jpg",
-      "characteristics": {
-        "Marque": "VALTRA",
-        "Modèle": "T175",
-        "État": "Occasion - Très bon état",
-        "Année": "2022",
-        "Heures": "775 h",
-        "Puissance": "175 ch",
-        "Roues motrices": "4 rm",
-        "Boîte de vitesses": "SEMI POWERSHIFT",
-        "Dimension pneus avant": "480 70 28",
-        "Usure pneus avant": "20%",
-        "Dimension pneus arrière": "580 70 38",
-        "Usure pneus arrière": "20%",
-        "Vitesse maxi": "40 Km/h"
-      }
-    },
-    {
       "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/11054-case-ih-puma-165-multicontroller.html",
       "model": "CASE IH PUMA 165 MULTICONTROLLER",
       "brand": "CASE IH",
@@ -1117,6 +1069,30 @@
         "Dimension pneus arrière": "650 65 42",
         "Usure pneus arrière": "20%",
         "Vitesse maxi": "40 Km/h"
+      }
+    },
+    {
+      "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/11052-john-deere-6r185.html",
+      "model": "JOHN DEERE 6R185",
+      "brand": "JOHN DEERE",
+      "power": "185 ch",
+      "hours": "585 h",
+      "price": null,
+      "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-john-deere-6185r-6459-1.jpg",
+      "characteristics": {
+        "Marque": "JOHN DEERE",
+        "Modèle": "6R185",
+        "État": "Occasion - Très bon état",
+        "Année": "2024",
+        "Heures": "585 h",
+        "Puissance": "185 ch",
+        "Roues motrices": "4 rm",
+        "Boîte de vitesses": "VARIATION CONTINUE",
+        "Dimension pneus avant": "600 65 28",
+        "Usure pneus avant": "10%",
+        "Dimension pneus arrière": "650 75 38",
+        "Usure pneus arrière": "10%",
+        "Vitesse maxi": "50 Km/h"
       }
     },
     {
@@ -1486,30 +1462,6 @@
         "Usure pneus avant": "50%",
         "Dimension pneus arrière": "650 65 38",
         "Usure pneus arrière": "40%"
-      }
-    },
-    {
-      "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/10939-case-ih-puma-185.html",
-      "model": "CASE IH PUMA 185",
-      "brand": "CASE IH",
-      "power": "185 ch",
-      "hours": "2950 h",
-      "price": "95 000,00 € HT",
-      "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-case-ih-puma-185-6397-1.jpg",
-      "characteristics": {
-        "Marque": "CASE IH",
-        "Modèle": "PUMA 185",
-        "État": "Occasion - Très bon état",
-        "Année": "2022",
-        "Heures": "2950 h",
-        "Puissance": "185 ch",
-        "Roues motrices": "4 rm",
-        "Boîte de vitesses": "FULL POWERSHIFT",
-        "Dimension pneus avant": "540 65 30",
-        "Usure pneus avant": "PNEUS NEUFS",
-        "Dimension pneus arrière": "650 65 42",
-        "Usure pneus arrière": "50%",
-        "Vitesse maxi": "50 Km/h"
       }
     },
     {
@@ -3651,6 +3603,30 @@
         "Usure pneus avant": "NEUFS",
         "Dimension pneus arrière": "460 85 38",
         "Usure pneus arrière": "NEUFS"
+      }
+    },
+    {
+      "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/10262-claas-axion-810-cmatic.html",
+      "model": "CLAAS AXION 810 CMATIC",
+      "brand": "CLAAS",
+      "power": "205 ch",
+      "hours": "5200 h",
+      "price": "69 000,00 € HT",
+      "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-claas-axion-810-cmatic-5619-1.jpg",
+      "characteristics": {
+        "Marque": "CLAAS",
+        "Modèle": "AXION 810 CMATIC",
+        "État": "Occasion - Bon état",
+        "Année": "2018",
+        "Heures": "5200 h",
+        "Puissance": "205 ch",
+        "Roues motrices": "4 rm",
+        "Boîte de vitesses": "VARIATION CONTINUE",
+        "Dimension pneus avant": "600 70 30",
+        "Usure pneus avant": "70%",
+        "Dimension pneus arrière": "650 85 38",
+        "Usure pneus arrière": "70%",
+        "Vitesse maxi": "56 Km/h"
       }
     },
     {
