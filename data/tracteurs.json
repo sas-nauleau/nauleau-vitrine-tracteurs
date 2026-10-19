@@ -1,7 +1,126 @@
 {
-  "updated_at": "2026-10-19T03:37:27Z",
-  "count": 181,
+  "updated_at": "2026-10-19T12:24:42Z",
+  "count": 184,
   "tractors": [
+    {
+      "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/11171-claas-axion-810-cmatic.html",
+      "model": "CLAAS AXION 810 CMATIC",
+      "brand": "CLAAS",
+      "power": "205 ch",
+      "hours": "5200 h",
+      "price": "69 000,00 € HT",
+      "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-claas-axion-810-cmatic-5619-1.jpg",
+      "characteristics": {
+        "Marque": "CLAAS",
+        "Modèle": "AXION 810 CMATIC",
+        "État": "Occasion - Bon état",
+        "Année": "2018",
+        "Heures": "5200 h",
+        "Puissance": "205 ch",
+        "Roues motrices": "4 rm",
+        "Boîte de vitesses": "VARIATION CONTINUE",
+        "Dimension pneus avant": "600 70 30",
+        "Usure pneus avant": "65%",
+        "Dimension pneus arrière": "650 85 38",
+        "Usure pneus arrière": "65%",
+        "Vitesse maxi": "56 Km/h"
+      }
+    },
+    {
+      "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/11170-copie-de-massey-ferguson-6290-dynashift.html",
+      "model": "MASSEY FERGUSON 6290 DYNASHIFT",
+      "brand": "MASSEY FERGUSON",
+      "power": "135 ch",
+      "hours": "7400 h",
+      "price": "30 000,00 € HT",
+      "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-massey-ferguson-6290-dynashift-6433-1.jpg",
+      "characteristics": {
+        "Marque": "MASSEY FERGUSON",
+        "Modèle": "6290 DYNASHIFT",
+        "État": "Occasion - Très bon état",
+        "Année": "2003",
+        "Heures": "7400 h",
+        "Puissance": "135 ch",
+        "Roues motrices": "4 rm",
+        "Boîte de vitesses": "SEMI POWERSHIFT",
+        "Dimension pneus avant": "480 65 28",
+        "Usure pneus avant": "50%",
+        "Dimension pneus arrière": "600 65 38",
+        "Usure pneus arrière": "50%"
+      }
+    },
+    {
+      "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/11169-valtra-t214-direct.html",
+      "model": "VALTRA T214 DIRECT",
+      "brand": "VALTRA",
+      "power": "210 ch",
+      "hours": "3700 h",
+      "price": "69 500,00 € HT",
+      "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-valtra-t214-6614-1.jpg",
+      "characteristics": {
+        "Marque": "VALTRA",
+        "Modèle": "T214 DIRECT",
+        "État": "Occasion - Très bon état",
+        "Année": "2017",
+        "Heures": "3700 h",
+        "Puissance": "210 ch",
+        "Roues motrices": "4 rm",
+        "Boîte de vitesses": "VARIATION CONTINUE",
+        "Dimension pneus avant": "540 65 30",
+        "Usure pneus avant": "60%",
+        "Dimension pneus arrière": "650 65 42",
+        "Usure pneus arrière": "50%",
+        "Vitesse maxi": "40 Km/h"
+      }
+    },
+    {
+      "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/11167-new-holland-t7060.html",
+      "model": "JOHN DEERE T7060",
+      "brand": "JOHN DEERE",
+      "power": "213 ch",
+      "hours": "7442 h",
+      "price": "45 000,00 € HT",
+      "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-new-holland-t7060-6574-1.jpg",
+      "characteristics": {
+        "Marque": "JOHN DEERE",
+        "Modèle": "T7060",
+        "État": "Occasion - Bon état",
+        "Année": "2009",
+        "Heures": "7442 h",
+        "Puissance": "213 ch",
+        "Roues motrices": "4 rm",
+        "Boîte de vitesses": "FULL POWERSHIFT",
+        "Dimension pneus avant": "480 70 30",
+        "Usure pneus avant": "70%",
+        "Dimension pneus arrière": "620 70 42",
+        "Usure pneus arrière": "40%",
+        "Vitesse maxi": "42 Km/h"
+      }
+    },
+    {
+      "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/11166-john-deere-6195r.html",
+      "model": "JOHN DEERE 6195R",
+      "brand": "JOHN DEERE",
+      "power": "195 ch",
+      "hours": "2950 h",
+      "price": "112 500,00 € HT",
+      "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-john-deere-6195r-6612-1.jpg",
+      "characteristics": {
+        "Marque": "JOHN DEERE",
+        "Modèle": "6195R",
+        "État": "Occasion - Très bon état",
+        "Année": "2022",
+        "Heures": "2950 h",
+        "Puissance": "195 ch",
+        "Roues motrices": "4 rm",
+        "Boîte de vitesses": "VARIATION CONTINUE",
+        "Dimension pneus avant": "600 70 28",
+        "Usure pneus avant": "40%",
+        "Dimension pneus arrière": "650 85 38",
+        "Usure pneus arrière": "30%",
+        "Vitesse maxi": "50 Km/h"
+      }
+    },
     {
       "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/11164-john-deere-6250r-commandpro.html",
       "model": "JOHN DEERE 6250R COMMANDPRO",
@@ -1253,29 +1372,6 @@
         "Dimension pneus avant": "340 85 24",
         "Usure pneus avant": "PNEUS NEUFS",
         "Dimension pneus arrière": "420 85 34",
-        "Usure pneus arrière": "50%"
-      }
-    },
-    {
-      "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/10994-massey-ferguson-6290-dynashift.html",
-      "model": "MASSEY FERGUSON 6290 DYNASHIFT",
-      "brand": "MASSEY FERGUSON",
-      "power": "135 ch",
-      "hours": "7400 h",
-      "price": "29 500,00 € HT",
-      "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-massey-ferguson-6290-dynashift-6433-1.jpg",
-      "characteristics": {
-        "Marque": "MASSEY FERGUSON",
-        "Modèle": "6290 DYNASHIFT",
-        "État": "Occasion - Très bon état",
-        "Année": "2003",
-        "Heures": "7400 h",
-        "Puissance": "135 ch",
-        "Roues motrices": "4 rm",
-        "Boîte de vitesses": "SEMI POWERSHIFT",
-        "Dimension pneus avant": "480 65 28",
-        "Usure pneus avant": "50%",
-        "Dimension pneus arrière": "600 65 38",
         "Usure pneus arrière": "50%"
       }
     },
@@ -3603,30 +3699,6 @@
         "Usure pneus avant": "NEUFS",
         "Dimension pneus arrière": "460 85 38",
         "Usure pneus arrière": "NEUFS"
-      }
-    },
-    {
-      "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/10262-claas-axion-810-cmatic.html",
-      "model": "CLAAS AXION 810 CMATIC",
-      "brand": "CLAAS",
-      "power": "205 ch",
-      "hours": "5200 h",
-      "price": "69 000,00 € HT",
-      "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-claas-axion-810-cmatic-5619-1.jpg",
-      "characteristics": {
-        "Marque": "CLAAS",
-        "Modèle": "AXION 810 CMATIC",
-        "État": "Occasion - Bon état",
-        "Année": "2018",
-        "Heures": "5200 h",
-        "Puissance": "205 ch",
-        "Roues motrices": "4 rm",
-        "Boîte de vitesses": "VARIATION CONTINUE",
-        "Dimension pneus avant": "600 70 30",
-        "Usure pneus avant": "70%",
-        "Dimension pneus arrière": "650 85 38",
-        "Usure pneus arrière": "70%",
-        "Vitesse maxi": "56 Km/h"
       }
     },
     {
