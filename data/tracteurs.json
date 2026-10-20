@@ -1,7 +1,30 @@
 {
-  "updated_at": "2026-10-20T03:47:42Z",
-  "count": 184,
+  "updated_at": "2026-10-20T11:04:26Z",
+  "count": 185,
   "tractors": [
+    {
+      "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/11173-valtra-n154-hitech.html",
+      "model": "VALTRA N154 HITECH",
+      "brand": "VALTRA",
+      "power": "150 ch",
+      "hours": "6400 h",
+      "price": "43 500,00 € HT",
+      "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-valtra-n154-hitech-6603-1.jpg",
+      "characteristics": {
+        "Marque": "VALTRA",
+        "Modèle": "N154 HITECH",
+        "État": "Occasion - Bon état",
+        "Année": "2017",
+        "Heures": "6400 h",
+        "Puissance": "150 ch",
+        "Roues motrices": "4 rm",
+        "Boîte de vitesses": "SEMI POWERSHIFT",
+        "Dimension pneus avant": "540 65 28",
+        "Usure pneus avant": "50%",
+        "Dimension pneus arrière": "650 65 38",
+        "Usure pneus arrière": "70%"
+      }
+    },
     {
       "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/11171-claas-axion-810-cmatic.html",
       "model": "CLAAS AXION 810 CMATIC",
