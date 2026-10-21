@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-21T11:21:24Z",
-  "count": 186,
+  "updated_at": "2026-10-21T16:47:49Z",
+  "count": 185,
   "tractors": [
     {
       "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/11175-john-deere-2250.html",
@@ -447,29 +447,6 @@
         "Dimension pneus avant": "600 65 20",
         "Usure pneus avant": "50%",
         "Dimension pneus arrière": "650 65 42",
-        "Usure pneus arrière": "50%"
-      }
-    },
-    {
-      "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/11149-fendt-312-vario-tms.html",
-      "model": "FENDT 312 VARIO TMS",
-      "brand": "FENDT",
-      "power": "120 ch",
-      "hours": "5090 h",
-      "price": "58 500,00 € HT",
-      "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-fendt-312-vario-6591-1.jpg",
-      "characteristics": {
-        "Marque": "FENDT",
-        "Modèle": "312 VARIO TMS",
-        "État": "Occasion - Très bon état",
-        "Année": "2011",
-        "Heures": "5090 h",
-        "Puissance": "120 ch",
-        "Roues motrices": "4 rm",
-        "Boîte de vitesses": "VARIATION CONTINUE",
-        "Dimension pneus avant": "14.9.24",
-        "Usure pneus avant": "60%",
-        "Dimension pneus arrière": "480 70 38",
         "Usure pneus arrière": "50%"
       }
     },
