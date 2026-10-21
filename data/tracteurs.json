@@ -1,7 +1,30 @@
 {
-  "updated_at": "2026-10-21T03:39:43Z",
-  "count": 185,
+  "updated_at": "2026-10-21T11:21:24Z",
+  "count": 186,
   "tractors": [
+    {
+      "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/11175-john-deere-2250.html",
+      "model": "JOHN DEERE 2250",
+      "brand": "JOHN DEERE",
+      "power": "65 ch",
+      "hours": "17543 h",
+      "price": "9 500,00 € HT",
+      "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-john-deere-2250-6583-1.jpg",
+      "characteristics": {
+        "Marque": "JOHN DEERE",
+        "Modèle": "2250",
+        "État": "Occasion - État moyen",
+        "Année": "1990",
+        "Heures": "17543 h",
+        "Puissance": "65 ch",
+        "Roues motrices": "4 rm",
+        "Boîte de vitesses": "MECANIQUE",
+        "Dimension pneus avant": "340 85 24",
+        "Usure pneus avant": "40%",
+        "Dimension pneus arrière": "420 85 34",
+        "Usure pneus arrière": "50%"
+      }
+    },
     {
       "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/11174-claas-axos-330-cx.html",
       "model": "CLAAS AXOS 330 CX",
