@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-22T03:39:24Z",
-  "count": 185,
+  "updated_at": "2026-10-22T11:20:26Z",
+  "count": 184,
   "tractors": [
     {
       "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/11175-john-deere-2250.html",
@@ -309,29 +309,6 @@
         "Dimension pneus arrière": "71 60 42",
         "Usure pneus arrière": "70%",
         "Vitesse maxi": "42 Km/h"
-      }
-    },
-    {
-      "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/11158-deutz-agrotron-6180.html",
-      "model": "DEUTZ-FAHR AGROTRON 6180",
-      "brand": "DEUTZ-FAHR",
-      "power": "180 ch",
-      "hours": "5820 h",
-      "price": "47 500,00 € HT",
-      "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-deutz-agrotron-6180-6587-1.jpg",
-      "characteristics": {
-        "Marque": "DEUTZ-FAHR",
-        "Modèle": "AGROTRON 6180",
-        "État": "Occasion - Bon état",
-        "Année": "2016",
-        "Heures": "5820 h",
-        "Puissance": "180 ch",
-        "Roues motrices": "4 rm",
-        "Boîte de vitesses": "VARIATION CONTINUE",
-        "Dimension pneus avant": "540 65 28",
-        "Usure pneus avant": "15%",
-        "Dimension pneus arrière": "650 65 38",
-        "Usure pneus arrière": "20%"
       }
     },
     {
