@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-23T03:43:48Z",
-  "count": 184,
+  "updated_at": "2026-10-23T11:11:34Z",
+  "count": 183,
   "tractors": [
     {
       "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/11175-john-deere-2250.html",
@@ -1791,30 +1791,6 @@
         "Usure pneus avant": "60%",
         "Dimension pneus arrière": "710 60 38",
         "Usure pneus arrière": "60%"
-      }
-    },
-    {
-      "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/10886-claas-arion-530-cis.html",
-      "model": "CLAAS ARION 530 CIS",
-      "brand": "CLAAS",
-      "power": "140 ch",
-      "hours": "1450 h",
-      "price": "70 000,00 € HT",
-      "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-claas-arion-530-cis-6176-1.jpg",
-      "characteristics": {
-        "Marque": "CLAAS",
-        "Modèle": "ARION 530 CIS",
-        "État": "Occasion - Très bon état",
-        "Année": "2022",
-        "Heures": "1450 h",
-        "Puissance": "140 ch",
-        "Roues motrices": "4 rm",
-        "Boîte de vitesses": "FULL POWERSHIFT",
-        "Dimension pneus avant": "380 85 28",
-        "Usure pneus avant": "30%",
-        "Dimension pneus arrière": "460 85 38",
-        "Usure pneus arrière": "30%",
-        "Vitesse maxi": "40 Km/h"
       }
     },
     {
