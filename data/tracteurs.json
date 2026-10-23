@@ -1,7 +1,54 @@
 {
-  "updated_at": "2026-10-23T11:11:34Z",
-  "count": 183,
+  "updated_at": "2026-10-23T16:39:37Z",
+  "count": 184,
   "tractors": [
+    {
+      "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/11180-john-deere-7730.html",
+      "model": "JOHN DEERE 7730",
+      "brand": "JOHN DEERE",
+      "power": "190 ch",
+      "hours": "9300 h",
+      "price": "42 500,00 € HT",
+      "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-john-deere-7730-5860-1.jpg",
+      "characteristics": {
+        "Marque": "JOHN DEERE",
+        "Modèle": "7730",
+        "État": "Occasion - Bon état",
+        "Année": "2008",
+        "Heures": "9300 h",
+        "Puissance": "190 ch",
+        "Roues motrices": "4 rm",
+        "Boîte de vitesses": "VARIATION CONTINUE",
+        "Dimension pneus avant": "540 65 30",
+        "Usure pneus avant": "40%",
+        "Dimension pneus arrière": "650 65 42",
+        "Usure pneus arrière": "50%"
+      }
+    },
+    {
+      "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/11179-valtra-q-265.html",
+      "model": "VALTRA Q 265",
+      "brand": "VALTRA",
+      "power": "265 ch",
+      "hours": "1490 h",
+      "price": null,
+      "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-valtra-q265-6613-1.jpg",
+      "characteristics": {
+        "Marque": "VALTRA",
+        "Modèle": "Q 265",
+        "État": "Occasion - Très bon état",
+        "Année": "2023",
+        "Heures": "1490 h",
+        "Puissance": "265 ch",
+        "Roues motrices": "4 rm",
+        "Boîte de vitesses": "VARIATION CONTINUE",
+        "Dimension pneus avant": "540 65 30",
+        "Usure pneus avant": "15%",
+        "Dimension pneus arrière": "650 65 42",
+        "Usure pneus arrière": "15%",
+        "Vitesse maxi": "50 Km/h"
+      }
+    },
     {
       "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/11175-john-deere-2250.html",
       "model": "JOHN DEERE 2250",
@@ -1141,30 +1188,6 @@
         "Usure pneus avant": "25%",
         "Dimension pneus arrière": "16.9.34",
         "Usure pneus arrière": "25%"
-      }
-    },
-    {
-      "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/11071-class-arion-510-cmatic.html",
-      "model": "CLAAS ARION 510 CMATIC",
-      "brand": "CLAAS",
-      "power": "125 ch",
-      "hours": "3498 h",
-      "price": "58 500,00 € HT",
-      "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-claas-arion-510-cmatic-6490-1.jpg",
-      "characteristics": {
-        "Marque": "CLAAS",
-        "Modèle": "ARION 510 CMATIC",
-        "État": "Occasion - Très bon état",
-        "Année": "2020",
-        "Heures": "3498 h",
-        "Puissance": "125 ch",
-        "Roues motrices": "4 rm",
-        "Boîte de vitesses": "VARIATION CONTINUE",
-        "Dimension pneus avant": "420 70 28",
-        "Usure pneus avant": "PNEUS NEUFS",
-        "Dimension pneus arrière": "520 70 38",
-        "Usure pneus arrière": "PNEUS NEUFS",
-        "Vitesse maxi": "45 Km/h"
       }
     },
     {
