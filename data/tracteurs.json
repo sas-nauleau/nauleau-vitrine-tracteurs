@@ -1,7 +1,54 @@
 {
-  "updated_at": "2026-10-26T03:37:20Z",
-  "count": 184,
+  "updated_at": "2026-10-26T12:26:38Z",
+  "count": 185,
   "tractors": [
+    {
+      "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/11182-renault-temis-650-x.html",
+      "model": "RENAULT 650 X",
+      "brand": "RENAULT",
+      "power": "150 ch",
+      "hours": "10500 h",
+      "price": "11 500,00 € HT",
+      "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-renault-temis-650x-6575-1.jpg",
+      "characteristics": {
+        "Marque": "RENAULT",
+        "Modèle": "650 X",
+        "État": "Occasion - Prévoir des réparations",
+        "Année": "2005",
+        "Heures": "10500 h",
+        "Puissance": "150 ch",
+        "Roues motrices": "4 rm",
+        "Boîte de vitesses": "MECANIQUE",
+        "Dimension pneus avant": "480 65 28",
+        "Usure pneus avant": "30%",
+        "Dimension pneus arrière": "600 65 38",
+        "Usure pneus arrière": "70%"
+      }
+    },
+    {
+      "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/11181-naew-holland-t7190-rc.html",
+      "model": "NEW HOLLAND T7.190 RC",
+      "brand": "NEW HOLLAND",
+      "power": "145 ch",
+      "hours": "2800 h",
+      "price": "72 500,00 € HT",
+      "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-new-holland-t7190-rc-6567-1.jpg",
+      "characteristics": {
+        "Marque": "NEW HOLLAND",
+        "Modèle": "T7.190 RC",
+        "État": "Occasion - Très bon état",
+        "Année": "2020",
+        "Heures": "2800 h",
+        "Puissance": "145 ch",
+        "Roues motrices": "4 rm",
+        "Boîte de vitesses": "SEMI POWERSHIFT",
+        "Dimension pneus avant": "540 65 30",
+        "Usure pneus avant": "25%",
+        "Dimension pneus arrière": "650 65 42",
+        "Usure pneus arrière": "30%",
+        "Vitesse maxi": "42 Km/h"
+      }
+    },
     {
       "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/11180-john-deere-7730.html",
       "model": "JOHN DEERE 7730",
@@ -519,29 +566,6 @@
         "Dimension pneus arrière": "650 65 38",
         "Usure pneus arrière": "50%",
         "Vitesse maxi": "55 Km/h"
-      }
-    },
-    {
-      "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/11145-case-ih-farmall-95.html",
-      "model": "CASE IH FARMALL 95",
-      "brand": "CASE IH",
-      "power": "95 ch",
-      "hours": "9400 h",
-      "price": "24 500,00 € HT",
-      "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-case-ih-farmall-95-6576-1.jpg",
-      "characteristics": {
-        "Marque": "CASE IH",
-        "Modèle": "FARMALL 95",
-        "État": "Occasion - Bon état",
-        "Année": "2019",
-        "Heures": "9400 h",
-        "Puissance": "95 ch",
-        "Roues motrices": "4 rm",
-        "Boîte de vitesses": "HI-LO",
-        "Dimension pneus avant": "13.6.24",
-        "Usure pneus avant": "70%",
-        "Dimension pneus arrière": "16.9.34",
-        "Usure pneus arrière": "70%"
       }
     },
     {
