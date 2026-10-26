@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-26T12:26:38Z",
-  "count": 185,
+  "updated_at": "2026-10-26T22:25:22Z",
+  "count": 184,
   "tractors": [
     {
       "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/11182-renault-temis-650-x.html",
@@ -355,30 +355,6 @@
         "Dimension pneus arrière": "650 85 38",
         "Usure pneus arrière": "40%",
         "Vitesse maxi": "50 Km/h"
-      }
-    },
-    {
-      "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/11160-renault-95-12-tx.html",
-      "model": "RENAULT 95-12 TX",
-      "brand": "RENAULT",
-      "power": "84 ch",
-      "hours": "5380 h",
-      "price": "14 000,00 € HT",
-      "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-renault-95-12-tx-6599-1.jpg",
-      "characteristics": {
-        "Marque": "RENAULT",
-        "Modèle": "95-12 TX",
-        "État": "Occasion - Très bon état",
-        "Année": "1984",
-        "Heures": "5380 h",
-        "Puissance": "84 ch",
-        "Roues motrices": "4 rm",
-        "Boîte de vitesses": "MECANIQUE",
-        "Dimension pneus avant": "9-16",
-        "Usure pneus avant": "20%",
-        "Dimension pneus arrière": "460 85 34",
-        "Usure pneus arrière": "20%",
-        "Vitesse maxi": "30 Km/h"
       }
     },
     {
