@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-27T04:02:39Z",
-  "count": 184,
+  "updated_at": "2026-10-27T11:46:33Z",
+  "count": 183,
   "tractors": [
     {
       "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/11182-renault-temis-650-x.html",
@@ -681,29 +681,6 @@
         "Usure pneus avant": "PNEUS NEUFS",
         "Dimension pneus arrière": "650 75 38",
         "Usure pneus arrière": "PNEUS NEUFS"
-      }
-    },
-    {
-      "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/11128-same-iron-130-s.html",
-      "model": "SAME IRON 130 S",
-      "brand": "SAME",
-      "power": "130 ch",
-      "hours": "8600 h",
-      "price": "25 000,00 € HT",
-      "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-same-iron-130s-6550-1.jpg",
-      "characteristics": {
-        "Marque": "SAME",
-        "Modèle": "IRON 130 S",
-        "État": "Occasion - Bon état",
-        "Année": "2004",
-        "Heures": "8600 h",
-        "Puissance": "130 ch",
-        "Roues motrices": "4 rm",
-        "Boîte de vitesses": "SEMI POWERSHIFT",
-        "Dimension pneus avant": "480 70 28",
-        "Usure pneus avant": "50%",
-        "Dimension pneus arrière": "580 70 38",
-        "Usure pneus arrière": "50%"
       }
     },
     {
