@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-28T12:18:21Z",
-  "count": 183,
+  "updated_at": "2026-10-28T22:20:50Z",
+  "count": 181,
   "tractors": [
     {
       "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/11187-valtra-n122-versu.html",
@@ -588,29 +588,6 @@
         "Dimension pneus arrière": "650 65 42",
         "Usure pneus arrière": "30%",
         "Vitesse maxi": "50 Km/h"
-      }
-    },
-    {
-      "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/11139-case-ih-luxxum-110.html",
-      "model": "CASE IH LUXXUM 110",
-      "brand": "CASE IH",
-      "power": "110 ch",
-      "hours": "3600 h",
-      "price": "45 000,00 € HT",
-      "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-case-ih-luxxum-110-5783-1.jpg",
-      "characteristics": {
-        "Marque": "CASE IH",
-        "Modèle": "LUXXUM 110",
-        "État": "Occasion - Très bon état",
-        "Année": "2019",
-        "Heures": "3600 h",
-        "Puissance": "110 ch",
-        "Roues motrices": "4 rm",
-        "Boîte de vitesses": "SEMI POWERSHIFT",
-        "Dimension pneus avant": "340 85 28",
-        "Usure pneus avant": "50%",
-        "Dimension pneus arrière": "420 85 38",
-        "Usure pneus arrière": "50%"
       }
     },
     {
@@ -1674,29 +1651,6 @@
         "Usure pneus avant": "50%",
         "Dimension pneus arrière": "620 70 42",
         "Usure pneus arrière": "50%"
-      }
-    },
-    {
-      "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/10919-case-ih-cs-94.html",
-      "model": "CASE IH CS 94",
-      "brand": "CASE IH",
-      "power": "90 ch",
-      "hours": "7995 h",
-      "price": "20 000,00 € HT",
-      "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-case-ih-cs-94-6377-1.jpg",
-      "characteristics": {
-        "Marque": "CASE IH",
-        "Modèle": "CS 94",
-        "État": "Occasion - Bon état",
-        "Année": "2002",
-        "Heures": "7995 h",
-        "Puissance": "90 ch",
-        "Roues motrices": "4 rm",
-        "Boîte de vitesses": "HI-LO",
-        "Dimension pneus avant": "14.9.28",
-        "Usure pneus avant": "10%",
-        "Dimension pneus arrière": "18.4.38",
-        "Usure pneus arrière": "10%"
       }
     },
     {
