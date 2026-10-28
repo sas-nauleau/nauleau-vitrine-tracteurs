@@ -1,27 +1,49 @@
 {
-  "updated_at": "2026-10-28T04:26:30Z",
+  "updated_at": "2026-10-28T12:18:21Z",
   "count": 183,
   "tractors": [
     {
-      "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/11182-renault-temis-650-x.html",
-      "model": "RENAULT 650 X",
-      "brand": "RENAULT",
-      "power": "150 ch",
-      "hours": "10500 h",
-      "price": "11 500,00 € HT",
-      "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-renault-temis-650x-6575-1.jpg",
+      "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/11187-valtra-n122-versu.html",
+      "model": "VALTRA N122 VERSU",
+      "brand": "VALTRA",
+      "power": "120 ch",
+      "hours": "6980 h",
+      "price": "35 000,00 € HT",
+      "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-valtra-n122-versu-6585-1.jpg",
       "characteristics": {
-        "Marque": "RENAULT",
-        "Modèle": "650 X",
-        "État": "Occasion - Prévoir des réparations",
-        "Année": "2005",
-        "Heures": "10500 h",
-        "Puissance": "150 ch",
+        "Marque": "VALTRA",
+        "Modèle": "N122 VERSU",
+        "Année": "2009",
+        "Heures": "6980 h",
+        "Puissance": "120 ch",
         "Roues motrices": "4 rm",
-        "Boîte de vitesses": "MECANIQUE",
-        "Dimension pneus avant": "480 65 28",
-        "Usure pneus avant": "30%",
-        "Dimension pneus arrière": "600 65 38",
+        "Boîte de vitesses": "SEMI POWERSHIFT",
+        "Dimension pneus avant": "380 85 28",
+        "Usure pneus avant": "65%",
+        "Dimension pneus arrière": "460 85 38",
+        "Usure pneus arrière": "65%"
+      }
+    },
+    {
+      "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/11186-deutz-agrotron-210.html",
+      "model": "DEUTZ-FAHR AGROTRON 210",
+      "brand": "DEUTZ-FAHR",
+      "power": "210 ch",
+      "hours": "7465 h",
+      "price": "30 000,00 € HT",
+      "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-deutz-agrotron-210-6208-1.jpeg",
+      "characteristics": {
+        "Marque": "DEUTZ-FAHR",
+        "Modèle": "AGROTRON 210",
+        "État": "Occasion - Bon état",
+        "Année": "2004",
+        "Heures": "7465 h",
+        "Puissance": "210 ch",
+        "Roues motrices": "4 rm",
+        "Boîte de vitesses": "SEMI POWERSHIFT",
+        "Dimension pneus avant": "600 65 30",
+        "Usure pneus avant": "70%",
+        "Dimension pneus arrière": "620 70 42",
         "Usure pneus arrière": "70%"
       }
     },
@@ -842,29 +864,6 @@
         "Usure pneus avant": "25%",
         "Dimension pneus arrière": "520 85 38",
         "Usure pneus arrière": "25%"
-      }
-    },
-    {
-      "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/11119-case-ih-luxxum-120.html",
-      "model": "CASE IH LUXXUM 120",
-      "brand": "CASE IH",
-      "power": "120 ch",
-      "hours": "4100 h",
-      "price": "45 000,00 € HT",
-      "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-case-ih-luxxum-120-6539-1.jpg",
-      "characteristics": {
-        "Marque": "CASE IH",
-        "Modèle": "LUXXUM 120",
-        "État": "Occasion - Très bon état",
-        "Année": "2019",
-        "Heures": "4100 h",
-        "Puissance": "120 ch",
-        "Roues motrices": "4 rm",
-        "Boîte de vitesses": "SEMI POWERSHIFT",
-        "Dimension pneus avant": "340 85 28",
-        "Usure pneus avant": "50%",
-        "Dimension pneus arrière": "420 85 38",
-        "Usure pneus arrière": "60%"
       }
     },
     {
