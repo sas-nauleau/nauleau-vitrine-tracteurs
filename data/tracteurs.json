@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-29T04:45:24Z",
-  "count": 181,
+  "updated_at": "2026-10-29T12:28:05Z",
+  "count": 180,
   "tractors": [
     {
       "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/11187-valtra-n122-versu.html",
@@ -210,29 +210,6 @@
         "Dimension pneus arrière": "650 85 38",
         "Usure pneus arrière": "65%",
         "Vitesse maxi": "56 Km/h"
-      }
-    },
-    {
-      "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/11170-massey-ferguson-6290-dynashift.html",
-      "model": "MASSEY FERGUSON 6290 DYNASHIFT",
-      "brand": "MASSEY FERGUSON",
-      "power": "135 ch",
-      "hours": "7400 h",
-      "price": "30 000,00 € HT",
-      "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-massey-ferguson-6290-dynashift-6433-1.jpg",
-      "characteristics": {
-        "Marque": "MASSEY FERGUSON",
-        "Modèle": "6290 DYNASHIFT",
-        "État": "Occasion - Très bon état",
-        "Année": "2003",
-        "Heures": "7400 h",
-        "Puissance": "135 ch",
-        "Roues motrices": "4 rm",
-        "Boîte de vitesses": "SEMI POWERSHIFT",
-        "Dimension pneus avant": "480 65 28",
-        "Usure pneus avant": "50%",
-        "Dimension pneus arrière": "600 65 38",
-        "Usure pneus arrière": "50%"
       }
     },
     {
