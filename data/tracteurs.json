@@ -1,7 +1,30 @@
 {
-  "updated_at": "2026-10-30T04:44:44Z",
-  "count": 180,
+  "updated_at": "2026-10-30T12:19:22Z",
+  "count": 181,
   "tractors": [
+    {
+      "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/11190-fendt-722-profi-plus.html",
+      "model": "FENDT 722 PROFI PLUS",
+      "brand": "FENDT",
+      "power": "220 ch",
+      "hours": "9014 h",
+      "price": "49 500,00 € HT",
+      "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-fendt-722-profi-plus-6535-1.jpg",
+      "characteristics": {
+        "Marque": "FENDT",
+        "Modèle": "722 PROFI PLUS",
+        "État": "Occasion - État moyen",
+        "Année": "2014",
+        "Heures": "9014 h",
+        "Puissance": "220 ch",
+        "Roues motrices": "4 rm",
+        "Boîte de vitesses": "VARIATION CONTINUE",
+        "Dimension pneus avant": "600 65 28",
+        "Usure pneus avant": "60%",
+        "Dimension pneus arrière": "650 75 38",
+        "Usure pneus arrière": "70%"
+      }
+    },
     {
       "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/11187-valtra-n122-versu.html",
       "model": "VALTRA N122 VERSU",
