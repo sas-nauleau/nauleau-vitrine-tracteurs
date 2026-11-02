@@ -1,7 +1,99 @@
 {
-  "updated_at": "2026-11-02T04:50:12Z",
-  "count": 181,
+  "updated_at": "2026-11-02T14:59:02Z",
+  "count": 184,
   "tractors": [
+    {
+      "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/11195-fendt-favorit-612-ls.html",
+      "model": "FENDT FAVORIT 612 LS",
+      "brand": "FENDT",
+      "power": "120 ch",
+      "hours": "10200 h",
+      "price": "27 500,00 € HT",
+      "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-fendt-favorit-612-ls-6515-1.jpg",
+      "characteristics": {
+        "Marque": "FENDT",
+        "Modèle": "FAVORIT 612 LS",
+        "État": "Occasion - Bon état",
+        "Année": "1979",
+        "Heures": "10200 h",
+        "Puissance": "120 ch",
+        "Roues motrices": "4 rm",
+        "Boîte de vitesses": "MECANIQUE",
+        "Dimension pneus avant": "420 70 28",
+        "Usure pneus avant": "70%",
+        "Dimension pneus arrière": "650 75 32",
+        "Usure pneus arrière": "50%"
+      }
+    },
+    {
+      "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/11194-new-holland-t7040-pc.html",
+      "model": "NEW HOLLAND T7040 PC",
+      "brand": "NEW HOLLAND",
+      "power": "200 ch",
+      "hours": "5300 h",
+      "price": "50 000,00 € HT",
+      "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-new-holland-t7040-6600-1.jpg",
+      "characteristics": {
+        "Marque": "NEW HOLLAND",
+        "Modèle": "T7040 PC",
+        "État": "Occasion - Très bon état",
+        "Année": "2011",
+        "Heures": "5300 h",
+        "Puissance": "200 ch",
+        "Roues motrices": "4 rm",
+        "Boîte de vitesses": "FULL POWERSHIFT",
+        "Dimension pneus avant": "600 65 28",
+        "Usure pneus avant": "30%",
+        "Dimension pneus arrière": "650 75 38",
+        "Usure pneus arrière": "30%"
+      }
+    },
+    {
+      "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/11193-john-deere-6930-premium.html",
+      "model": "JOHN DEERE 6930 PREMIUM",
+      "brand": "JOHN DEERE",
+      "power": "165 ch",
+      "hours": "5700 h",
+      "price": "67 500,00 € HT",
+      "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-john-deere-6930-premium-6619-1.jpg",
+      "characteristics": {
+        "Marque": "JOHN DEERE",
+        "Modèle": "6930 PREMIUM",
+        "État": "Occasion - Très bon état",
+        "Année": "2012",
+        "Heures": "5700 h",
+        "Puissance": "165 ch",
+        "Roues motrices": "4 rm",
+        "Boîte de vitesses": "VARIATION CONTINUE",
+        "Dimension pneus avant": "540 65 28",
+        "Usure pneus avant": "50%",
+        "Dimension pneus arrière": "650 65 38",
+        "Usure pneus arrière": "40%"
+      }
+    },
+    {
+      "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/11192-new-holland-tvt-190.html",
+      "model": "NEW HOLLAND TVT 190",
+      "brand": "NEW HOLLAND",
+      "power": "190 ch",
+      "hours": "8800 h",
+      "price": "30 000,00 € HT",
+      "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-new-holland-tvt-190-6546-2.jpg",
+      "characteristics": {
+        "Marque": "NEW HOLLAND",
+        "Modèle": "TVT 190",
+        "État": "Occasion - Très bon état",
+        "Année": "2006",
+        "Heures": "8800 h",
+        "Puissance": "190 ch",
+        "Roues motrices": "4 rm",
+        "Boîte de vitesses": "VARIATION CONTINUE",
+        "Dimension pneus avant": "420 85 28",
+        "Usure pneus avant": "25%",
+        "Dimension pneus arrière": "520 85 38",
+        "Usure pneus arrière": "70%"
+      }
+    },
     {
       "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/11190-fendt-722-profi-plus.html",
       "model": "FENDT 722 PROFI PLUS",
@@ -979,29 +1071,6 @@
         "Usure pneus avant": "25%",
         "Dimension pneus arrière": "580 65 38",
         "Usure pneus arrière": "25%"
-      }
-    },
-    {
-      "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/11091-deutz-agrotron-k420.html",
-      "model": "DEUTZ-FAHR AGROTRON K420",
-      "brand": "DEUTZ-FAHR",
-      "power": "110 ch",
-      "hours": "10800 h",
-      "price": "23 500,00 € HT",
-      "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-deutz-agrotron-k420-6211-1.jpeg",
-      "characteristics": {
-        "Marque": "DEUTZ-FAHR",
-        "Modèle": "AGROTRON K420",
-        "État": "Occasion - Très bon état",
-        "Année": "2011",
-        "Heures": "10800 h",
-        "Puissance": "110 ch",
-        "Roues motrices": "4 rm",
-        "Boîte de vitesses": "SEMI POWERSHIFT",
-        "Dimension pneus avant": "420 85 24",
-        "Usure pneus avant": "65%",
-        "Dimension pneus arrière": "420 85 38",
-        "Usure pneus arrière": "60%"
       }
     },
     {
