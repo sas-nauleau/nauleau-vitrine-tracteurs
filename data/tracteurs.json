@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-03T13:47:59Z",
-  "count": 182,
+  "updated_at": "2026-11-03T23:01:22Z",
+  "count": 181,
   "tractors": [
     {
       "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/11195-fendt-favorit-612-ls.html",
@@ -516,30 +516,6 @@
         "Usure pneus avant": "40%",
         "Dimension pneus arrière": "520 85 38",
         "Usure pneus arrière": "40%"
-      }
-    },
-    {
-      "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/11156-fendt-722-power.html",
-      "model": "FENDT 722 POWER",
-      "brand": "FENDT",
-      "power": "220 ch",
-      "hours": "2998 h",
-      "price": "112 500,00 € HT",
-      "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-fendt-722-power-6602-1.jpg",
-      "characteristics": {
-        "Marque": "FENDT",
-        "Modèle": "722 POWER",
-        "État": "Occasion - Très bon état",
-        "Année": "2022",
-        "Heures": "2998 h",
-        "Puissance": "220 ch",
-        "Roues motrices": "4 rm",
-        "Boîte de vitesses": "VARIATION CONTINUE",
-        "Dimension pneus avant": "540 65 30",
-        "Usure pneus avant": "70%",
-        "Dimension pneus arrière": "650 65 42",
-        "Usure pneus arrière": "70%",
-        "Vitesse maxi": "55 Km/h"
       }
     },
     {
