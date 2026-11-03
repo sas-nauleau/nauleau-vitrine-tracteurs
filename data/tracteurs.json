@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-03T00:41:46Z",
-  "count": 183,
+  "updated_at": "2026-11-03T13:47:59Z",
+  "count": 182,
   "tractors": [
     {
       "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/11195-fendt-favorit-612-ls.html",
@@ -1210,30 +1210,6 @@
         "Usure pneus avant": "25%",
         "Dimension pneus arrière": "16.9.34",
         "Usure pneus arrière": "25%"
-      }
-    },
-    {
-      "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/11054-case-ih-puma-165-multicontroller.html",
-      "model": "CASE IH PUMA 165 MULTICONTROLLER",
-      "brand": "CASE IH",
-      "power": "165 ch",
-      "hours": "1520 h",
-      "price": "90 000,00 € HT",
-      "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-case-ih-puma-165-6480-1.jpg",
-      "characteristics": {
-        "Marque": "CASE IH",
-        "Modèle": "PUMA 165 MULTICONTROLLER",
-        "État": "Occasion - Très bon état",
-        "Année": "2023",
-        "Heures": "1520 h",
-        "Puissance": "165 ch",
-        "Roues motrices": "4 rm",
-        "Boîte de vitesses": "FULL POWERSHIFT",
-        "Dimension pneus avant": "540 65 30",
-        "Usure pneus avant": "20%",
-        "Dimension pneus arrière": "650 65 42",
-        "Usure pneus arrière": "20%",
-        "Vitesse maxi": "40 Km/h"
       }
     },
     {
