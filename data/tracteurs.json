@@ -1,7 +1,30 @@
 {
-  "updated_at": "2026-11-04T05:10:03Z",
-  "count": 181,
+  "updated_at": "2026-11-04T13:56:01Z",
+  "count": 182,
   "tractors": [
+    {
+      "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/11200-claas-arion-420-cis.html",
+      "model": "CLAAS ARION 420 CIS",
+      "brand": "CLAAS",
+      "power": "100 ch",
+      "hours": "5160 h",
+      "price": "37 500,00 € HT",
+      "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-claas-arion-420-cis-6642-1.jpg",
+      "characteristics": {
+        "Marque": "CLAAS",
+        "Modèle": "ARION 420 CIS",
+        "État": "Occasion - Très bon état",
+        "Année": "2017",
+        "Heures": "5160 h",
+        "Puissance": "100 ch",
+        "Roues motrices": "4 rm",
+        "Boîte de vitesses": "SEMI POWERSHIFT",
+        "Dimension pneus avant": "380 70 28",
+        "Usure pneus avant": "70%",
+        "Dimension pneus arrière": "480 70 38",
+        "Usure pneus arrière": "50%"
+      }
+    },
     {
       "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/11195-fendt-favorit-612-ls.html",
       "model": "FENDT FAVORIT 612 LS",
