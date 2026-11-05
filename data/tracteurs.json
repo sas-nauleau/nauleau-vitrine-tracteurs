@@ -1,7 +1,30 @@
 {
-  "updated_at": "2026-11-05T05:31:45Z",
+  "updated_at": "2026-11-05T14:10:36Z",
   "count": 181,
   "tractors": [
+    {
+      "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/11202-claas-arion-620-cis.html",
+      "model": "CLAAS ARION 620 CIS",
+      "brand": "CLAAS",
+      "power": "150 ch",
+      "hours": "3075 h",
+      "price": "62 000,00 € HT",
+      "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-claas-arion-620-cis-6333-1.jpg",
+      "characteristics": {
+        "Marque": "CLAAS",
+        "Modèle": "ARION 620 CIS",
+        "État": "Occasion - Très bon état",
+        "Année": "2017",
+        "Heures": "3075 h",
+        "Puissance": "150 ch",
+        "Roues motrices": "4 rm",
+        "Boîte de vitesses": "FULL POWERSHIFT",
+        "Dimension pneus avant": "480 70 28",
+        "Usure pneus avant": "10%",
+        "Dimension pneus arrière": "580 70 38",
+        "Usure pneus arrière": "10%"
+      }
+    },
     {
       "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/11200-claas-arion-420-cis.html",
       "model": "CLAAS ARION 420 CIS",
@@ -562,29 +585,6 @@
         "Usure pneus avant": "30%",
         "Dimension pneus arrière": "520 85 38",
         "Usure pneus arrière": "30%"
-      }
-    },
-    {
-      "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/11153-deutz-5105.html",
-      "model": "DEUTZ-FAHR 5105",
-      "brand": "DEUTZ-FAHR",
-      "power": "100 ch",
-      "hours": "4850 h",
-      "price": "22 500,00 € HT",
-      "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-deutz-5105-6469-1.jpg",
-      "characteristics": {
-        "Marque": "DEUTZ-FAHR",
-        "Modèle": "5105",
-        "État": "Occasion - Bon état",
-        "Année": "2018",
-        "Heures": "4850 h",
-        "Puissance": "100 ch",
-        "Roues motrices": "4 rm",
-        "Boîte de vitesses": "MECANIQUE",
-        "Dimension pneus avant": "360 70 20",
-        "Usure pneus avant": "70%",
-        "Dimension pneus arrière": "420 70 28",
-        "Usure pneus arrière": "50%"
       }
     },
     {
