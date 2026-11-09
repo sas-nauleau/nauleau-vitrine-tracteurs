@@ -1,7 +1,53 @@
 {
-  "updated_at": "2026-11-09T05:00:42Z",
-  "count": 184,
+  "updated_at": "2026-11-09T15:28:33Z",
+  "count": 186,
   "tractors": [
+    {
+      "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/11209-john-deere-6120-premium.html",
+      "model": "JOHN DEERE 6120 PREMIUM",
+      "brand": "JOHN DEERE",
+      "power": "85 ch",
+      "hours": "8450 h",
+      "price": "32 500,00 € HT",
+      "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-john-deere-6120-premium-6558-1.jpg",
+      "characteristics": {
+        "Marque": "JOHN DEERE",
+        "Modèle": "6120 PREMIUM",
+        "État": "Occasion - Bon état",
+        "Année": "2002",
+        "Heures": "8450 h",
+        "Puissance": "85 ch",
+        "Roues motrices": "4 rm",
+        "Boîte de vitesses": "SEMI POWERSHIFT",
+        "Dimension pneus avant": "340 85 24",
+        "Usure pneus avant": "70%",
+        "Dimension pneus arrière": "420 85 34",
+        "Usure pneus arrière": "70%"
+      }
+    },
+    {
+      "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/11208-deutz-agrotron150.html",
+      "model": "DEUTZ-FAHR AGROTRON 150",
+      "brand": "DEUTZ-FAHR",
+      "power": "150 ch",
+      "hours": "9600 h",
+      "price": "16 500,00 € HT",
+      "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-deutz-agrotron-150-6683-1.jpg",
+      "characteristics": {
+        "Marque": "DEUTZ-FAHR",
+        "Modèle": "AGROTRON 150",
+        "État": "Occasion - Bon état",
+        "Année": "1998",
+        "Heures": "9600 h",
+        "Puissance": "150 ch",
+        "Roues motrices": "4 rm",
+        "Boîte de vitesses": "SEMI POWERSHIFT",
+        "Dimension pneus avant": "420 70 28",
+        "Usure pneus avant": "50%",
+        "Dimension pneus arrière": "520 70 38",
+        "Usure pneus arrière": "30%"
+      }
+    },
     {
       "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/11206-john-deere-5100m.html",
       "model": "JOHN DEERE 5100M",
