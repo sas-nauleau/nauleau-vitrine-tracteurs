@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-12T00:11:45Z",
-  "count": 186,
+  "updated_at": "2026-11-12T14:47:47Z",
+  "count": 184,
   "tractors": [
     {
       "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/11209-john-deere-6120-premium.html",
@@ -252,29 +252,6 @@
         "Dimension pneus avant": "420 85 28",
         "Usure pneus avant": "25%",
         "Dimension pneus arrière": "520 85 38",
-        "Usure pneus arrière": "70%"
-      }
-    },
-    {
-      "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/11190-fendt-722-profi-plus.html",
-      "model": "FENDT 722 PROFI PLUS",
-      "brand": "FENDT",
-      "power": "220 ch",
-      "hours": "9014 h",
-      "price": "49 500,00 € HT",
-      "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-fendt-722-profi-plus-6535-1.jpg",
-      "characteristics": {
-        "Marque": "FENDT",
-        "Modèle": "722 PROFI PLUS",
-        "État": "Occasion - État moyen",
-        "Année": "2014",
-        "Heures": "9014 h",
-        "Puissance": "220 ch",
-        "Roues motrices": "4 rm",
-        "Boîte de vitesses": "VARIATION CONTINUE",
-        "Dimension pneus avant": "600 65 28",
-        "Usure pneus avant": "60%",
-        "Dimension pneus arrière": "650 75 38",
         "Usure pneus arrière": "70%"
       }
     },
@@ -1716,29 +1693,6 @@
         "Dimension pneus avant": "380 85 28",
         "Usure pneus avant": "PNEUS NEUFS",
         "Dimension pneus arrière": "460 85 38",
-        "Usure pneus arrière": "40%"
-      }
-    },
-    {
-      "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/10934-claas-arion-420.html",
-      "model": "CLAAS ARION 420",
-      "brand": "CLAAS",
-      "power": "100 ch",
-      "hours": "2700 h",
-      "price": "52 500,00 € HT",
-      "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-claas-arion-420-6394-1.jpg",
-      "characteristics": {
-        "Marque": "CLAAS",
-        "Modèle": "ARION 420",
-        "État": "Occasion - Très bon état",
-        "Année": "2021",
-        "Heures": "2700 h",
-        "Puissance": "100 ch",
-        "Roues motrices": "4 rm",
-        "Boîte de vitesses": "SEMI POWERSHIFT",
-        "Dimension pneus avant": "380 70 24",
-        "Usure pneus avant": "PNEUS NEUFS",
-        "Dimension pneus arrière": "480 70 34",
         "Usure pneus arrière": "40%"
       }
     },
