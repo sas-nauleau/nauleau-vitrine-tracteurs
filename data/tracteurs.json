@@ -1,7 +1,53 @@
 {
-  "updated_at": "2026-11-16T05:10:46Z",
-  "count": 183,
+  "updated_at": "2026-11-16T15:03:37Z",
+  "count": 184,
   "tractors": [
+    {
+      "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/11215-claas-axos-320-cx.html",
+      "model": "CLAAS AXOS 320 CX",
+      "brand": "CLAAS",
+      "power": "85 ch",
+      "hours": "6800 h",
+      "price": "32 500,00 € HT",
+      "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-claas-axos-320-cx-5401-1-1.jpg",
+      "characteristics": {
+        "Marque": "CLAAS",
+        "Modèle": "AXOS 320 CX",
+        "État": "Occasion - Bon état",
+        "Année": "2014",
+        "Heures": "6800 h",
+        "Puissance": "85 ch",
+        "Roues motrices": "4 rm",
+        "Boîte de vitesses": "HI-LO",
+        "Dimension pneus avant": "340 85 24",
+        "Usure pneus avant": "PNEUS NEUFS",
+        "Dimension pneus arrière": "420 85 34",
+        "Usure pneus arrière": "PNEUS NEUFS"
+      }
+    },
+    {
+      "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/11214-claas-celtis-456-rx.html",
+      "model": "CLAAS CELTIS 456 RX",
+      "brand": "CLAAS",
+      "power": "100 ch",
+      "hours": "19335 h",
+      "price": "16 500,00 € HT",
+      "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-claas-celtis-456-rx-6378-1.jpg",
+      "characteristics": {
+        "Marque": "CLAAS",
+        "Modèle": "CELTIS 456 RX",
+        "État": "Occasion - Bon état",
+        "Année": "2006",
+        "Heures": "19335 h",
+        "Puissance": "100 ch",
+        "Roues motrices": "4 rm",
+        "Boîte de vitesses": "HI-LO",
+        "Dimension pneus avant": "380 70 28",
+        "Usure pneus avant": "75%",
+        "Dimension pneus arrière": "480 70 38",
+        "Usure pneus arrière": "70"
+      }
+    },
     {
       "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/11213-valtra-n121-hitech.html",
       "model": "VALTRA N121 HITECH",
@@ -2674,29 +2720,6 @@
         "Dimension pneus arrière": "710 75 42",
         "Usure pneus arrière": "40%",
         "Vitesse maxi": "50 Km/h"
-      }
-    },
-    {
-      "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/10690-claas-axion-810-cis.html",
-      "model": "CLAAS AXION 810 CIS",
-      "brand": "CLAAS",
-      "power": "180 ch",
-      "hours": "10200 h",
-      "price": "32 500,00 € HT",
-      "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-claas-axion-810-cis-6140-1.jpeg",
-      "characteristics": {
-        "Marque": "CLAAS",
-        "Modèle": "AXION 810 CIS",
-        "État": "Occasion - Bon état",
-        "Année": "2011",
-        "Heures": "10200 h",
-        "Puissance": "180 ch",
-        "Roues motrices": "4 rm",
-        "Boîte de vitesses": "FULL POWERSHIFT",
-        "Dimension pneus avant": "540 65 30",
-        "Usure pneus avant": "25%",
-        "Dimension pneus arrière": "650 65 42",
-        "Usure pneus arrière": "20%"
       }
     },
     {
