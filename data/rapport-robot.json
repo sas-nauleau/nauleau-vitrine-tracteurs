@@ -1,0 +1,30 @@
+{
+  "started_at": "2026-11-16T16:50:34Z",
+  "roots": [
+    {
+      "path": "/tracteurs-materiels/tracteurs/",
+      "pages": 9,
+      "products": 182
+    },
+    {
+      "path": "/tracteurs-materiels/",
+      "pages": 12,
+      "products": 254
+    },
+    {
+      "path": "/tracteurs-materiels/materiels/",
+      "pages": 4,
+      "products": 72
+    }
+  ],
+  "errors": [],
+  "counts": {
+    "tracteurs": 182,
+    "materiels": 72
+  },
+  "supabase": "ok",
+  "mises_hors_ligne": {
+    "materiels": 0,
+    "tracteurs": 0
+  }
+}

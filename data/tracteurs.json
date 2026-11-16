@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-16T15:03:37Z",
-  "count": 184,
+  "updated_at": "2026-11-16T16:55:43Z",
+  "count": 182,
   "tractors": [
     {
       "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/11215-claas-axos-320-cx.html",
@@ -437,30 +437,6 @@
         "Usure pneus avant": "40%",
         "Dimension pneus arrière": "650 65 42",
         "Usure pneus arrière": "50%"
-      }
-    },
-    {
-      "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/11179-valtra-q-265.html",
-      "model": "VALTRA Q 265",
-      "brand": "VALTRA",
-      "power": "265 ch",
-      "hours": "1490 h",
-      "price": null,
-      "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-valtra-q265-6613-1.jpg",
-      "characteristics": {
-        "Marque": "VALTRA",
-        "Modèle": "Q 265",
-        "État": "Occasion - Très bon état",
-        "Année": "2023",
-        "Heures": "1490 h",
-        "Puissance": "265 ch",
-        "Roues motrices": "4 rm",
-        "Boîte de vitesses": "VARIATION CONTINUE",
-        "Dimension pneus avant": "540 65 30",
-        "Usure pneus avant": "15%",
-        "Dimension pneus arrière": "650 65 42",
-        "Usure pneus arrière": "15%",
-        "Vitesse maxi": "50 Km/h"
       }
     },
     {
@@ -1354,7 +1330,7 @@
       "brand": "JOHN DEERE",
       "power": "185 ch",
       "hours": "585 h",
-      "price": null,
+      "price": "145 000,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-john-deere-6185r-6459-1.jpg",
       "characteristics": {
         "Marque": "JOHN DEERE",
@@ -1600,30 +1576,6 @@
         "Usure pneus avant": "PNEUS NEUFS",
         "Dimension pneus arrière": "460 85 38",
         "Usure pneus arrière": "25%"
-      }
-    },
-    {
-      "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/10971-valtra-t215-active.html",
-      "model": "VALTRA T125 ACTIVE",
-      "brand": "VALTRA",
-      "power": "215 ch",
-      "hours": "1490 h",
-      "price": "95 000,00 € HT",
-      "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-valtra-t125-active-6411-1.jpg",
-      "characteristics": {
-        "Marque": "VALTRA",
-        "Modèle": "T125 ACTIVE",
-        "État": "Occasion - Très bon état",
-        "Année": "2022",
-        "Heures": "1490 h",
-        "Puissance": "215 ch",
-        "Roues motrices": "4 rm",
-        "Boîte de vitesses": "FULL POWERSHIFT",
-        "Dimension pneus avant": "600 65 42",
-        "Usure pneus avant": "35%",
-        "Dimension pneus arrière": "650 65 42",
-        "Usure pneus arrière": "35%",
-        "Vitesse maxi": "50 Km/h"
       }
     },
     {
@@ -2704,7 +2656,7 @@
       "brand": "JOHN DEERE",
       "power": "310 ch",
       "hours": "1750 h",
-      "price": null,
+      "price": "190 000,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-john-deere-73r10-gen2-6149-1.jpeg",
       "characteristics": {
         "Marque": "JOHN DEERE",
@@ -3285,7 +3237,7 @@
       "brand": "JOHN DEERE",
       "power": "130 ch",
       "hours": "490 h",
-      "price": null,
+      "price": "119 500,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-john-deere-6r130-command-pro-autotrac-ready-5980-1.jpg",
       "characteristics": {
         "Marque": "JOHN DEERE",
