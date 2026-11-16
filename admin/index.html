@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>Administration — Écran vitrine Nauleau</title>
+<style>
+:root{
+  --teal:#009AA0; --teal-dark:#007c81; --ink:#1c1c1c; --grey:#717574;
+  --line:#e5e6e5; --bg:#f4f5f4; --card:#fff; --danger:#c0392b; --ok:#1e8e5a; --warn:#b9770e;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.4}
+[hidden]{display:none!important}
+button,input,select,textarea{font:inherit;color:inherit}
+h1{font-size:1.15rem;font-weight:700}
+h2{font-size:1.1rem;margin-bottom:.8rem}
+h3{font-size:1rem;margin-bottom:.5rem}
+.muted{color:var(--grey);font-size:.9rem}
+
+/* Connexion */
+.login{max-width:380px;margin:12vh auto 0;padding:0 16px}
+.login .card{padding:28px 24px}
+.login h1{margin-bottom:.3rem}
+.login p{margin-bottom:1.2rem}
+
+/* En-tête */
+header{background:var(--teal);color:#fff;position:sticky;top:0;z-index:10}
+.header-in{max-width:980px;margin:0 auto;padding:12px 16px;display:flex;align-items:center;gap:12px;flex-wrap:wrap}
+.header-in h1{flex:1;min-width:200px}
+.header-in a,.header-in button{color:#fff;background:rgba(255,255,255,.18);border:0;border-radius:8px;padding:8px 12px;font-size:.9rem;text-decoration:none;cursor:pointer}
+.header-in a:hover,.header-in button:hover{background:rgba(255,255,255,.3)}
+nav.tabs{max-width:980px;margin:0 auto;padding:0 16px;display:flex;gap:4px}
+nav.tabs button{flex:1;background:transparent;border:0;color:#d9f2f3;padding:12px 8px;font-weight:600;cursor:pointer;border-bottom:3px solid transparent}
+nav.tabs button.active{color:#fff;border-bottom-color:#fff}
+
+main{max-width:980px;margin:0 auto;padding:16px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:18px;margin-bottom:16px}
+
+/* Formulaires */
+label{display:block;font-weight:600;font-size:.9rem;margin-bottom:4px}
+input[type=text],input[type=email],input[type=password],input[type=number],input[type=date],input[type=search],textarea{
+  width:100%;padding:10px 12px;border:1px solid #cfd2d1;border-radius:8px;background:#fff}
+input:focus,textarea:focus{outline:2px solid var(--teal);outline-offset:1px;border-color:var(--teal)}
+textarea{min-height:90px;resize:vertical}
+.field{margin-bottom:14px}
+.row{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:14px}
+.btn{display:inline-block;background:var(--teal);color:#fff;border:0;border-radius:8px;padding:10px 18px;font-weight:600;cursor:pointer}
+.btn:hover{background:var(--teal-dark)}
+.btn:disabled{opacity:.55;cursor:not-allowed}
+.btn.light{background:#eef0ef;color:var(--ink)}
+.btn.light:hover{background:#e1e4e3}
+.btn.danger{background:#fff;color:var(--danger);border:1px solid #e3b4ae}
+.btn.danger:hover{background:#fbeceb}
+.btn.small{padding:6px 10px;font-size:.85rem}
+.error{color:var(--danger);font-size:.9rem;margin-top:10px}
+
+/* Interrupteur */
+.switch{position:relative;display:inline-block;width:50px;height:28px;flex-shrink:0}
+.switch input{opacity:0;width:0;height:0}
+.slider{position:absolute;inset:0;background:#c7cbca;border-radius:28px;cursor:pointer;transition:.2s}
+.slider:before{content:"";position:absolute;height:22px;width:22px;left:3px;top:3px;background:#fff;border-radius:50%;transition:.2s}
+.switch input:checked + .slider{background:var(--teal)}
+.switch input:checked + .slider:before{transform:translateX(22px)}
+.switch input:focus-visible + .slider{outline:2px solid var(--ink);outline-offset:2px}
+.toggle-line{display:flex;align-items:center;gap:12px;padding:10px 0;border-bottom:1px solid var(--line)}
+.toggle-line:last-of-type{border-bottom:0}
+.toggle-line .txt{flex:1}
+
+/* Annonces */
+.toolbar{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin-bottom:12px}
+.toolbar input[type=search]{flex:1;min-width:180px}
+.subtabs{display:flex;gap:8px;margin-bottom:12px}
+.subtabs button{flex:1;padding:10px;border-radius:8px;border:1px solid var(--line);background:#fff;font-weight:600;cursor:pointer}
+.subtabs button.active{background:var(--teal);color:#fff;border-color:var(--teal)}
+.item{display:flex;align-items:center;gap:12px;padding:10px 0;border-bottom:1px solid var(--line)}
+.item:last-child{border-bottom:0}
+.thumb{width:84px;height:60px;border-radius:6px;background:#eceeed;object-fit:cover;flex-shrink:0}
+.item .info{flex:1;min-width:0}
+.item .name{font-weight:600;overflow-wrap:anywhere}
+.item.off .name,.item.off .thumb{opacity:.45}
+.tag{display:inline-block;font-size:.75rem;font-weight:600;border-radius:5px;padding:2px 7px;margin-left:6px;vertical-align:middle}
+.tag.ok{background:#e1f4ea;color:var(--ok)}
+.tag.warn{background:#fcf0dc;color:var(--warn)}
+.tag.grey{background:#eceeed;color:var(--grey)}
+
+/* Affiches */
+.poster{display:flex;gap:14px;padding:14px 0;border-bottom:1px solid var(--line);align-items:flex-start;flex-wrap:wrap}
+.poster:last-child{border-bottom:0}
+.poster .preview{width:150px;height:90px;border-radius:8px;background:#eceeed;object-fit:cover;flex-shrink:0;display:flex;align-items:center;justify-content:center;text-align:center;padding:6px;font-size:.75rem;color:var(--grey);overflow:hidden}
+.poster .body{flex:1;min-width:220px}
+.poster .actions{display:flex;gap:6px;flex-wrap:wrap;margin-top:8px}
+.radio-line{display:flex;gap:18px;margin-bottom:14px;flex-wrap:wrap}
+.radio-line label{display:flex;gap:6px;align-items:center;font-weight:500;margin:0}
+
+.toast{position:fixed;left:50%;bottom:22px;transform:translateX(-50%) translateY(20px);background:#1c1c1c;color:#fff;padding:12px 18px;border-radius:10px;opacity:0;pointer-events:none;transition:.25s;z-index:50;max-width:92vw;text-align:center}
+.toast.show{opacity:1;transform:translateX(-50%)}
+.toast.err{background:var(--danger)}
+.empty{padding:22px;text-align:center;color:var(--grey)}
+</style>
+</head>
+<body>
+
+<!-- ========== CONNEXION ========== -->
+<div class="login" id="login-view" hidden>
+  <div class="card">
+    <h1>Écran vitrine Nauleau</h1>
+    <p class="muted">Connectez-vous pour gérer ce qui s'affiche sur l'écran du hall.</p>
+    <form id="login-form">
+      <div class="field"><label for="email">Adresse e-mail</label>
+        <input type="email" id="email" autocomplete="username" required></div>
+      <div class="field"><label for="password">Mot de passe</label>
+        <input type="password" id="password" autocomplete="current-password" required></div>
+      <button class="btn" type="submit" id="login-btn">Se connecter</button>
+      <div class="error" id="login-error" hidden></div>
+    </form>
+  </div>
+</div>
+
+<!-- ========== APPLICATION ========== -->
+<div id="app-view" hidden>
+  <header>
+    <div class="header-in">
+      <h1>Écran vitrine — Administration</h1>
+      <a href="../" target="_blank" rel="noopener">Voir l'écran</a>
+      <button type="button" id="logout-btn">Se déconnecter</button>
+    </div>
+    <nav class="tabs" id="tabs">
+      <button data-tab="annonces" class="active">Annonces</button>
+      <button data-tab="affiches">Affiches</button>
+      <button data-tab="reglages">Réglages</button>
+    </nav>
+  </header>
+
+  <main>
+    <div id="denied" class="card" hidden>
+      <h2>Accès non autorisé</h2>
+      <p>Ce compte n'a pas le droit de modifier l'écran. Déconnectez-vous et utilisez le compte administrateur.</p>
+    </div>
+
+    <!-- Annonces -->
+    <section id="tab-annonces">
+      <div class="card">
+        <h2>Annonces affichées sur l'écran</h2>
+        <p class="muted" style="margin-bottom:12px">Les annonces viennent automatiquement du site nauleau-agricole.com. Désactivez l'interrupteur d'une annonce pour la masquer de l'écran (par exemple un matériel vendu qui est encore sur le site).</p>
+        <div class="subtabs" id="cat-tabs">
+          <button data-cat="tracteurs" class="active">Tracteurs <span id="count-tracteurs"></span></button>
+          <button data-cat="materiels">Matériels <span id="count-materiels"></span></button>
+        </div>
+        <div class="toolbar">
+          <input type="search" id="search" placeholder="Rechercher un modèle ou une marque…" aria-label="Rechercher">
+          <button class="btn light small" id="show-all-btn" type="button">Tout afficher</button>
+          <button class="btn light small" id="hide-all-btn" type="button">Tout masquer</button>
+        </div>
+        <div class="toggle-line" style="border-bottom:0;padding-top:0">
+          <label class="switch"><input type="checkbox" id="show-offline"><span class="slider"></span></label>
+          <span class="txt muted">Afficher aussi les annonces retirées du site</span>
+        </div>
+        <div class="muted" id="list-summary" style="margin:6px 0 4px"></div>
+        <div id="listings"></div>
+      </div>
+    </section>
+
+    <!-- Affiches -->
+    <section id="tab-affiches" hidden>
+      <div class="card">
+        <h2>Ajouter une affiche ou un message</h2>
+        <div class="radio-line">
+          <label><input type="radio" name="kind" value="image" checked> Affiche (image plein écran)</label>
+          <label><input type="radio" name="kind" value="text"> Message (texte)</label>
+        </div>
+        <div id="new-image-fields">
+          <div class="field"><label for="new-file">Image (PNG, JPG ou WebP)</label>
+            <input type="file" id="new-file" accept="image/png,image/jpeg,image/webp"></div>
+          <div class="field"><label for="new-image-title">Nom (pour vous retrouver)</label>
+            <input type="text" id="new-image-title" placeholder="Ex : Affiche porte ouverte"></div>
+        </div>
+        <div id="new-text-fields" hidden>
+          <div class="field"><label for="new-title">Titre</label>
+            <input type="text" id="new-title" placeholder="Ex : Retrouvez-nous au salon"></div>
+          <div class="field"><label for="new-message">Message</label>
+            <textarea id="new-message" placeholder="Ex : Nous sommes présents du 10 au 14 mars, Hall 3 - Stand B45."></textarea></div>
+        </div>
+        <div class="row">
+          <div class="field"><label for="new-start">Afficher à partir du (facultatif)</label>
+            <input type="date" id="new-start"></div>
+          <div class="field"><label for="new-end">Jusqu'au, inclus (facultatif)</label>
+            <input type="date" id="new-end"></div>
+        </div>
+        <button class="btn" id="add-poster-btn" type="button">Ajouter</button>
+        <div class="error" id="add-error" hidden></div>
+      </div>
+
+      <div class="card">
+        <h2>Affiches et messages enregistrés</h2>
+        <p class="muted" style="margin-bottom:8px">Ils passent à tour de rôle sur l'écran, dans l'ordre ci-dessous, entre deux séries de tracteurs et de matériels.</p>
+        <div id="posters"></div>
+      </div>
+    </section>
+
+    <!-- Réglages -->
+    <section id="tab-reglages" hidden>
+      <div class="card">
+        <h2>Ce que l'écran affiche</h2>
+        <div class="toggle-line">
+          <label class="switch"><input type="checkbox" id="set-tractors"><span class="slider"></span></label>
+          <span class="txt"><strong>Les tracteurs</strong></span>
+        </div>
+        <div class="toggle-line">
+          <label class="switch"><input type="checkbox" id="set-materials"><span class="slider"></span></label>
+          <span class="txt"><strong>Les matériels</strong></span>
+        </div>
+      </div>
+      <div class="card">
+        <h2>Durées et rythme</h2>
+        <div class="row">
+          <div class="field"><label for="set-seconds">Secondes par annonce</label>
+            <input type="number" id="set-seconds" min="5" max="120"></div>
+          <div class="field"><label for="set-poster-seconds">Secondes par affiche</label>
+            <input type="number" id="set-poster-seconds" min="5" max="120"></div>
+          <div class="field"><label for="set-every">Une affiche toutes les … annonces</label>
+            <input type="number" id="set-every" min="1" max="100"></div>
+        </div>
+        <button class="btn" id="save-settings-btn" type="button">Enregistrer les réglages</button>
+        <p class="muted" style="margin-top:10px">Les modifications apparaissent sur l'écran en quelques minutes, sans rien redémarrer.</p>
+      </div>
+    </section>
+  </main>
+</div>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script>
+(function(){
+'use strict';
+
+const SUPABASE_URL = 'https://dttkknzcsenlccbcnpkp.supabase.co';
+const SUPABASE_KEY = 'sb_publishable_OG5zLHKnRZ0w5af5tEXZkQ_LhqlORMU';
+const BUCKET = 'posters';
+
+const sb = window.supabase.createClient(SUPABASE_URL, SUPABASE_KEY);
+const $ = (id) => document.getElementById(id);
+
+const state = {
+  settings: null,
+  posters: [],
+  listings: [],
+  cat: 'tracteurs',
+  search: '',
+  showOffline: false
+};
+
+/* ---------- utilitaires ---------- */
+function esc(value){
+  return String(value == null ? '' : value)
+    .replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;')
+    .replace(/"/g,'&quot;').replace(/'/g,'&#39;');
+}
+function safeUrl(u){ return /^https?:\/\//i.test(u || '') ? u : ''; }
+let toastTimer;
+function toast(message, isError){
+  const t = $('toast');
+  t.textContent = message;
+  t.className = 'toast show' + (isError ? ' err' : '');
+  clearTimeout(toastTimer);
+  toastTimer = setTimeout(() => { t.className = 'toast' + (isError ? ' err' : ''); }, isError ? 6000 : 3200);
+}
+function showError(id, message){
+  const e = $(id);
+  e.textContent = message;
+  e.hidden = !message;
+}
+function todayStr(){
+  const d = new Date();
+  const m = String(d.getMonth()+1).padStart(2,'0');
+  const day = String(d.getDate()).padStart(2,'0');
+  return d.getFullYear() + '-' + m + '-' + day;
+}
+function frDate(s){
+  if(!s) return '';
+  const p = s.split('-');
+  return p[2] + '/' + p[1] + '/' + p[0];
+}
+
+/* ---------- connexion ---------- */
+function showLogin(){
+  $('app-view').hidden = true;
+  $('login-view').hidden = false;
+}
+async function showApp(){
+  $('login-view').hidden = true;
+  $('app-view').hidden = false;
+  const { data: isAdmin, error } = await sb.rpc('is_admin');
+  if(error || !isAdmin){
+    $('denied').hidden = false;
+    ['annonces','affiches','reglages'].forEach(t => { $('tab-' + t).hidden = true; });
+    $('tabs').hidden = true;
+    return;
+  }
+  $('denied').hidden = true;
+  $('tabs').hidden = false;
+  await loadAll();
+  switchTab('annonces');
+}
+
+$('login-form').addEventListener('submit', async (ev) => {
+  ev.preventDefault();
+  showError('login-error', '');
+  $('login-btn').disabled = true;
+  const { error } = await sb.auth.signInWithPassword({
+    email: $('email').value.trim(),
+    password: $('password').value
+  });
+  $('login-btn').disabled = false;
+  if(error){
+    showError('login-error', 'Adresse e-mail ou mot de passe incorrect.');
+    return;
+  }
+  $('password').value = '';
+  showApp();
+});
+$('logout-btn').addEventListener('click', async () => {
+  await sb.auth.signOut();
+  showLogin();
+});
+
+/* ---------- onglets ---------- */
+function switchTab(name){
+  ['annonces','affiches','reglages'].forEach(t => { $('tab-' + t).hidden = (t !== name); });
+  document.querySelectorAll('#tabs button').forEach(b => b.classList.toggle('active', b.dataset.tab === name));
+}
+$('tabs').addEventListener('click', (ev) => {
+  const b = ev.target.closest('button[data-tab]');
+  if(b) switchTab(b.dataset.tab);
+});
+
+/* ---------- chargement ---------- */
+async function loadAll(){
+  const [s, p, l] = await Promise.all([
+    sb.from('settings').select('*').eq('id', 1).single(),
+    sb.from('posters').select('*').order('position').order('created_at'),
+    sb.from('listings').select('id,category,subcategory,model,brand,price,image,hidden,online,sort_order').order('sort_order').limit(2000)
+  ]);
+  if(s.error || p.error || l.error){
+    toast('Impossible de charger les données. Rechargez la page.', true);
+    return;
+  }
+  state.settings = s.data;
+  state.posters = p.data;
+  state.listings = l.data;
+  renderSettings();
+  renderPosters();
+  renderListings();
+}
+
+/* ---------- réglages ---------- */
+function renderSettings(){
+  const s = state.settings;
+  $('set-tractors').checked = !!s.show_tractors;
+  $('set-materials').checked = !!s.show_materials;
+  $('set-seconds').value = s.seconds_per_slide;
+  $('set-poster-seconds').value = s.poster_seconds;
+  $('set-every').value = s.poster_every;
+}
+function clampInt(value, min, max, fallback){
+  const n = parseInt(value, 10);
+  if(isNaN(n)) return fallback;
+  return Math.min(max, Math.max(min, n));
+}
+$('save-settings-btn').addEventListener('click', async () => {
+  const payload = {
+    show_tractors: $('set-tractors').checked,
+    show_materials: $('set-materials').checked,
+    seconds_per_slide: clampInt($('set-seconds').value, 5, 120, state.settings.seconds_per_slide),
+    poster_seconds: clampInt($('set-poster-seconds').value, 5, 120, state.settings.poster_seconds),
+    poster_every: clampInt($('set-every').value, 1, 100, state.settings.poster_every),
+    updated_at: new Date().toISOString()
+  };
+  if(!payload.show_tractors && !payload.show_materials){
+    toast('Gardez au moins une catégorie affichée (tracteurs ou matériels).', true);
+    return;
+  }
+  $('save-settings-btn').disabled = true;
+  const { error } = await sb.from('settings').update(payload).eq('id', 1);
+  $('save-settings-btn').disabled = false;
+  if(error){ toast('Enregistrement impossible : ' + error.message, true); return; }
+  Object.assign(state.settings, payload);
+  renderSettings();
+  toast('Réglages enregistrés');
+});
+
+/* ---------- annonces ---------- */
+function filteredListings(){
+  const q = state.search.trim().toLowerCase();
+  return state.listings.filter(l => {
+    if(l.category !== state.cat) return false;
+    if(!state.showOffline && !l.online) return false;
+    if(q){
+      const hay = ((l.model || '') + ' ' + (l.brand || '') + ' ' + (l.subcategory || '')).toLowerCase();
+      if(hay.indexOf(q) === -1) return false;
+    }
+    return true;
+  });
+}
+function renderListings(){
+  ['tracteurs','materiels'].forEach(c => {
+    const online = state.listings.filter(l => l.category === c && l.online);
+    const shown = online.filter(l => !l.hidden).length;
+    $('count-' + c).textContent = '(' + shown + '/' + online.length + ')';
+  });
+  document.querySelectorAll('#cat-tabs button').forEach(b => b.classList.toggle('active', b.dataset.cat === state.cat));
+
+  const list = filteredListings();
+  const box = $('listings');
+  const online = list.filter(l => l.online);
+  $('list-summary').textContent = online.filter(l => !l.hidden).length + ' annonce(s) à l\'écran sur ' + online.length + ' en ligne dans cette catégorie.';
+  if(!list.length){
+    box.innerHTML = '<div class="empty">Aucune annonce' + (state.cat === 'materiels' ? ' de matériel pour le moment (le robot les récupère toutes les 6 heures).' : '.') + '</div>';
+    return;
+  }
+  box.innerHTML = list.map(l => {
+    const img = safeUrl(l.image);
+    const sub = l.subcategory ? '<span class="tag grey">' + esc(l.subcategory) + '</span>' : '';
+    const off = !l.online ? '<span class="tag warn">Retirée du site</span>' : '';
+    return '<div class="item' + (l.hidden || !l.online ? ' off' : '') + '">' +
+      (img ? '<img class="thumb" loading="lazy" alt="" src="' + esc(img) + '">' : '<div class="thumb"></div>') +
+      '<div class="info"><div class="name">' + esc(l.model) + sub + off + '</div>' +
+      '<div class="muted">' + esc(l.price || 'Nous consulter') + '</div></div>' +
+      '<label class="switch" title="Afficher sur l\'écran"><input type="checkbox" data-id="' + esc(l.id) + '"' + (l.hidden ? '' : ' checked') + '><span class="slider"></span></label>' +
+      '</div>';
+  }).join('');
+}
+$('cat-tabs').addEventListener('click', (ev) => {
+  const b = ev.target.closest('button[data-cat]');
+  if(!b) return;
+  state.cat = b.dataset.cat;
+  renderListings();
+});
+$('search').addEventListener('input', (ev) => { state.search = ev.target.value; renderListings(); });
+$('show-offline').addEventListener('change', (ev) => { state.showOffline = ev.target.checked; renderListings(); });
+
+$('listings').addEventListener('change', async (ev) => {
+  const input = ev.target.closest('input[data-id]');
+  if(!input) return;
+  const id = input.dataset.id;
+  const hidden = !input.checked;
+  const item = state.listings.find(l => l.id === id);
+  const { error } = await sb.from('listings').update({ hidden }).eq('id', id);
+  if(error){
+    input.checked = !input.checked;
+    toast('Modification impossible : ' + error.message, true);
+    return;
+  }
+  item.hidden = hidden;
+  renderListings();
+});
+
+async function setHiddenForList(hidden){
+  const ids = filteredListings().filter(l => l.online && l.hidden !== hidden).map(l => l.id);
+  if(!ids.length){ toast('Rien à modifier.'); return; }
+  const label = hidden ? 'masquer' : 'afficher';
+  if(!confirm('Voulez-vous ' + label + ' ' + ids.length + ' annonce(s) de la liste actuelle ?')) return;
+  const { error } = await sb.from('listings').update({ hidden }).in('id', ids);
+  if(error){ toast('Modification impossible : ' + error.message, true); return; }
+  state.listings.forEach(l => { if(ids.indexOf(l.id) !== -1) l.hidden = hidden; });
+  renderListings();
+  toast(ids.length + ' annonce(s) mise(s) à jour');
+}
+$('show-all-btn').addEventListener('click', () => setHiddenForList(false));
+$('hide-all-btn').addEventListener('click', () => setHiddenForList(true));
+
+/* ---------- affiches ---------- */
+function posterImageUrl(p){
+  if(p.image_path) return sb.storage.from(BUCKET).getPublicUrl(p.image_path).data.publicUrl;
+  return safeUrl(p.image_url);
+}
+function posterStatus(p){
+  const today = todayStr();
+  if(!p.active) return { cls: 'grey', text: 'Désactivée' };
+  if(p.starts_on && p.starts_on > today) return { cls: 'warn', text: 'Programmée : début le ' + frDate(p.starts_on) };
+  if(p.ends_on && p.ends_on < today) return { cls: 'grey', text: 'Terminée depuis le ' + frDate(p.ends_on) };
+  return { cls: 'ok', text: 'À l\'écran' + (p.ends_on ? ' jusqu\'au ' + frDate(p.ends_on) : '') };
+}
+function renderPosters(){
+  const box = $('posters');
+  if(!state.posters.length){
+    box.innerHTML = '<div class="empty">Aucune affiche pour le moment.</div>';
+    return;
+  }
+  box.innerHTML = state.posters.map((p, i) => {
+    const st = posterStatus(p);
+    const url = p.kind === 'image' ? posterImageUrl(p) : '';
+    const preview = p.kind === 'image'
+      ? (url ? '<img class="preview" loading="lazy" alt="" src="' + esc(url) + '">' : '<div class="preview">Image introuvable</div>')
+      : '<div class="preview">' + esc((p.message || '').slice(0, 90)) + '</div>';
+    return '<div class="poster" data-id="' + esc(p.id) + '">' + preview +
+      '<div class="body">' +
+        '<div><strong>' + esc(p.title || (p.kind === 'image' ? 'Affiche sans nom' : 'Message sans titre')) + '</strong>' +
+        '<span class="tag ' + st.cls + '">' + esc(st.text) + '</span></div>' +
+        '<div class="toggle-line" style="border:0;padding:8px 0 4px">' +
+          '<label class="switch"><input type="checkbox" data-act="active"' + (p.active ? ' checked' : '') + '><span class="slider"></span></label>' +
+          '<span class="txt muted">Active</span></div>' +
+        '<div class="row" style="gap:10px">' +
+          '<div><label>Début</label><input type="date" data-act="starts_on" value="' + esc(p.starts_on || '') + '"></div>' +
+          '<div><label>Fin (incluse)</label><input type="date" data-act="ends_on" value="' + esc(p.ends_on || '') + '"></div>' +
+        '</div>' +
+        (p.kind === 'text'
+          ? '<div class="field" style="margin-top:10px"><label>Titre</label><input type="text" data-act="title" value="' + esc(p.title || '') + '">' +
+            '<label style="margin-top:8px">Message</label><textarea data-act="message">' + esc(p.message || '') + '</textarea></div>'
+          : '<div class="field" style="margin-top:10px"><label>Nom</label><input type="text" data-act="title" value="' + esc(p.title || '') + '"></div>') +
+        '<div class="actions">' +
+          '<button class="btn small" type="button" data-btn="save">Enregistrer</button>' +
+          '<button class="btn light small" type="button" data-btn="up"' + (i === 0 ? ' disabled' : '') + '>↑ Monter</button>' +
+          '<button class="btn light small" type="button" data-btn="down"' + (i === state.posters.length - 1 ? ' disabled' : '') + '>↓ Descendre</button>' +
+          '<button class="btn danger small" type="button" data-btn="delete">Supprimer</button>' +
+        '</div>' +
+      '</div></div>';
+  }).join('');
+}
+
+$('posters').addEventListener('click', async (ev) => {
+  const btn = ev.target.closest('button[data-btn]');
+  if(!btn) return;
+  const card = btn.closest('.poster');
+  const id = card.dataset.id;
+  const idx = state.posters.findIndex(p => p.id === id);
+  const poster = state.posters[idx];
+  const act = btn.dataset.btn;
+
+  if(act === 'save'){
+    const get = (name) => card.querySelector('[data-act="' + name + '"]');
+    const payload = {
+      active: get('active').checked,
+      starts_on: get('starts_on').value || null,
+      ends_on: get('ends_on').value || null,
+      title: get('title').value.trim() || null
+    };
+    if(poster.kind === 'text') payload.message = get('message').value.trim() || null;
+    if(payload.starts_on && payload.ends_on && payload.ends_on < payload.starts_on){
+      toast('La date de fin doit être après la date de début.', true);
+      return;
+    }
+    const { error } = await sb.from('posters').update(payload).eq('id', id);
+    if(error){ toast('Enregistrement impossible : ' + error.message, true); return; }
+    Object.assign(poster, payload);
+    renderPosters();
+    toast('Enregistré');
+  }
+
+  if(act === 'up' || act === 'down'){
+    const j = act === 'up' ? idx - 1 : idx + 1;
+    if(j < 0 || j >= state.posters.length) return;
+    const reordered = state.posters.slice();
+    const tmp = reordered[idx]; reordered[idx] = reordered[j]; reordered[j] = tmp;
+    const updates = [];
+    reordered.forEach((p, k) => { if(p.position !== k + 1) updates.push({ id: p.id, position: k + 1 }); });
+    const results = await Promise.all(updates.map(u => sb.from('posters').update({ position: u.position }).eq('id', u.id)));
+    if(results.some(r => r.error)){ toast('Impossible de changer l\'ordre.', true); await loadAll(); return; }
+    reordered.forEach((p, k) => { p.position = k + 1; });
+    state.posters = reordered;
+    renderPosters();
+  }
+
+  if(act === 'delete'){
+    if(!confirm('Supprimer définitivement « ' + (poster.title || 'cette affiche') + ' » ?')) return;
+    const { error } = await sb.from('posters').delete().eq('id', id);
+    if(error){ toast('Suppression impossible : ' + error.message, true); return; }
+    if(poster.image_path) await sb.storage.from(BUCKET).remove([poster.image_path]);
+    state.posters = state.posters.filter(p => p.id !== id);
+    renderPosters();
+    toast('Supprimée');
+  }
+});
+
+/* ajout d'une affiche */
+document.querySelectorAll('input[name="kind"]').forEach(r => r.addEventListener('change', () => {
+  const kind = document.querySelector('input[name="kind"]:checked').value;
+  $('new-image-fields').hidden = kind !== 'image';
+  $('new-text-fields').hidden = kind !== 'text';
+}));
+
+/* Réduit les très grosses images : l'écran les recharge souvent, elles doivent rester légères. */
+async function prepareImage(file){
+  const MAX_SIDE = 2560, MAX_BYTES = 1500000;
+  let bitmap;
+  try { bitmap = await createImageBitmap(file); } catch(e){ return { blob: file, ext: extFromType(file.type), type: file.type }; }
+  const big = Math.max(bitmap.width, bitmap.height) > MAX_SIDE;
+  if(file.size <= MAX_BYTES && !big) return { blob: file, ext: extFromType(file.type), type: file.type };
+  const scale = Math.min(1, MAX_SIDE / Math.max(bitmap.width, bitmap.height));
+  const canvas = document.createElement('canvas');
+  canvas.width = Math.round(bitmap.width * scale);
+  canvas.height = Math.round(bitmap.height * scale);
+  const ctx = canvas.getContext('2d');
+  ctx.fillStyle = '#ffffff';
+  ctx.fillRect(0, 0, canvas.width, canvas.height);
+  ctx.drawImage(bitmap, 0, 0, canvas.width, canvas.height);
+  const blob = await new Promise(res => canvas.toBlob(res, 'image/jpeg', 0.9));
+  return { blob, ext: 'jpg', type: 'image/jpeg' };
+}
+function extFromType(t){ return t === 'image/png' ? 'png' : t === 'image/webp' ? 'webp' : 'jpg'; }
+
+$('add-poster-btn').addEventListener('click', async () => {
+  showError('add-error', '');
+  const kind = document.querySelector('input[name="kind"]:checked').value;
+  const starts_on = $('new-start').value || null;
+  const ends_on = $('new-end').value || null;
+  if(starts_on && ends_on && ends_on < starts_on){ showError('add-error', 'La date de fin doit être après la date de début.'); return; }
+
+  const row = { kind, active: true, starts_on, ends_on, position: state.posters.length + 1 };
+  const btn = $('add-poster-btn');
+  btn.disabled = true;
+  let uploadedPath = null;
+  try{
+    if(kind === 'image'){
+      const file = $('new-file').files[0];
+      if(!file){ showError('add-error', 'Choisissez d\'abord une image.'); return; }
+      if(['image/png','image/jpeg','image/webp'].indexOf(file.type) === -1){ showError('add-error', 'Format non accepté : utilisez PNG, JPG ou WebP.'); return; }
+      const prepared = await prepareImage(file);
+      const path = (crypto.randomUUID ? crypto.randomUUID() : String(Date.now())) + '.' + prepared.ext;
+      const up = await sb.storage.from(BUCKET).upload(path, prepared.blob, { contentType: prepared.type, cacheControl: '3600', upsert: false });
+      if(up.error){ showError('add-error', 'Envoi de l\'image impossible : ' + up.error.message); return; }
+      uploadedPath = path;
+      row.image_path = path;
+      row.title = $('new-image-title').value.trim() || file.name.replace(/\.[^.]+$/, '');
+    } else {
+      const title = $('new-title').value.trim();
+      const message = $('new-message').value.trim();
+      if(!title && !message){ showError('add-error', 'Écrivez au moins un titre ou un message.'); return; }
+      row.title = title || null;
+      row.message = message || null;
+    }
+    const { data, error } = await sb.from('posters').insert(row).select().single();
+    if(error){
+      if(uploadedPath) await sb.storage.from(BUCKET).remove([uploadedPath]);
+      showError('add-error', 'Ajout impossible : ' + error.message);
+      return;
+    }
+    state.posters.push(data);
+    renderPosters();
+    ['new-file','new-image-title','new-title','new-message','new-start','new-end'].forEach(id => { $(id).value = ''; });
+    toast('Ajoutée — elle apparaîtra sur l\'écran dans quelques minutes');
+  } finally {
+    btn.disabled = false;
+  }
+});
+
+/* ---------- démarrage ---------- */
+sb.auth.getSession().then(({ data }) => {
+  if(data && data.session) showApp(); else showLogin();
+});
+sb.auth.onAuthStateChange((event) => {
+  if(event === 'SIGNED_OUT') showLogin();
+});
+})();
+</script>
+</body>
+</html>
