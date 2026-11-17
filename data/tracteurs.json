@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-17T11:39:22Z",
-  "count": 183,
+  "updated_at": "2026-11-17T15:41:22Z",
+  "count": 181,
   "tractors": [
     {
       "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/11220-case-ih-cs-120.html",
@@ -70,29 +70,6 @@
         "Dimension pneus arrière": "580 70 38",
         "Usure pneus arrière": "20%",
         "Vitesse maxi": "50 Km/h"
-      }
-    },
-    {
-      "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/11214-claas-celtis-456-rx.html",
-      "model": "CLAAS CELTIS 456 RX",
-      "brand": "CLAAS",
-      "power": "100 ch",
-      "hours": "19335 h",
-      "price": "16 500,00 € HT",
-      "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-claas-celtis-456-rx-6378-1.jpg",
-      "characteristics": {
-        "Marque": "CLAAS",
-        "Modèle": "CELTIS 456 RX",
-        "État": "Occasion - Bon état",
-        "Année": "2006",
-        "Heures": "19335 h",
-        "Puissance": "100 ch",
-        "Roues motrices": "4 rm",
-        "Boîte de vitesses": "HI-LO",
-        "Dimension pneus avant": "380 70 28",
-        "Usure pneus avant": "75%",
-        "Dimension pneus arrière": "480 70 38",
-        "Usure pneus arrière": "70"
       }
     },
     {
@@ -2133,30 +2110,6 @@
         "Usure pneus avant": "30%",
         "Dimension pneus arrière": "18 4R 38",
         "Usure pneus arrière": "50%"
-      }
-    },
-    {
-      "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/10807-massey-ferguson-8s305-dyna-vt.html",
-      "model": "MASSEY FERGUSON 8S305 DYNA VT",
-      "brand": "MASSEY FERGUSON",
-      "power": "305 ch",
-      "hours": "1760 h",
-      "price": "149 500,00 € HT",
-      "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-massey-ferguson-8s305-dyna-vt-6250-1.jpg",
-      "characteristics": {
-        "Marque": "MASSEY FERGUSON",
-        "Modèle": "8S305 DYNA VT",
-        "État": "Occasion - Très bon état",
-        "Année": "2023",
-        "Heures": "1760 h",
-        "Puissance": "305 ch",
-        "Roues motrices": "4 rm",
-        "Boîte de vitesses": "VARIATION CONTINUE",
-        "Dimension pneus avant": "600 70 30",
-        "Usure pneus avant": "25%",
-        "Dimension pneus arrière": "650 85 38",
-        "Usure pneus arrière": "25%",
-        "Vitesse maxi": "50 Km/h"
       }
     },
     {
