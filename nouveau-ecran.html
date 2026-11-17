@@ -378,6 +378,7 @@ html,body{
     <div class="left-summary" id="left-summary">
       <div class="model" id="model">FENDT 311 PROFI</div>
       <div class="main-specs" id="main-specs">
+        <div class="spec-row" id="spec-type" style="display:none"><span class="lbl">Type :</span><span class="val" id="type"></span></div>
         <div class="spec-row" id="spec-power"><span class="lbl">Puissance :</span><span class="val" id="power">115 ch</span></div>
         <div class="spec-row" id="spec-hours"><span class="lbl">Heures :</span><span class="val" id="hours">4 200 h</span></div>
       </div>
@@ -2760,6 +2761,8 @@ const infoView = document.getElementById('info-view');
 const modelEl = document.getElementById('model');
 const powerEl = document.getElementById('power');
 const hoursEl = document.getElementById('hours');
+const specType = document.getElementById('spec-type');
+const typeEl = document.getElementById('type');
 const specPower = document.getElementById('spec-power');
 const specHours = document.getElementById('spec-hours');
 const mainSpecs = document.getElementById('main-specs');
@@ -2771,6 +2774,13 @@ const infoMessageEl = document.getElementById('info-message');
 const infoFullscreen = document.getElementById('info-fullscreen');
 const panel = document.getElementById('panel');
 const dotsEl = document.getElementById('photo-dots');
+
+// Type du matériel (Chargeuse, Compacteur...) : le site l'écrit parfois tout en majuscules
+function niceType(v){
+  v = String(v == null ? '' : v).replace(/\s+/g, ' ').trim();
+  if (v.length > 4 && v === v.toUpperCase()) v = v.charAt(0) + v.slice(1).toLowerCase();
+  return v;
+}
 
 // ------------------------------------------------------------ QR code de l'annonce
 const SITE_NAME = 'www.nauleau-agricole.com';
@@ -2943,9 +2953,13 @@ function render(){
     modelEl.textContent = t.model || 'Annonce disponible';
     powerEl.textContent = t.power || '—';
     hoursEl.textContent = t.hours || '—';
+    // Pour un matériel, le type s'affiche en premier, sous le nom (sinon la zone du prix paraît vide)
+    const typeText = t.category === 'materiels' ? niceType((t.characteristics || {})['Type']) : '';
+    typeEl.textContent = typeText;
+    specType.style.display = typeText ? '' : 'none';
     specPower.style.display = t.power ? '' : 'none';
     specHours.style.display = t.hours ? '' : 'none';
-    mainSpecs.style.display = (t.power || t.hours) ? '' : 'none';
+    mainSpecs.style.display = (typeText || t.power || t.hours) ? '' : 'none';
     priceEl.textContent = t.price || 'Nous consulter';
     setQr(t);
 
@@ -2953,6 +2967,7 @@ function render(){
     const chars = t.characteristics || {};
     Object.keys(chars).forEach(label => {
       if (label === 'Puissance' || label === 'Heures') return; // déjà affichées sous la photo
+      if (label === 'Type' && t.category === 'materiels') return; // affiché sous le nom
       const row = document.createElement('div');
       row.className = 'char-row';
       const lbl = document.createElement('span');
