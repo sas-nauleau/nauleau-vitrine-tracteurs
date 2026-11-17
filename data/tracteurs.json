@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-16T16:55:43Z",
-  "count": 182,
+  "updated_at": "2026-11-17T01:45:56Z",
+  "count": 181,
   "tractors": [
     {
       "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/11215-claas-axos-320-cx.html",
@@ -603,30 +603,6 @@
         "Dimension pneus arrière": "650 85 38",
         "Usure pneus arrière": "40%",
         "Vitesse maxi": "50 Km/h"
-      }
-    },
-    {
-      "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/11163-john-deere-3650.html",
-      "model": "JOHN DEERE 3650",
-      "brand": "JOHN DEERE",
-      "power": "125 ch",
-      "hours": "9500 h",
-      "price": "15 000,00 € HT",
-      "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-john-deere-3650-6604-1.jpg",
-      "characteristics": {
-        "Marque": "JOHN DEERE",
-        "Modèle": "3650",
-        "État": "Occasion - Bon état",
-        "Année": "1991",
-        "Heures": "9500 h",
-        "Puissance": "125 ch",
-        "Roues motrices": "4 rm",
-        "Boîte de vitesses": "HI-LO",
-        "Dimension pneus avant": "420 70 28",
-        "Usure pneus avant": "20%",
-        "Dimension pneus arrière": "520 70 38",
-        "Usure pneus arrière": "20%",
-        "Vitesse maxi": "30 Km/h"
       }
     },
     {
