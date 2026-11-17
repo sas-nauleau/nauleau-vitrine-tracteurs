@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-17T15:41:22Z",
+  "updated_at": "2026-11-17T16:48:51Z",
   "count": 254,
   "counts": {
     "tracteurs": 181,
@@ -4932,6 +4932,7 @@
       "price": "3 000,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/vis-a-grain-occasion-agram-200-12-6715-1.jpg",
       "characteristics": {
+        "Type": "Vis à grain",
         "Marque": "AGRAM",
         "Modèle": "220-12",
         "État": "Occasion - Très bon état",
@@ -4951,6 +4952,7 @@
       "price": "2 950,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/balayeuse-occasion-agram-bao-2000-6714-1.jpg",
       "characteristics": {
+        "Type": "Balayeuse",
         "Marque": "AGRAM",
         "Modèle": "BAO 2000",
         "État": "Occasion - Très bon état",
@@ -4970,6 +4972,7 @@
       "price": "7 000,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/pailleuse-occasion-altec-dt-120-6713-1.jpg",
       "characteristics": {
+        "Type": "Pailleuse",
         "Marque": "ALTEC",
         "Modèle": "DT 120",
         "État": "Occasion - Très bon état",
@@ -4989,6 +4992,7 @@
       "price": "35 000,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/chargeuse-occasion-atlas-75s-6267-1-3.jpg",
       "characteristics": {
+        "Type": "Chargeuse",
         "Marque": "ATLAS",
         "Modèle": "75 S",
         "État": "Occasion - Très bon état",
@@ -5010,6 +5014,7 @@
       "price": "9 500,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/compacteur-occasion-bomag-bw80ad-2-6506-1.jpg",
       "characteristics": {
+        "Type": "Compacteur",
         "Marque": "BOMAG",
         "Modèle": "BW80AD-2",
         "État": "Occasion - Très bon état",
@@ -5030,6 +5035,7 @@
       "price": "15 000,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/pulverisateur-occasion-calvet-semi-porte-eco-2mr-800l-5152-1.jpg",
       "characteristics": {
+        "Type": "Pulvérisateur",
         "Marque": "CALVET",
         "Modèle": "SEMI PORTE ECO+ 2MR 800L",
         "État": "Occasion - Bon état",
@@ -5049,6 +5055,7 @@
       "price": "92 500,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/moissoneuse-batteuse-occasion-case-ih-7130-6594-1.jpg",
       "characteristics": {
+        "Type": "Moissonneuse batteuse",
         "Marque": "CASE IH",
         "Modèle": "7130",
         "État": "Occasion - Bon état",
@@ -5069,6 +5076,7 @@
       "price": "9 500,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/chariot-elevateur-occasion-caterpillar-gp40kl-4518-1.jpg",
       "characteristics": {
+        "Type": "Chariot Élévateur",
         "Marque": "CATERPILLAR",
         "Modèle": "GP40KL",
         "État": "Occasion - Bon état",
@@ -5091,6 +5099,7 @@
       "price": "8 500,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/chargeur-occasion-quicke-q5m-q6m-q5m-q6m-1.jpg",
       "characteristics": {
+        "Type": "Chargeur",
         "Marque": "QUICKE",
         "Modèle": "Q5M OU Q6M",
         "État": "Neuf",
@@ -5110,6 +5119,7 @@
       "price": "42 500,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/telescopique-occasion-claas-scorpion-6035-6538-1.jpg",
       "characteristics": {
+        "Type": "TELESCOPIQUE",
         "Marque": "CLAAS",
         "Modèle": "SCORPION 6035",
         "État": "Occasion - Très bon état",
@@ -5132,6 +5142,7 @@
       "price": "5 900,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/faucheuse-occasion-deutz-discmaster-632t-6200-1.jpeg",
       "characteristics": {
+        "Type": "Faucheuse",
         "Marque": "DEUTZ",
         "Modèle": "DISC-MASTER 632T",
         "État": "Occasion - Bon état",
@@ -5151,6 +5162,7 @@
       "price": "11 750,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/compacteur-occasion-dynapac-cc122-6340-1.jpg",
       "characteristics": {
+        "Type": "Compacteur",
         "Marque": "DYNAPAC",
         "Modèle": "CC122",
         "État": "Occasion - Bon état",
@@ -5171,6 +5183,7 @@
       "price": "6 950,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/remorque-occasion-ecim-2-essieux-5788-1.jpg",
       "characteristics": {
+        "Type": "Remorque",
         "Marque": "ECIM",
         "État": "Occasion - NC",
         "Année": "2017"
@@ -5189,6 +5202,7 @@
       "price": null,
       "image": "https://www.nauleau-agricole.com/media/chariot-elevateur-occasion-fenwick-s40-lateral-5055-1.jpg",
       "characteristics": {
+        "Type": "Chariot Élévateur",
         "Marque": "FENWICK",
         "Modèle": "S40",
         "État": "Occasion - Bon état",
@@ -5212,6 +5226,7 @@
       "price": "8 000,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/presse-a-balles-round-baller-occasion-feraboli-extreme-280-6581-1.jpg",
       "characteristics": {
+        "Type": "Presse à balles rondes",
         "Marque": "FERABOLI",
         "Modèle": "EXTREME 280",
         "État": "Occasion - État moyen",
@@ -5231,6 +5246,7 @@
       "price": "17 500,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/chargeuse-occasion-yanmar-al140-6465-1.jpg",
       "characteristics": {
+        "Type": "CHARGEUSE",
         "Marque": "GEHL",
         "Modèle": "AL140",
         "État": "Occasion - Bon état",
@@ -5252,6 +5268,7 @@
       "price": "4 500,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/charrue-occasion-goizin-4-socs-6524-1.jpg",
       "characteristics": {
+        "Type": "Charrue",
         "Marque": "GOIZIN",
         "Modèle": "965",
         "État": "Occasion - Très bon état",
@@ -5271,6 +5288,7 @@
       "price": "12 750,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/plateau-occasion-gourdon-pf-1015-6685-1.jpg",
       "characteristics": {
+        "Type": "Plateau",
         "Marque": "GOURDON",
         "Modèle": "PF 1015",
         "État": "Occasion - Très bon état",
@@ -5290,6 +5308,7 @@
       "price": "6 000,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/charrue-occasion-gregoire-besson-ry-41-5542-1.jpg",
       "characteristics": {
+        "Type": "Charrue",
         "Marque": "GREGOIRE BESSON",
         "Modèle": "RY41",
         "État": "Occasion - Très bon état",
@@ -5309,6 +5328,7 @@
       "price": "5 000,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/charrue-occasion-gregoire-besson-ry3-414-5792-1.jpg",
       "characteristics": {
+        "Type": "Charrue",
         "Marque": "GREGOIRE BESSON",
         "Modèle": "RY3",
         "État": "Occasion - Très bon état",
@@ -5328,6 +5348,7 @@
       "price": "12 500,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/compacteur-occasion-hamm-hd12-6339-1.jpg",
       "characteristics": {
+        "Type": "Compacteur",
         "Marque": "HAMM",
         "Modèle": "HD12",
         "État": "Occasion - Bon état",
@@ -5348,6 +5369,7 @@
       "price": "3 500,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/remorque-occasion-herculano-siet-5000-tri-benne-6634-1.jpg",
       "characteristics": {
+        "Type": "Benne",
         "Marque": "HERCULANO",
         "Modèle": "SIET 5000",
         "État": "Occasion - Bon état",
@@ -5368,6 +5390,7 @@
       "price": "4 450,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/mini-pelle-occasion-hightop-ht10bz-ht10bz-1.jpg",
       "characteristics": {
+        "Type": "Mini pelle",
         "Marque": "HIGHTOP",
         "Modèle": "HT10BZ",
         "État": "Neuf",
@@ -5389,6 +5412,7 @@
       "price": "39 500,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/pelle-occasion-hitachi-zx-85-usblcn-3-6268-1.jpg",
       "characteristics": {
+        "Type": "Pelle",
         "Marque": "HITACHI",
         "Modèle": "ZX 85 USBLCN-3",
         "État": "Occasion - Bon état",
@@ -5409,6 +5433,7 @@
       "price": "25 000,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/mini-pelle-occasion-hyundai-robex-17z-9a-5949-1.jpg",
       "characteristics": {
+        "Type": "Mini pelle",
         "Marque": "HYUNDAI",
         "Modèle": "ROBEX 17Z-9A",
         "État": "Neuf",
@@ -5429,6 +5454,7 @@
       "price": "6 500,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/enrouleur-occasion-irtec-75-g-ci-6477-1-1.jpg",
       "characteristics": {
+        "Type": "Enrouleur",
         "Marque": "IRTEC",
         "Modèle": "75 G/C1",
         "État": "Occasion - Bon état",
@@ -5448,6 +5474,7 @@
       "price": "6 500,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/enrouleur-occasion-irtec-75g-ci-6476-1-1.jpg",
       "characteristics": {
+        "Type": "Enrouleur",
         "Marque": "IRTEC",
         "Modèle": "75 G/C1",
         "État": "Occasion - Bon état",
@@ -5467,6 +5494,7 @@
       "price": "24 500,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/chargeuse-occasion-jcb-406-6615-1.jpg",
       "characteristics": {
+        "Type": "Chargeuse",
         "Marque": "JCB",
         "Modèle": "406",
         "État": "Occasion - Très bon état",
@@ -5488,6 +5516,7 @@
       "price": "16 000,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/telescopique-occasion-jcb-52050-5333-1.jpg",
       "characteristics": {
+        "Type": "Télescopique",
         "Marque": "JCB",
         "Modèle": "520.50",
         "État": "Occasion - NC",
@@ -5511,6 +5540,7 @@
       "price": "52 500,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/telescopique-occasion-jcb-52560-6689-1.jpg",
       "characteristics": {
+        "Type": "Télescopique",
         "Marque": "JCB",
         "Modèle": "525.60",
         "Année": "2023",
@@ -5532,6 +5562,7 @@
       "price": "43 500,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/telescopique-occasion-jcb-533105-4822-1.jpg",
       "characteristics": {
+        "Type": "Télescopique",
         "Marque": "JCB",
         "Modèle": "533.105",
         "État": "Occasion - Bon état",
@@ -5555,6 +5586,7 @@
       "price": "29 500,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/mini-pelle-occasion-jcb-8055-rts-6452-1.jpg",
       "characteristics": {
+        "Type": "Mini pelle",
         "Marque": "JCB",
         "Modèle": "8055 RTS",
         "État": "Occasion - Très bon état",
@@ -5575,6 +5607,7 @@
       "price": "41 500,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/mini-pelle-occasion-jcb-86c-1-5887-1.jpeg",
       "characteristics": {
+        "Type": "Mini pelle",
         "Marque": "JCB",
         "Modèle": "86C-1",
         "État": "Occasion - Très bon état",
@@ -5595,6 +5628,7 @@
       "price": "60 000,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/pelle-a-chenille-occasion-jcb-js131-lc-6507-1.jpg",
       "characteristics": {
+        "Type": "Pelle à chenille",
         "Marque": "JCB",
         "Modèle": "JS 131 LS",
         "État": "Occasion - Très bon état",
@@ -5636,6 +5670,7 @@
       "price": "19 500,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/barre-de-coupe-occasion-john-deere-635r-5640-1.jpg",
       "characteristics": {
+        "Type": "Barre de coupe",
         "Marque": "JOHN DEERE",
         "Modèle": "635R",
         "État": "Occasion - Bon état",
@@ -5655,6 +5690,7 @@
       "price": "209 000,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/moissonneuse-batteuse-occasion-john-deere-s780i-5589-1.jpg",
       "characteristics": {
+        "Type": "Moissonneuse Batteuse",
         "Marque": "JOHN DEERE",
         "Modèle": "S780I",
         "État": "Occasion - Très bon état",
@@ -5676,6 +5712,7 @@
       "price": "37 000,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/mini-pelle-occasion-komatsu-pc55mr-3-6344-1-1.jpg",
       "characteristics": {
+        "Type": "Mini pelle",
         "Marque": "KOMATSU",
         "Modèle": "PC55MR-3",
         "État": "Occasion - Très bon état",
@@ -5696,6 +5733,7 @@
       "price": "40 000,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/telescopique-occasion-kramer-kt357-6431-1.jpg",
       "characteristics": {
+        "Type": "Télescopique",
         "Marque": "KRAMER",
         "Modèle": "KT357",
         "État": "Occasion - Bon état",
@@ -5718,6 +5756,7 @@
       "price": "34 500,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/chargeuse-occasion-kubota-r-065-hw-6577-1.jpg",
       "characteristics": {
+        "Type": "Chargeuse",
         "Marque": "KUBOTA",
         "Modèle": "R 065 HW",
         "État": "Occasion - Très bon état",
@@ -5739,6 +5778,7 @@
       "price": "3 750,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/herse-occasion-kuhn-hrb-302d-5461-1.jpg",
       "characteristics": {
+        "Type": "Herse rotative",
         "Marque": "KUHN",
         "Modèle": "HRB 302D",
         "État": "Occasion - Bon état",
@@ -5758,6 +5798,7 @@
       "price": "1 000,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/distributeur-a-engrais-occasion-kuhn-mds-921-6145-1.jpg",
       "characteristics": {
+        "Type": "Distributeur a engrais",
         "Marque": "KUHN",
         "Modèle": "MSD 921",
         "État": "Occasion - Bon état",
@@ -5777,6 +5818,7 @@
       "price": "1 850,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/porte-a-court-occasion-kuhn-herse-hr302-hr303-5461-1.jpg",
       "characteristics": {
+        "Type": "Porte à court",
         "Marque": "KUHN",
         "État": "Neuf",
         "Année": "2025"
@@ -5795,6 +5837,7 @@
       "price": "8 900,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/charrue-occasion-kverneland-ed-100-160-6090-1.jpg",
       "characteristics": {
+        "Type": "Charrue",
         "Marque": "KVERNELAND",
         "Modèle": "ED 100-160",
         "État": "Occasion - Bon état",
@@ -5814,6 +5857,7 @@
       "price": "11 000,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/charrue-occasion-kverneland-es-95-200-8-6578-1.jpg",
       "characteristics": {
+        "Type": "Charrue",
         "Marque": "KVERNELAND",
         "Modèle": "ES 95-200-8",
         "État": "Occasion - Bon état",
@@ -5833,6 +5877,7 @@
       "price": "9 500,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/remorque-occasion-lambert-rl-100-6479-1.jpg",
       "characteristics": {
+        "Type": "Benne",
         "Marque": "LAMBERT",
         "Modèle": "RL 100",
         "État": "Occasion - État moyen",
@@ -5852,6 +5897,7 @@
       "price": "9 000,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/chargeur-occasion-mailleux-t410-t412-1.jpg",
       "characteristics": {
+        "Type": "Chargeur",
         "Marque": "MAILLEUX",
         "Modèle": "T410 - T412",
         "État": "Neuf",
@@ -5871,6 +5917,7 @@
       "price": "19 500,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/telescopique-occasion-manitou-mlt-627-6042-1.jpg",
       "characteristics": {
+        "Type": "Télescopique",
         "Marque": "MANITOU",
         "Modèle": "MLT 627 TURBO",
         "État": "Occasion - Bon état",
@@ -5893,6 +5940,7 @@
       "price": "40 000,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/telescopique-occasion-manitou-mlt-634120-isu-6467-1.jpg",
       "characteristics": {
+        "Type": "Télescopique",
         "Marque": "MANITOU",
         "Modèle": "MLT 634.120 ISU",
         "État": "Occasion - Très bon état",
@@ -5915,6 +5963,7 @@
       "price": "45 000,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/telescopique-occasion-manitou-1840-privilege-6307-1.jpg",
       "characteristics": {
+        "Type": "Télescopique",
         "Marque": "MANITOU",
         "Modèle": "MT 1840 PRIVILEGE",
         "État": "Occasion - Bon état",
@@ -5937,6 +5986,7 @@
       "price": "39 500,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/telescopique-occasion-manitou-mt-625-6275-1.jpg",
       "characteristics": {
+        "Type": "Télescopique",
         "Marque": "MANITOU",
         "Modèle": "MT 625",
         "État": "Occasion - Très bon état",
@@ -5959,6 +6009,7 @@
       "price": "28 500,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/telescopique-occasion-manitou-mt-732-6277-1.jpg",
       "characteristics": {
+        "Type": "TELESCOPIQUE",
         "Marque": "MANITOU",
         "Modèle": "MT 732",
         "État": "Occasion - Très bon état",
@@ -5981,6 +6032,7 @@
       "price": "10 000,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/enjambeur-massey-ferguson-3325s-5217-1.jpg",
       "characteristics": {
+        "Type": "Enjambeur",
         "Marque": "MASSEY FERGUSON",
         "Modèle": "3325",
         "État": "Occasion - Bon état",
@@ -6002,6 +6054,7 @@
       "price": "22 500,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/moissonneuse-batteuse-occasion-massey-ferguson-7272-6014-1.jpg",
       "characteristics": {
+        "Type": "Moissonneuse Batteuse",
         "Marque": "MASSEY FERGUSON",
         "Modèle": "7272",
         "État": "Occasion - Bon état",
@@ -6024,6 +6077,7 @@
       "price": "45 000,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/telescopique-occasion-merlo-tf357-cs120-5666-1.jpg",
       "characteristics": {
+        "Type": "Télescopique",
         "Marque": "MERLO",
         "Modèle": "TF35.7 CS120",
         "État": "Occasion - Bon état",
@@ -6046,6 +6100,7 @@
       "price": "9 750,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/chariot-elevateur-occasion-moffett-m4-203-5358-1-1.jpg",
       "characteristics": {
+        "Type": "Chariot Élévateur",
         "Marque": "MOFFETT",
         "Modèle": "M4 20.3",
         "État": "Occasion - Bon état",
@@ -6069,6 +6124,7 @@
       "price": "7 500,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/chariot-elevateur-occasion-moffett-m525-5364-1.jpg",
       "characteristics": {
+        "Type": "Chariot Élévateur",
         "Marque": "MOFFETT",
         "Modèle": "M5.25",
         "État": "Occasion - Bon état",
@@ -6092,6 +6148,7 @@
       "price": "1 750,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/charrue-occasion-naud-rn-304-6146-1.jpg",
       "characteristics": {
+        "Type": "Charrue",
         "Marque": "NAUD",
         "Modèle": "RN 304",
         "État": "Occasion - Bon état",
@@ -6111,6 +6168,7 @@
       "price": "65 000,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/presse-cubique-occasion-new-holland-bb1290-crop-cutter-6325-1.jpg",
       "characteristics": {
+        "Type": "Presse",
         "Marque": "NEW HOLLAND",
         "Modèle": "BB1290 CROP CUTTER",
         "État": "Occasion - Très bon état",
@@ -6130,6 +6188,7 @@
       "price": "65 000,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/moissonneuse-batteuse-occasion-new-holland-cx740-6503-1.jpg",
       "characteristics": {
+        "Type": "Moissonneuse Batteuse",
         "Marque": "NEW HOLLAND",
         "Modèle": "CX 740",
         "État": "Occasion - Bon état",
@@ -6150,6 +6209,7 @@
       "price": "67 500,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/chargeuse-occasion-new-holland-w130d-6609-1.jpg",
       "characteristics": {
+        "Type": "Chargeuse",
         "Marque": "NEW HOLLAND",
         "Modèle": "W 130 D",
         "État": "Occasion - Très bon état",
@@ -6171,6 +6231,7 @@
       "price": "40 000,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/tonne-a-lisier-occasion-pichon-tci-18500-6393-1.jpg",
       "characteristics": {
+        "Type": "TONNE A LISIER",
         "Marque": "PICHON",
         "Modèle": "TCI 18500",
         "État": "Occasion - Bon état",
@@ -6190,6 +6251,7 @@
       "price": "6 000,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/andaineur-occasion-pottinger-top-422-6492-1.jpg",
       "characteristics": {
+        "Type": "Andaineur",
         "Marque": "PÖTTINGER",
         "Modèle": "TOP 422",
         "État": "Occasion - Très bon état",
@@ -6209,6 +6271,7 @@
       "price": "26 000,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/cover-crop-occasion-quivogne-grb2-6037-1.jpeg",
       "characteristics": {
+        "Type": "Cover-crop",
         "Marque": "QUIVOGNE",
         "Modèle": "GRB2",
         "État": "Occasion - Très bon état",
@@ -6228,6 +6291,7 @@
       "price": "3 500,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/pailleuse-occasion-sirot-pp-scar-6389-1.jpg",
       "characteristics": {
+        "Type": "Pailleuse",
         "Marque": "SIROT",
         "Modèle": "PP SCAR",
         "État": "Occasion - Bon état",
@@ -6247,6 +6311,7 @@
       "price": "5 500,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/epareuse-occasion-sma-taiga-7x-3478-1.jpg",
       "characteristics": {
+        "Type": "Epareuse",
         "Marque": "SMA",
         "Modèle": "TAIGA 7X",
         "État": "Occasion - État moyen",
@@ -6266,6 +6331,7 @@
       "price": "1 750,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/distributeur-a-engrais-occasion-sulky-dpx-1155-5839-1.jpg",
       "characteristics": {
+        "Type": "Distributeur a engrais",
         "Marque": "SULKY",
         "Modèle": "DPX 115",
         "État": "Occasion - Bon état",
@@ -6285,6 +6351,7 @@
       "price": "29 500,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/semoire-occasion-sulky-progress-50-hr-190-6294-1.jpg",
       "characteristics": {
+        "Type": "Semoir",
         "Marque": "SULKY",
         "Modèle": "T410 - T412",
         "État": "Occasion - Très bon état",
@@ -6304,6 +6371,7 @@
       "price": "49 500,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/mini-pelle-occasion-takeuchi-tb257fr-6616-1.jpg",
       "characteristics": {
+        "Type": "Mini pelle",
         "Marque": "TAKEUCHI",
         "Modèle": "TB257FR",
         "État": "Occasion - Très bon état",
@@ -6324,6 +6392,7 @@
       "price": "27 500,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/trancheuse-occasion-aft-75-5879-1.jpg",
       "characteristics": {
+        "Type": "Trancheuse",
         "Marque": "AFT",
         "Modèle": "75",
         "État": "Occasion - Bon état"
@@ -6342,6 +6411,7 @@
       "price": "35 000,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/minipelle-occasion-volvo-ecr50-d-6610-1.jpg",
       "characteristics": {
+        "Type": "Mini pelle",
         "Marque": "VOLVO",
         "Modèle": "ECR50 D",
         "État": "Occasion - Très bon état",
@@ -6362,6 +6432,7 @@
       "price": "30 000,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/mini-pelle-occasion-wacker-neuson-6003-6611-1.jpg",
       "characteristics": {
+        "Type": "Mini pelle",
         "Marque": "WACKER NEUSON",
         "Modèle": "6003",
         "État": "Occasion - Très bon état",
@@ -6382,6 +6453,7 @@
       "price": "22 500,00 € HT",
       "image": "https://www.nauleau-agricole.com/media/telescopique-occasion-weidemann-t6025-6034-1.jpg",
       "characteristics": {
+        "Type": "Télescopique",
         "Marque": "WEIDEMANN",
         "Modèle": "T6025",
         "État": "Occasion - Bon état",
