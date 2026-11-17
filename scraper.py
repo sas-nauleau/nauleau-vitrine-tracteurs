@@ -177,8 +177,19 @@ def extract_detail(url, html):
     # Le petit tableau "Puissance / Heures / Référence" est retiré du texte
     # avant de chercher le prix : sinon, pour un prix à 6 chiffres, ses chiffres
     # se collaient au numéro de référence et donnaient un prix absurde.
+    # Avant de le retirer, on en lit les lignes : pour les matériels, c'est là
+    # que figure le "Type" (Chargeuse, Compacteur, Pulvérisateur...), qui n'est
+    # pas dans le tableau "Caractéristiques".
+    header = {}
     for table in soup.find_all("table"):
         if "référence" in table.get_text(strip=True).lower():
+            for row in table.find_all("tr"):
+                cells = row.find_all(["td", "th"])
+                if len(cells) >= 2:
+                    label = cells[0].get_text(" ", strip=True).rstrip(":").strip()
+                    value = " ".join(cells[1].get_text(" ", strip=True).split())
+                    if label and value:
+                        header[label] = value
             table.decompose()
             break
 
@@ -192,6 +203,10 @@ def extract_detail(url, html):
     price = parse_price_from_strings(soup) or parse_price(search_zone)
 
     characteristics = extract_characteristics(soup)
+
+    # Le type n'est conservé que pour les matériels (les tracteurs n'en ont pas)
+    if classify(url)[1] == "materiels" and header.get("Type") and "Type" not in characteristics:
+        characteristics = {"Type": header["Type"], **characteristics}
 
     # image principale : première photo de la galerie (dossier /media/),
     # en excluant le logo
