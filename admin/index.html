@@ -739,4 +739,20 @@ $('robot-btn').addEventListener('click', async () => {
     toast(d.deja_en_cours ? 'Le robot est déjà en cours.' : 'Robot lancé : comptez environ 6 minutes.');
     pollRobot();
   }catch(e){
-    btn.disable
+    btn.disabled = false;
+    $('robot-status').textContent = 'Échec du lancement.';
+    toast(robotMessage(e), true);
+  }
+});
+
+/* ---------- démarrage ---------- */
+sb.auth.getSession().then(({ data }) => {
+  if(data && data.session) showApp(); else showLogin();
+});
+sb.auth.onAuthStateChange((event) => {
+  if(event === 'SIGNED_OUT') showLogin();
+});
+})();
+</script>
+</body>
+</html>
