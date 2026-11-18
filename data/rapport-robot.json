@@ -1,5 +1,5 @@
 {
-  "started_at": "2026-11-18T08:34:39Z",
+  "started_at": "2026-11-18T08:41:37Z",
   "roots": [
     {
       "path": "/tracteurs-materiels/tracteurs/",
@@ -24,7 +24,7 @@
   },
   "supabase": "ok",
   "mises_hors_ligne": {
-    "materiels": 1,
-    "tracteurs": 1
+    "materiels": 0,
+    "tracteurs": 0
   }
 }
