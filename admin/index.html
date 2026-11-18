@@ -83,6 +83,8 @@ textarea{min-height:90px;resize:vertical}
 .thumb{width:84px;height:60px;border-radius:6px;background:#eceeed;object-fit:cover;flex-shrink:0}
 .item .info{flex:1;min-width:0}
 .item .name{font-weight:600;overflow-wrap:anywhere}
+.ref{margin-left:8px;color:#7a7a7a;font-size:.8rem;font-weight:500;white-space:nowrap}
+.num.off{border-color:#b8b8b8;color:#8a8a8a}
 .num{display:inline-block;margin-right:8px;padding:1px 9px;border:2px solid #009AA0;border-radius:999px;background:#eceeee;color:#1b1b1b;font-size:.85rem;font-weight:700;white-space:nowrap;vertical-align:1px}
 .item.off .name,.item.off .thumb{opacity:.45}
 .tag{display:inline-block;font-size:.75rem;font-weight:600;border-radius:5px;padding:2px 7px;margin-left:6px;vertical-align:middle}
@@ -160,7 +162,7 @@ textarea{min-height:90px;resize:vertical}
           <button data-cat="materiels">Matériels <span id="count-materiels"></span></button>
         </div>
         <div class="toolbar">
-          <input type="search" id="search" placeholder="Rechercher un modèle, une marque ou un numéro…" aria-label="Rechercher">
+          <input type="search" id="search" placeholder="Modèle, marque ou numéro (ex. 12)…" aria-label="Rechercher">
           <button class="btn light small" id="show-all-btn" type="button">Tout afficher</button>
           <button class="btn light small" id="hide-all-btn" type="button">Tout masquer</button>
         </div>
@@ -404,17 +406,75 @@ $('save-settings-btn').addEventListener('click', async () => {
 });
 
 /* ---------- annonces ---------- */
+/* ---------- ordre de passage sur l'écran (même calcul que la page de l'écran) ---------- */
+function loopInterleave(a, b){
+  if (!a.length) return b.slice();
+  if (!b.length) return a.slice();
+  const total = a.length + b.length;
+  const out = [];
+  let ia = 0, ib = 0;
+  for (let i = 0; i < total; i++) {
+    const targetB = Math.floor((i + 1) * b.length / total);
+    if (ib < targetB && ib < b.length) out.push(b[ib++]);
+    else if (ia < a.length) out.push(a[ia++]);
+    else out.push(b[ib++]);
+  }
+  return out;
+}
+function todayLocal(){
+  const d = new Date();
+  return d.getFullYear() + '-' + String(d.getMonth() + 1).padStart(2, '0') + '-' + String(d.getDate()).padStart(2, '0');
+}
+function posterIsLive(p){
+  const today = todayLocal();
+  if (p.active === false) return false;
+  if (p.starts_on && p.starts_on > today) return false;
+  if (p.ends_on && p.ends_on < today) return false;
+  return true;
+}
+function loopInfo(){
+  const cfg = Object.assign({ show_tractors:true, show_materials:true, poster_every:15 }, state.settings || {});
+  const byOrder = (x, y) => (x.sort_order || 0) - (y.sort_order || 0);
+  const live = state.listings.filter(l => l.online && !l.hidden);
+  const tractors = cfg.show_tractors ? live.filter(l => l.category === 'tracteurs').sort(byOrder) : [];
+  const materials = cfg.show_materials ? live.filter(l => l.category === 'materiels').sort(byOrder) : [];
+  const ordered = loopInterleave(tractors, materials);
+  const posterCount = state.posters.filter(posterIsLive).length;
+  const spacing = Math.max(1, cfg.poster_every || 15);
+  const pos = new Map();
+  let n = 0, inserted = 0;
+  ordered.forEach((l, i) => {
+    n++; pos.set(l.id, n);
+    if (posterCount > 0 && (i + 1) % spacing === 0){ n++; inserted++; }
+  });
+  if (posterCount > 0 && inserted === 0) n += posterCount;
+  return { pos, total: n };
+}
+
 function filteredListings(){
   const q = state.search.trim().toLowerCase().replace(/^n\s*[°o]?\s*(?=\d)/, '');
+  const info = loopInfo();
   return state.listings.filter(l => {
     if(l.category !== state.cat) return false;
     if(!state.showOffline && !l.online) return false;
     if(q){
-      const hay = ((l.model || '') + ' ' + (l.brand || '') + ' ' + (l.subcategory || '') + ' ' + (l.id || '')).toLowerCase();
-      if(hay.indexOf(q) === -1) return false;
+      if(/^\d{1,3}$/.test(q)){
+        if(info.pos.get(l.id) !== Number(q)) return false;           // numéro affiché à l'écran
+      } else if(/^\d{4,}$/.test(q)){
+        if(String(l.id).indexOf(q) === -1) return false;             // numéro d'annonce du site
+      } else {
+        const hay = ((l.model || '') + ' ' + (l.brand || '') + ' ' + (l.subcategory || '')).toLowerCase();
+        if(hay.indexOf(q) === -1) return false;
+      }
     }
     return true;
   });
+}
+function numPill(l, info){
+  const p = info.pos.get(l.id);
+  return p
+    ? '<span class="num" title="Numéro affiché à l\'écran">' + p + ' / ' + info.total + '</span>'
+    : '<span class="num off" title="Pas affichée à l\'écran (masquée ou retirée du site)">hors écran</span>';
 }
 function renderListings(){
   ['tracteurs','materiels'].forEach(c => {
@@ -427,7 +487,8 @@ function renderListings(){
   const list = filteredListings();
   const box = $('listings');
   const online = list.filter(l => l.online);
-  $('list-summary').textContent = online.filter(l => !l.hidden).length + ' annonce(s) à l\'écran sur ' + online.length + ' en ligne dans cette catégorie.';
+  const info = loopInfo();
+  $('list-summary').textContent = online.filter(l => !l.hidden).length + ' annonce(s) à l\'écran sur ' + online.length + ' en ligne dans cette catégorie. Boucle de l\'écran : ' + info.total + ' passages (annonces + affiches).';
   if(!list.length){
     box.innerHTML = '<div class="empty">Aucune annonce' + (state.cat === 'materiels' ? ' de matériel pour le moment (le robot les récupère toutes les 6 heures).' : '.') + '</div>';
     return;
@@ -438,8 +499,8 @@ function renderListings(){
     const off = !l.online ? '<span class="tag warn">Retirée du site</span>' : '';
     return '<div class="item' + (l.hidden || !l.online ? ' off' : '') + '">' +
       (img ? '<img class="thumb" loading="lazy" alt="" src="' + esc(img) + '">' : '<div class="thumb"></div>') +
-      '<div class="info"><div class="name"><span class="num" title="Numéro de l\'annonce sur le site">N° ' + esc(l.id) + '</span>' + esc(l.model) + sub + off + '</div>' +
-      '<div class="muted">' + esc(l.price || 'Nous consulter') + '</div></div>' +
+      '<div class="info"><div class="name">' + numPill(l, info) + esc(l.model) + sub + off + '</div>' +
+      '<div class="muted">' + esc(l.price || 'Nous consulter') + '<span class="ref" title="Numéro de l\'annonce sur le site">réf. site ' + esc(l.id) + '</span></div></div>' +
       '<label class="switch" title="Afficher sur l\'écran"><input type="checkbox" data-id="' + esc(l.id) + '"' + (l.hidden ? '' : ' checked') + '><span class="slider"></span></label>' +
       '</div>';
   }).join('');
