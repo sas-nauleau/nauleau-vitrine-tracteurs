@@ -1,7 +1,54 @@
 {
-  "updated_at": "2026-11-18T00:43:56Z",
-  "count": 181,
+  "updated_at": "2026-11-18T08:40:00Z",
+  "count": 182,
   "tractors": [
+    {
+      "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/11227-new-holland-t5100-ec.html",
+      "model": "NEW HOLLAND T5.100 EC",
+      "brand": "NEW HOLLAND",
+      "power": "100 ch",
+      "hours": "950 h",
+      "price": "60 000,00 € HT",
+      "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-new-holland-t5100-ec-6437-1-2.jpg",
+      "characteristics": {
+        "Marque": "NEW HOLLAND",
+        "Modèle": "T5.100 EC",
+        "État": "Occasion - Très bon état",
+        "Année": "2023",
+        "Heures": "950 h",
+        "Puissance": "100 ch",
+        "Roues motrices": "4 rm",
+        "Boîte de vitesses": "SEMI POWERSHIFT",
+        "Dimension pneus avant": "13.6.28",
+        "Usure pneus avant": "5%",
+        "Dimension pneus arrière": "16.9.38",
+        "Usure pneus arrière": "5%"
+      }
+    },
+    {
+      "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/11226-john-deere-6534-premium.html",
+      "model": "JOHN DEERE 6534 PREMIUM",
+      "brand": "JOHN DEERE",
+      "power": "125 ch",
+      "hours": "4713 h",
+      "price": "55 000,00 € HT",
+      "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-john-deere-6534-premium-6690-1.jpg",
+      "characteristics": {
+        "Marque": "JOHN DEERE",
+        "Modèle": "6534 PREMIUM",
+        "État": "Occasion - Très bon état",
+        "Année": "2011",
+        "Heures": "4713 h",
+        "Puissance": "125 ch",
+        "Roues motrices": "4 rm",
+        "Boîte de vitesses": "SEMI POWERSHIFT",
+        "Dimension pneus avant": "16.9.28",
+        "Usure pneus avant": "40%",
+        "Dimension pneus arrière": "20.8.38",
+        "Usure pneus arrière": "30%",
+        "Vitesse maxi": "42 Km/h"
+      }
+    },
     {
       "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/11220-case-ih-cs-120.html",
       "model": "CASE IH CS 120",
@@ -907,29 +954,6 @@
         "Usure pneus avant": "PNEUS NEUFS",
         "Dimension pneus arrière": "650 75 38",
         "Usure pneus arrière": "PNEUS NEUFS"
-      }
-    },
-    {
-      "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/11127-new-holland-t5100-ec.html",
-      "model": "NEW HOLLAND T5.100 EC",
-      "brand": "NEW HOLLAND",
-      "power": "100 ch",
-      "hours": "939 h",
-      "price": "49 500,00 € HT",
-      "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-new-holland-t5100-ec-6437-1-1.jpg",
-      "characteristics": {
-        "Marque": "NEW HOLLAND",
-        "Modèle": "T5.100 EC",
-        "État": "Occasion - Très bon état",
-        "Année": "2023",
-        "Heures": "939 h",
-        "Puissance": "100 ch",
-        "Roues motrices": "4 rm",
-        "Boîte de vitesses": "SEMI POWERSHIFT",
-        "Dimension pneus avant": "340 85 28",
-        "Usure pneus avant": "20%",
-        "Dimension pneus arrière": "420 85 38",
-        "Usure pneus arrière": "20%"
       }
     },
     {
