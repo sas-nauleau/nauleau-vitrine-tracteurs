@@ -83,6 +83,7 @@ textarea{min-height:90px;resize:vertical}
 .thumb{width:84px;height:60px;border-radius:6px;background:#eceeed;object-fit:cover;flex-shrink:0}
 .item .info{flex:1;min-width:0}
 .item .name{font-weight:600;overflow-wrap:anywhere}
+.num{display:inline-block;margin-right:8px;padding:1px 9px;border:2px solid #009AA0;border-radius:999px;background:#eceeee;color:#1b1b1b;font-size:.85rem;font-weight:700;white-space:nowrap;vertical-align:1px}
 .item.off .name,.item.off .thumb{opacity:.45}
 .tag{display:inline-block;font-size:.75rem;font-weight:600;border-radius:5px;padding:2px 7px;margin-left:6px;vertical-align:middle}
 .tag.ok{background:#e1f4ea;color:var(--ok)}
@@ -159,7 +160,7 @@ textarea{min-height:90px;resize:vertical}
           <button data-cat="materiels">Matériels <span id="count-materiels"></span></button>
         </div>
         <div class="toolbar">
-          <input type="search" id="search" placeholder="Rechercher un modèle ou une marque…" aria-label="Rechercher">
+          <input type="search" id="search" placeholder="Rechercher un modèle, une marque ou un numéro…" aria-label="Rechercher">
           <button class="btn light small" id="show-all-btn" type="button">Tout afficher</button>
           <button class="btn light small" id="hide-all-btn" type="button">Tout masquer</button>
         </div>
@@ -404,12 +405,12 @@ $('save-settings-btn').addEventListener('click', async () => {
 
 /* ---------- annonces ---------- */
 function filteredListings(){
-  const q = state.search.trim().toLowerCase();
+  const q = state.search.trim().toLowerCase().replace(/^n\s*[°o]?\s*(?=\d)/, '');
   return state.listings.filter(l => {
     if(l.category !== state.cat) return false;
     if(!state.showOffline && !l.online) return false;
     if(q){
-      const hay = ((l.model || '') + ' ' + (l.brand || '') + ' ' + (l.subcategory || '')).toLowerCase();
+      const hay = ((l.model || '') + ' ' + (l.brand || '') + ' ' + (l.subcategory || '') + ' ' + (l.id || '')).toLowerCase();
       if(hay.indexOf(q) === -1) return false;
     }
     return true;
@@ -437,7 +438,7 @@ function renderListings(){
     const off = !l.online ? '<span class="tag warn">Retirée du site</span>' : '';
     return '<div class="item' + (l.hidden || !l.online ? ' off' : '') + '">' +
       (img ? '<img class="thumb" loading="lazy" alt="" src="' + esc(img) + '">' : '<div class="thumb"></div>') +
-      '<div class="info"><div class="name">' + esc(l.model) + sub + off + '</div>' +
+      '<div class="info"><div class="name"><span class="num" title="Numéro de l\'annonce sur le site">N° ' + esc(l.id) + '</span>' + esc(l.model) + sub + off + '</div>' +
       '<div class="muted">' + esc(l.price || 'Nous consulter') + '</div></div>' +
       '<label class="switch" title="Afficher sur l\'écran"><input type="checkbox" data-id="' + esc(l.id) + '"' + (l.hidden ? '' : ' checked') + '><span class="slider"></span></label>' +
       '</div>';
@@ -738,19 +739,4 @@ $('robot-btn').addEventListener('click', async () => {
     toast(d.deja_en_cours ? 'Le robot est déjà en cours.' : 'Robot lancé : comptez environ 6 minutes.');
     pollRobot();
   }catch(e){
-    btn.disabled = false;
-    $('robot-status').textContent = 'Échec du lancement.';
-    toast(robotMessage(e), true);
-  }
-});
-
-/* ---------- démarrage ---------- */
-sb.auth.getSession().then(({ data }) => {
-  if(data && data.session) showApp(); else showLogin();
-});
-sb.auth.onAuthStateChange((event) => {
-  if(event === 'SIGNED_OUT') showLogin();
-});
-})();
-</script>
-</body>
+    btn.disable
