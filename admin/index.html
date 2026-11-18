@@ -71,6 +71,8 @@ textarea{min-height:90px;resize:vertical}
 .toggle-line .txt{flex:1}
 
 /* Annonces */
+.robot-box{display:flex;gap:12px;align-items:center;justify-content:space-between;flex-wrap:wrap;background:#eef8f8;border:1px solid #cfe9ea;border-radius:10px;padding:12px 14px;margin-bottom:14px}
+.robot-box .muted{margin-top:2px}
 .toolbar{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin-bottom:12px}
 .toolbar input[type=search]{flex:1;min-width:180px}
 .subtabs{display:flex;gap:8px;margin-bottom:12px}
@@ -148,6 +150,10 @@ textarea{min-height:90px;resize:vertical}
       <div class="card">
         <h2>Annonces affichées sur l'écran</h2>
         <p class="muted" style="margin-bottom:12px">Les annonces viennent automatiquement du site nauleau-agricole.com. Désactivez l'interrupteur d'une annonce pour la masquer de l'écran (par exemple un matériel vendu qui est encore sur le site).</p>
+        <div class="robot-box">
+          <div><b>Mise à jour depuis le site</b><div class="muted" id="robot-status">…</div></div>
+          <button class="btn" id="robot-btn" type="button">Actualiser maintenant</button>
+        </div>
         <div class="subtabs" id="cat-tabs">
           <button data-cat="tracteurs" class="active">Tracteurs <span id="count-tracteurs"></span></button>
           <button data-cat="materiels">Matériels <span id="count-materiels"></span></button>
@@ -307,6 +313,7 @@ async function showApp(){
   $('tabs').hidden = false;
   await loadAll();
   switchTab('annonces');
+  refreshRobotStatus();
 }
 
 $('login-form').addEventListener('submit', async (ev) => {
@@ -650,6 +657,93 @@ $('add-poster-btn').addEventListener('click', async () => {
   }
 });
 
+/* ---------- robot : bouton « Actualiser maintenant » ---------- */
+let robotTimer = null, robotSince = 0;
+const ROBOT_ERRORS = {
+  non_autorise: 'Votre compte n\'est pas autorisé à lancer le robot.',
+  non_connecte: 'Session expirée : reconnectez-vous.',
+  cle_github_absente: 'La clé GitHub n\'est pas enregistrée dans Supabase.',
+  github_401: 'La clé GitHub est refusée (expirée ?).',
+  github_403: 'La clé GitHub n\'a pas les droits nécessaires.',
+  github_404: 'Dépôt ou robot introuvable côté GitHub.'
+};
+function robotText(run){
+  if(!run) return 'Aucun passage enregistré.';
+  const when = new Date(run.created_at).toLocaleString('fr-FR', {day:'numeric', month:'long', hour:'2-digit', minute:'2-digit'});
+  if(run.status === 'completed'){
+    return run.conclusion === 'success'
+      ? 'Dernière mise à jour : ' + when + ' ✔'
+      : 'Dernier passage le ' + when + ' : en erreur.';
+  }
+  return 'Mise à jour en cours (environ 6 minutes)… commencée à ' + when;
+}
+async function callRobot(action){
+  const r = await sb.functions.invoke('lancer-robot', { body: { action } });
+  if(r.error){
+    let code = 'erreur';
+    try{ const j = await r.error.context.json(); code = j.error || code; }catch(_){}
+    throw new Error(code);
+  }
+  if(r.data && r.data.error) throw new Error(r.data.error);
+  return r.data;
+}
+function robotMessage(e){
+  return ROBOT_ERRORS[e.message] || ('Impossible de joindre le robot (' + e.message + ').');
+}
+function pollRobot(){
+  clearTimeout(robotTimer);
+  robotTimer = setTimeout(async () => {
+    try{
+      const d = await callRobot('statut');
+      const run = d.run;
+      const fresh = !robotSince || (run && new Date(run.created_at).getTime() >= robotSince - 30000);
+      if(!fresh){
+        if(Date.now() - robotSince > 90000){
+          $('robot-status').textContent = 'Lancé. Revenez dans quelques minutes.';
+          $('robot-btn').disabled = false;
+          return;
+        }
+        $('robot-status').textContent = 'Lancement du robot…';
+        pollRobot(); return;
+      }
+      $('robot-status').textContent = robotText(run);
+      if(run.status !== 'completed'){ pollRobot(); return; }
+      $('robot-btn').disabled = false;
+      if(run.conclusion === 'success'){ await loadAll(); toast('Annonces mises à jour'); }
+      else toast('Le robot a rencontré une erreur.', true);
+    }catch(e){
+      $('robot-btn').disabled = false;
+      toast(robotMessage(e), true);
+    }
+  }, 20000);
+}
+async function refreshRobotStatus(){
+  try{
+    const d = await callRobot('statut');
+    $('robot-status').textContent = robotText(d.run);
+    const busy = d.run && d.run.status !== 'completed';
+    $('robot-btn').disabled = !!busy;
+    if(busy){ robotSince = 0; pollRobot(); }
+  }catch(e){
+    $('robot-status').textContent = 'État du robot indisponible.';
+  }
+}
+$('robot-btn').addEventListener('click', async () => {
+  const btn = $('robot-btn');
+  btn.disabled = true;
+  $('robot-status').textContent = 'Lancement du robot…';
+  try{
+    const d = await callRobot('lancer');
+    robotSince = d.deja_en_cours ? 0 : Date.now();
+    toast(d.deja_en_cours ? 'Le robot est déjà en cours.' : 'Robot lancé : comptez environ 6 minutes.');
+    pollRobot();
+  }catch(e){
+    btn.disabled = false;
+    $('robot-status').textContent = 'Échec du lancement.';
+    toast(robotMessage(e), true);
+  }
+});
+
 /* ---------- démarrage ---------- */
 sb.auth.getSession().then(({ data }) => {
   if(data && data.session) showApp(); else showLogin();
@@ -660,4 +754,3 @@ sb.auth.onAuthStateChange((event) => {
 })();
 </script>
 </body>
-</html>
