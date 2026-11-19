@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-19T06:55:44Z",
-  "count": 184,
+  "updated_at": "2026-11-19T20:07:39Z",
+  "count": 183,
   "tractors": [
     {
       "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/11227-new-holland-t5100-ec.html",
@@ -370,29 +370,6 @@
         "Usure pneus avant": "30%",
         "Dimension pneus arrière": "650 75 38",
         "Usure pneus arrière": "30%"
-      }
-    },
-    {
-      "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/11193-john-deere-6930-premium.html",
-      "model": "JOHN DEERE 6930 PREMIUM",
-      "brand": "JOHN DEERE",
-      "power": "165 ch",
-      "hours": "5700 h",
-      "price": "67 500,00 € HT",
-      "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-john-deere-6930-premium-6619-1.jpg",
-      "characteristics": {
-        "Marque": "JOHN DEERE",
-        "Modèle": "6930 PREMIUM",
-        "État": "Occasion - Très bon état",
-        "Année": "2012",
-        "Heures": "5700 h",
-        "Puissance": "165 ch",
-        "Roues motrices": "4 rm",
-        "Boîte de vitesses": "VARIATION CONTINUE",
-        "Dimension pneus avant": "540 65 28",
-        "Usure pneus avant": "50%",
-        "Dimension pneus arrière": "650 65 38",
-        "Usure pneus arrière": "40%"
       }
     },
     {
