@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-20T15:23:55Z",
-  "count": 184,
+  "updated_at": "2026-11-20T23:49:09Z",
+  "count": 182,
   "tractors": [
     {
       "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/11229-massey-ferguson-7624-dyna-6.html",
@@ -1559,29 +1559,6 @@
       }
     },
     {
-      "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/11000-john-deere-5085m.html",
-      "model": "JOHN DEERE 5085M",
-      "brand": "JOHN DEERE",
-      "power": "85 ch",
-      "hours": "4190 h",
-      "price": "39 500,00 € HT",
-      "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-john-deere-5085m-6428-1.jpg",
-      "characteristics": {
-        "Marque": "JOHN DEERE",
-        "Modèle": "5085M",
-        "État": "Occasion - Très bon état",
-        "Année": "2015",
-        "Heures": "4190 h",
-        "Puissance": "85 ch",
-        "Roues motrices": "4 rm",
-        "Boîte de vitesses": "MECANIQUE",
-        "Dimension pneus avant": "340 85 24",
-        "Usure pneus avant": "PNEUS NEUFS",
-        "Dimension pneus arrière": "420 85 34",
-        "Usure pneus arrière": "50%"
-      }
-    },
-    {
       "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/10993-massey-ferguson-6713s-dyna-vt.html",
       "model": "MASSEY FERGUSON 6713S DYNA VT",
       "brand": "MASSEY FERGUSON",
@@ -2604,29 +2581,6 @@
         "Dimension pneus arrière": "620 70 42",
         "Usure pneus arrière": "30%",
         "Vitesse maxi": "56 Km/h"
-      }
-    },
-    {
-      "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/10708-john-deere-6830-premium.html",
-      "model": "JOHN DEERE 6830 PREMIUM",
-      "brand": "JOHN DEERE",
-      "power": "150 ch",
-      "hours": "6050 h",
-      "price": "53 500,00 € HT",
-      "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-tracteur-john-deere-6830-premium-6123-1.jpeg",
-      "characteristics": {
-        "Marque": "JOHN DEERE",
-        "Modèle": "6830 PREMIUM",
-        "État": "Occasion - Bon état",
-        "Année": "2010",
-        "Heures": "6050 h",
-        "Puissance": "150 ch",
-        "Roues motrices": "4 rm",
-        "Boîte de vitesses": "VARIATION CONTINUE",
-        "Dimension pneus avant": "480 70 28",
-        "Usure pneus avant": "30%",
-        "Dimension pneus arrière": "580 70 38",
-        "Usure pneus arrière": "50%"
       }
     },
     {
