@@ -1,7 +1,55 @@
 {
-  "updated_at": "2026-11-20T06:04:34Z",
-  "count": 183,
+  "updated_at": "2026-11-20T15:23:55Z",
+  "count": 184,
   "tractors": [
+    {
+      "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/11229-massey-ferguson-7624-dyna-6.html",
+      "model": "MASSEY FERGUSON 7624 DYNA 6",
+      "brand": "MASSEY FERGUSON",
+      "power": "240 ch",
+      "hours": "3711 h",
+      "price": "67 500,00 € HT",
+      "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-massey-ferguson-7624-dyna-6-6699-1.jpg",
+      "characteristics": {
+        "Marque": "MASSEY FERGUSON",
+        "Modèle": "7624 DYNA 6",
+        "État": "Occasion - Très bon état",
+        "Année": "2015",
+        "Heures": "3711 h",
+        "Puissance": "240 ch",
+        "Roues motrices": "4 rm",
+        "Boîte de vitesses": "SEMI POWERSHIFT",
+        "Dimension pneus avant": "480 70 30",
+        "Usure pneus avant": "60%",
+        "Dimension pneus arrière": "620 70 42",
+        "Usure pneus arrière": "30%",
+        "Vitesse maxi": "42 Km/h"
+      }
+    },
+    {
+      "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/11228-case-ih-puma-240-cvx.html",
+      "model": "CASE IH PUMA 240 CVX",
+      "brand": "CASE IH",
+      "power": "240 ch",
+      "hours": "4495 h",
+      "price": "79 500,00 € HT",
+      "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-case-ih-puma-240-cvx-6648-1.jpg",
+      "characteristics": {
+        "Marque": "CASE IH",
+        "Modèle": "PUMA 240 CVX",
+        "État": "Occasion - Très bon état",
+        "Année": "2016",
+        "Heures": "4495 h",
+        "Puissance": "240 ch",
+        "Roues motrices": "4 rm",
+        "Boîte de vitesses": "VARIATION CONTINUE",
+        "Dimension pneus avant": "600 65 28",
+        "Usure pneus avant": "PNEUS NEUFS",
+        "Dimension pneus arrière": "650 75 38",
+        "Usure pneus arrière": "PNEUS NEUFS",
+        "Vitesse maxi": "42 Km/h"
+      }
+    },
     {
       "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/11227-new-holland-t5100-ec.html",
       "model": "NEW HOLLAND T5.100 EC",
@@ -531,30 +579,6 @@
         "Usure pneus avant": "50%",
         "Dimension pneus arrière": "650 65 38",
         "Usure pneus arrière": "70%"
-      }
-    },
-    {
-      "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/11171-claas-axion-810-cmatic.html",
-      "model": "CLAAS AXION 810 CMATIC",
-      "brand": "CLAAS",
-      "power": "205 ch",
-      "hours": "5200 h",
-      "price": "69 000,00 € HT",
-      "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-claas-axion-810-cmatic-5619-1.jpg",
-      "characteristics": {
-        "Marque": "CLAAS",
-        "Modèle": "AXION 810 CMATIC",
-        "État": "Occasion - Bon état",
-        "Année": "2018",
-        "Heures": "5200 h",
-        "Puissance": "205 ch",
-        "Roues motrices": "4 rm",
-        "Boîte de vitesses": "VARIATION CONTINUE",
-        "Dimension pneus avant": "600 70 30",
-        "Usure pneus avant": "65%",
-        "Dimension pneus arrière": "650 85 38",
-        "Usure pneus arrière": "65%",
-        "Vitesse maxi": "56 Km/h"
       }
     },
     {
