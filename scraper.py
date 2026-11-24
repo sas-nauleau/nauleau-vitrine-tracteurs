@@ -12,9 +12,18 @@ d'annonce, ex: /tracteurs-materiels/tracteurs/10624-fendt-311-profi.html)
 plutôt que via des classes CSS qui peuvent changer. Les catégories de
 matériel sont découvertes automatiquement à partir des liens du site.
 
+Mode "léger" (par défaut) : pour ménager le site, le robot ne lit que les pages
+de liste (environ 25 pages), n'ouvre en détail que les NOUVELLES annonces et
+rafraîchit chaque jour 1/7 des annonces déjà connues (chacune est donc relue
+une fois par semaine). Les autres sont reprises de data/annonces.json.
+Mode "complet" (FULL_REFRESH=1) : ouvre toutes les fiches, comme avant.
+Au moindre refus ou à la moindre erreur du site, le robot s'arrête sans rien
+modifier : il n'insiste jamais.
+
 Variables d'environnement (renseignées par le workflow GitHub) :
   SUPABASE_URL          adresse du projet Supabase
   SUPABASE_SERVICE_KEY  clé secrète permettant d'écrire dans la base
+  FULL_REFRESH          (facultatif) "1" ou "true" : relit toutes les fiches
   EXTRA_LISTING_PATHS   (facultatif) pages de liste supplémentaires à lire,
                         séparées par des virgules, ex: /tracteurs-materiels/chargeurs/
 """
@@ -51,6 +60,15 @@ PRICE_RE = re.compile(r"(\d{1,3}(?:[\s ]\d{3})*,\d{2})\s*€")
 OUTPUT_ALL = "data/annonces.json"
 OUTPUT_TRACTORS = "data/tracteurs.json"
 OUTPUT_REPORT = "data/rapport-robot.json"
+
+LIST_DELAY = 2.0        # secondes entre deux pages de liste
+DETAIL_DELAY = 2.0      # secondes entre deux fiches
+MAX_CONSECUTIVE_ERRORS = 3   # au-delà, le robot cesse d'interroger le site
+REFRESH_CYCLE = 7       # chaque annonce connue est relue une fois tous les 7 jours
+
+
+class SiteUnavailable(Exception):
+    """Le site refuse ou ne répond pas : on arrête tout sans rien modifier."""
 
 
 def fetch(url):
@@ -243,12 +261,15 @@ def crawl_root(root_path, report):
         url = page_url(root_path, page)
         try:
             html = fetch(url)
-        except requests.HTTPError:
-            break
+        except requests.HTTPError as exc:
+            status = exc.response.status_code if exc.response is not None else None
+            if status == 404:
+                break   # fin normale de la liste
+            report["errors"].append(f"{url}: HTTP {status}")
+            raise SiteUnavailable(f"{url} : le site répond HTTP {status}")
         except requests.RequestException as exc:
-            print(f"Erreur réseau sur {url}: {exc}", file=sys.stderr)
             report["errors"].append(f"{url}: {exc}")
-            break
+            raise SiteUnavailable(f"{url} : {exc}")
         pages_read += 1
 
         page_products, page_dirs = extract_links(url, html)
@@ -260,7 +281,7 @@ def crawl_root(root_path, report):
         for u in new_products:
             seen.add(u)
             products.append(u)
-        time.sleep(1)
+        time.sleep(LIST_DELAY)
 
     print(f"  {root_path} : {pages_read} page(s), {len(products)} annonce(s)")
     report["roots"].append({"path": root_path, "pages": pages_read, "products": len(products)})
@@ -292,30 +313,68 @@ def discover_all(report):
     return all_urls
 
 
-def scrape_all(report):
+def load_known():
+    """Annonces déjà connues (copie de secours enregistrée au passage précédent)."""
+    try:
+        with open(OUTPUT_ALL, encoding="utf-8") as f:
+            data = json.load(f)
+        return {l["url"]: l for l in data.get("listings", []) if l.get("url")}
+    except (OSError, ValueError, AttributeError):
+        return {}
+
+
+def scrape_all(report, known=None, full=True, weekday=0):
+    """Retourne la liste des annonces.
+    - full=True : toutes les fiches sont relues (comportement historique) ;
+    - full=False : seules les annonces nouvelles, et 1/7 des annonces connues
+      (selon leur numéro et le jour de la semaine), sont relues."""
+    known = known or {}
     all_urls = discover_all(report)
-    print(f"Total : {len(all_urls)} fiches à récupérer")
+    print(f"Total : {len(all_urls)} annonces trouvées sur le site")
 
     listings = []
     counters = {}
-    for i, url in enumerate(all_urls, start=1):
-        try:
-            html = fetch(url)
-            detail = extract_detail(url, html)
-            if detail is not None:
-                cat = detail["category"]
-                detail["sort_order"] = counters.get(cat, 0)
-                counters[cat] = counters.get(cat, 0) + 1
-                listings.append(detail)
-        except requests.RequestException as exc:
-            print(f"Erreur sur {url}: {exc}", file=sys.stderr)
-            report["errors"].append(f"{url}: {exc}")
+    fetched = reused = new = 0
+    consecutive_errors = 0
+    can_fetch = True
+    for url in all_urls:
+        ad_id = classify(url)[0]
+        old = known.get(url)
+        due = full or old is None or (int(ad_id) % REFRESH_CYCLE == weekday)
+
+        detail = None
+        if due and can_fetch:
+            try:
+                html = fetch(url)
+                detail = extract_detail(url, html)
+                consecutive_errors = 0
+                fetched += 1
+                if old is None and detail is not None:
+                    new += 1
+                time.sleep(DETAIL_DELAY)
+            except requests.RequestException as exc:
+                print(f"Erreur sur {url}: {exc}", file=sys.stderr)
+                report["errors"].append(f"{url}: {exc}")
+                consecutive_errors += 1
+                if consecutive_errors >= MAX_CONSECUTIVE_ERRORS:
+                    can_fetch = False
+                    report["interrompu"] = "trop d'erreurs consécutives : le robot n'insiste pas"
+                    print("Trop d'erreurs consécutives : le robot cesse d'interroger le site.",
+                          file=sys.stderr)
+        if detail is None and old is not None:
+            detail = dict(old)          # on garde ce qu'on savait déjà
+            reused += 1
+        if detail is None:
             continue
+        cat = detail["category"]
+        detail["sort_order"] = counters.get(cat, 0)
+        counters[cat] = counters.get(cat, 0) + 1
+        listings.append(detail)
 
-        if i % 10 == 0:
-            print(f"  {i}/{len(all_urls)} fiches récupérées")
-        time.sleep(0.5)
-
+    report["fiches_lues"] = fetched
+    report["fiches_reprises"] = reused
+    report["nouvelles_annonces"] = new
+    print(f"Fiches ouvertes : {fetched} (dont {new} nouvelles) | reprises sans toucher au site : {reused}")
     return listings
 
 
@@ -340,7 +399,7 @@ def supabase_headers(key, **extra):
     return h
 
 
-def sync_supabase(listings, run_started, report):
+def sync_supabase(listings, run_started, report, allow_offline=True):
     conf = supabase_conf()
     if conf is None:
         print("Supabase non configuré (SUPABASE_URL / SUPABASE_SERVICE_KEY) : envoi ignoré.")
@@ -375,6 +434,11 @@ def sync_supabase(listings, run_started, report):
     # 2. Annonces disparues du site : marquées "hors ligne" (jamais supprimées),
     #    seulement si le robot a bien retrouvé l'essentiel de la catégorie.
     offline_report = {}
+    if not allow_offline:
+        print("Passage interrompu : aucune annonce n'est retirée cette fois.")
+        report["supabase"] = "ok"
+        report["mises_hors_ligne"] = "ignoré (passage interrompu)"
+        return
     for category in sorted({l["category"] for l in listings}):
         scraped = sum(1 for l in listings if l["category"] == category)
         resp = requests.get(
@@ -416,7 +480,19 @@ def main():
     run_started = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
     report = {"started_at": run_started, "roots": [], "errors": []}
 
-    listings = scrape_all(report)
+    full = os.environ.get("FULL_REFRESH", "").strip().lower() in ("1", "true", "yes", "oui")
+    weekday = datetime.now(timezone.utc).weekday()
+    report["mode"] = "complet" if full else "léger"
+    print(f"Mode {report['mode']}")
+    try:
+        listings = scrape_all(report, known=load_known(), full=full, weekday=weekday)
+    except SiteUnavailable as exc:
+        print(f"Le site ne répond pas normalement ({exc}). Rien n'est modifié, "
+              "le robot réessaiera au prochain passage.", file=sys.stderr)
+        report["interrompu"] = str(exc)
+        with open(OUTPUT_REPORT, "w", encoding="utf-8") as f:
+            json.dump(report, f, ensure_ascii=False, indent=2)
+        sys.exit(1)
     by_category = {}
     for l in listings:
         by_category[l["category"]] = by_category.get(l["category"], 0) + 1
@@ -443,7 +519,7 @@ def main():
                       f, ensure_ascii=False, indent=2)
 
     try:
-        sync_supabase(listings, run_started, report)
+        sync_supabase(listings, run_started, report, allow_offline=not report.get("interrompu"))
     except Exception as exc:  # on garde les fichiers JSON même si Supabase échoue
         print(f"ERREUR Supabase : {exc}", file=sys.stderr)
         report["supabase"] = f"erreur : {exc}"
