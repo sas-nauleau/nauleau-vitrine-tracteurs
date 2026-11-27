@@ -1,5 +1,5 @@
 {
-  "started_at": "2026-11-26T10:55:26Z",
+  "started_at": "2026-11-27T10:52:24Z",
   "roots": [
     {
       "path": "/tracteurs-materiels/tracteurs/",
@@ -19,8 +19,8 @@
   ],
   "errors": [],
   "mode": "léger",
-  "fiches_lues": 39,
-  "fiches_reprises": 213,
+  "fiches_lues": 24,
+  "fiches_reprises": 228,
   "nouvelles_annonces": 0,
   "counts": {
     "tracteurs": 183,
@@ -28,7 +28,7 @@
   },
   "supabase": "ok",
   "mises_hors_ligne": {
-    "materiels": 1,
-    "tracteurs": 3
+    "materiels": 0,
+    "tracteurs": 0
   }
 }
