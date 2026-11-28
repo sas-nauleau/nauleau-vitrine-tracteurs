@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-27T10:54:37Z",
-  "count": 183,
+  "updated_at": "2026-11-28T10:30:37Z",
+  "count": 182,
   "tractors": [
     {
       "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/11236-new-holland-t7220-ac.html",
@@ -2160,29 +2160,6 @@
         "Usure pneus avant": "15%",
         "Dimension pneus arrière": "270 95 48",
         "Usure pneus arrière": "15%"
-      }
-    },
-    {
-      "url": "https://www.nauleau-agricole.com/tracteurs-materiels/tracteurs/10811-new-holland-t7185-rc.html",
-      "model": "NEW HOLLAND T7.185 RC",
-      "brand": "NEW HOLLAND",
-      "power": "145 ch",
-      "hours": "6300 h",
-      "price": "47 500,00 € HT",
-      "image": "https://www.nauleau-agricole.com/media/tracteur-occasion-new-holland-t7185-range-command-6237-1.jpg",
-      "characteristics": {
-        "Marque": "NEW HOLLAND",
-        "Modèle": "T7.185 RC",
-        "État": "Occasion - Bon état",
-        "Année": "2011",
-        "Heures": "6300 h",
-        "Puissance": "145 ch",
-        "Roues motrices": "4 rm",
-        "Boîte de vitesses": "SEMI POWERSHIFT",
-        "Dimension pneus avant": "480 70 28",
-        "Usure pneus avant": "30%",
-        "Dimension pneus arrière": "580 70 38",
-        "Usure pneus arrière": "40%"
       }
     },
     {
